@@ -4316,15 +4316,15 @@ bool CheckBlockHeader(const CBlockHeader& block, CValidationState& state, bool f
             REJECT_INVALID, "high-hash");
 
     // Version 4 header must be used after Params().Zerocoin_StartHeight(). And never before.
-    if (block.GetBlockTime() > Params().Zerocoin_StartTime()) {
-        if(block.nVersion < Params().Zerocoin_HeaderVersion() && Params().NetworkID() != CBaseChainParams::REGTEST)
-            return state.DoS(50, error("CheckBlockHeader() : block version must be above 4 after ZerocoinStartHeight"),
-            REJECT_INVALID, "block-version");
-    } else {
-        if (block.nVersion >= Params().Zerocoin_HeaderVersion())
-            return state.DoS(50, error("CheckBlockHeader() : block version must be below 4 before ZerocoinStartHeight"),
-            REJECT_INVALID, "block-version");
-    }
+    // if (block.GetBlockTime() > Params().Zerocoin_StartTime()) {
+    //     if(block.nVersion < Params().Zerocoin_HeaderVersion() && Params().NetworkID() != CBaseChainParams::REGTEST)
+    //         return state.DoS(50, error("CheckBlockHeader() : block version must be above 4 after ZerocoinStartHeight"),
+    //         REJECT_INVALID, "block-version");
+    // } else {
+    //     if (block.nVersion >= Params().Zerocoin_HeaderVersion())
+    //         return state.DoS(50, error("CheckBlockHeader() : block version must be below 4 before ZerocoinStartHeight"),
+    //         REJECT_INVALID, "block-version");
+    // }
 
     return true;
 }
@@ -4335,7 +4335,7 @@ bool CheckBlock(const CBlock& block, CValidationState& state, bool fCheckPOW, bo
 
     // Check that the header is valid (particularly PoW).  This is mostly
     // redundant with the call in AcceptBlockHeader.
-    if (!CheckBlockHeader(block, state, block.IsProofOfWork()))
+    if (!CheckBlockHeader(block, state, fCheckPOW && block.IsProofOfWork()))
         return state.DoS(100, error("CheckBlock() : CheckBlockHeader failed"),
             REJECT_INVALID, "bad-header", true);
 
