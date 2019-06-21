@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Name=DEXERGI Core
+Comment=DEXERGI P2P Cryptocurrency
+Exec=DEXERGI-qt %u
+Terminal=false
+Type=Application
+Icon=DEXERGI128
+MimeType=x-scheme-handler/DEXERGI;
+Categories=Office;Finance;
+StartupWMClass=Dexergi-qt
+Name[en_IN]=dexergi-qt.desktop

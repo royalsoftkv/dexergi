@@ -1,25 +1,25 @@
-# /etc/conf.d/pivxd: config file for /etc/init.d/pivxd
+# /etc/conf.d/dexergid: config file for /etc/init.d/dexergid
 
 # Config file location
-#BITCOIND_CONFIGFILE="/etc/pivx/pivx.conf"
+#BITCOIND_CONFIGFILE="/etc/dexergi/dexergi.conf"
 
 # What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
-#BITCOIND_PIDDIR="/var/run/pivxd"
+#BITCOIND_PIDDIR="/var/run/dexergid"
 
 # What filename to give the pidfile
-#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/pivxd.pid"
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/dexergid.pid"
 
-# Where to write pivxd data (be mindful that the blockchain is large)
-#BITCOIND_DATADIR="/var/lib/pivxd"
+# Where to write dexergid data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/dexergid"
 
-# User and group to own pivxd process
-#BITCOIND_USER="pivx"
-#BITCOIND_GROUP="pivx"
+# User and group to own dexergid process
+#BITCOIND_USER="dexergi"
+#BITCOIND_GROUP="dexergi"
 
-# Path to pivxd executable
-#BITCOIND_BIN="/usr/bin/pivxd"
+# Path to dexergid executable
+#BITCOIND_BIN="/usr/bin/dexergid"
 
-# Nice value to run pivxd under
+# Nice value to run dexergid under
 #BITCOIND_NICE=0
 
 # Additional options (avoid -conf and -datadir, use flags above)

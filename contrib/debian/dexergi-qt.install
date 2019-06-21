@@ -1,0 +1,6 @@
+usr/local/bin/dexergi-qt usr/bin
+share/pixmaps/dexergi32.xpm usr/share/pixmaps
+share/pixmaps/dexergi16.xpm usr/share/pixmaps
+share/pixmaps/dexergi128.png usr/share/pixmaps
+debian/dexergi-qt.desktop usr/share/applications
+debian/dexergi-qt.protocol usr/share/kde4/services/
