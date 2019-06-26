@@ -62,12 +62,12 @@
         <translation>Получаващ адрес</translation>
     </message>
     <message>
-        <source>These are your PIVX addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Това са вашите PIVX адреси за изпращане на плащания. Винаги проверявайте количеството и адреса на получателя, преди да изпратите монети.</translation>
+        <source>These are your DEXERGI addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Това са вашите DEXERGI адреси за изпращане на плащания. Винаги проверявайте количеството и адреса на получателя, преди да изпратите монети.</translation>
     </message>
     <message>
-        <source>These are your PIVX addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Това са вашите PIVX адреси за получаване на плащания. Препоръчително е да използвате нови адреси за получаване за всяка транзакция.</translation>
+        <source>These are your DEXERGI addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Това са вашите DEXERGI адреси за получаване на плащания. Препоръчително е да използвате нови адреси за получаване за всяка транзакция.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,8 +176,8 @@
         <translation>Потвърдете шифрирането на портфейла</translation>
     </message>
     <message>
-        <source>PIVX will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIVs from being stolen by malware infecting your computer.</source>
-        <translation>PIVX сега ще се затвори, за да довърши процеса по шифриране. Запомнете, че шифрирането на вашия портфейл не може напълно да защити вашия PIVX от това, да бъде откраднат чрез злонамерен софутуер, инфектирал вашия компютър.</translation>
+        <source>DEXERGI will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIVs from being stolen by malware infecting your computer.</source>
+        <translation>DEXERGI сега ще се затвори, за да довърши процеса по шифриране. Запомнете, че шифрирането на вашия портфейл не може напълно да защити вашия DEXERGI от това, да бъде откраднат чрез злонамерен софутуер, инфектирал вашия компютър.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -254,12 +254,12 @@
         <translation>Адрес:</translation>
     </message>
     <message>
-        <source>Enter a PIVX Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Въведете Pivx адрес, който искате да криптиране с BIP 38. Въведете парола в средното поле. Натиснете 'криптирай', за да се изчисли криптирания таен ключ. </translation>
+        <source>Enter a DEXERGI Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Въведете DEXERGI адрес, който искате да криптиране с BIP 38. Въведете парола в средното поле. Натиснете 'криптирай', за да се изчисли криптирания таен ключ. </translation>
     </message>
     <message>
-        <source>The PIVX address to encrypt</source>
-        <translation>PIVX Адреса за криптиране</translation>
+        <source>The DEXERGI address to encrypt</source>
+        <translation>DEXERGI Адреса за криптиране</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -290,8 +290,8 @@
         <translation>Копирай сегашния подпис в системния буфер</translation>
     </message>
     <message>
-        <source>Encrypt the private key for this PIVX address</source>
-        <translation>Криптирай тайния ключ за този PIVX адрес</translation>
+        <source>Encrypt the private key for this DEXERGI address</source>
+        <translation>Криптирай тайния ключ за този DEXERGI адрес</translation>
     </message>
     <message>
         <source>Reset all fields</source>
@@ -641,16 +641,16 @@
         <translation>Колан с инструменти</translation>
     </message>
     <message>
-        <source>PIVX Core</source>
-        <translation>PIVX Ядро</translation>
+        <source>DEXERGI Core</source>
+        <translation>DEXERGI Ядро</translation>
     </message>
     <message>
-        <source>Send coins to a PIVX address</source>
-        <translation>Изпратете монети до PIVX адрес</translation>
+        <source>Send coins to a DEXERGI address</source>
+        <translation>Изпратете монети до DEXERGI адрес</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and pivx: URIs)</source>
-        <translation>Поискай плащане (генерира QR кодове и  PIVX:URI)</translation>
+        <source>Request payments (generates QR codes and dexergi: URIs)</source>
+        <translation>Поискай плащане (генерира QR кодове и  DEXERGI:URI)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -665,24 +665,24 @@
         <translation>Разгледай мастърноудове</translation>
     </message>
     <message>
-        <source>&amp;About PIVX Core</source>
-        <translation>&amp;Относно PIVX Ядрото</translation>
+        <source>&amp;About DEXERGI Core</source>
+        <translation>&amp;Относно DEXERGI Ядрото</translation>
     </message>
     <message>
-        <source>Show information about PIVX Core</source>
-        <translation>Информациза за PIVX Ядрото</translation>
+        <source>Show information about DEXERGI Core</source>
+        <translation>Информациза за DEXERGI Ядрото</translation>
     </message>
     <message>
-        <source>Modify configuration options for PIVX</source>
-        <translation>Промени PIVX конфигурацията</translation>
+        <source>Modify configuration options for DEXERGI</source>
+        <translation>Промени DEXERGI конфигурацията</translation>
     </message>
     <message>
-        <source>Sign messages with your PIVX addresses to prove you own them</source>
-        <translation>Подпишете съобщения със своте PIVX адреси, за да докажете че са Ваши</translation>
+        <source>Sign messages with your DEXERGI addresses to prove you own them</source>
+        <translation>Подпишете съобщения със своте DEXERGI адреси, за да докажете че са Ваши</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified PIVX addresses</source>
-        <translation>Проеврете съобщения, за да се убедите, че са подписани с указаните PIVX адреси</translation>
+        <source>Verify messages to ensure they were signed with specified DEXERGI addresses</source>
+        <translation>Проеврете съобщения, за да се убедите, че са подписани с указаните DEXERGI адреси</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -713,8 +713,8 @@
         <translation>Отвори Мастърноуд конфигурационния файл</translation>
     </message>
     <message>
-        <source>Open a PIVX: URI or payment request</source>
-        <translation>Отвори PIVX:URI платежно нареждане</translation>
+        <source>Open a DEXERGI: URI or payment request</source>
+        <translation>Отвори DEXERGI:URI платежно нареждане</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -725,12 +725,12 @@
         <translation>Прозорец на блок сондата</translation>
     </message>
     <message>
-        <source>Show the PIVX Core help message to get a list with possible PIVX command-line options</source>
-        <translation>Разкрийте Помощ за PIVX Ядрото, за да видите списък с възможни писмени команди.</translation>
+        <source>Show the DEXERGI Core help message to get a list with possible DEXERGI command-line options</source>
+        <translation>Разкрийте Помощ за DEXERGI Ядрото, за да видите списък с възможни писмени команди.</translation>
     </message>
     <message>
-        <source>PIVX Core client</source>
-        <translation>Клиент PIVX Ядро</translation>
+        <source>DEXERGI Core client</source>
+        <translation>Клиент DEXERGI Ядро</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -868,8 +868,8 @@ Address: %4
         <translation>ТекстовЕтикет</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (pivx.conf).</source>
-        <translation>Не всички преводи ще бъдат показани. За да разгледате всички преводи, трябва да зададете txindex=1 в конфигурационния файл (pivx.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (dexergi.conf).</source>
+        <translation>Не всички преводи ще бъдат показани. За да разгледате всички преводи, трябва да зададете txindex=1 в конфигурационния файл (dexergi.conf).</translation>
     </message>
 </context>
 <context>
@@ -1161,8 +1161,8 @@ Address: %4
         <translation>Редактирай адрес за изпращане</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid PIVX address.</source>
-        <translation>Зададения адрес "%1"не е валиден PIVX адрес.</translation>
+        <source>The entered address "%1" is not a valid DEXERGI address.</source>
+        <translation>Зададения адрес "%1"не е валиден DEXERGI адрес.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1218,16 +1218,16 @@ Address: %4
         <translation>версия</translation>
     </message>
     <message>
-        <source>PIVX Core</source>
-        <translation>PIVX Ядро</translation>
+        <source>DEXERGI Core</source>
+        <translation>DEXERGI Ядро</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About PIVX Core</source>
-        <translation>Относно PIVX Ядрото</translation>
+        <source>About DEXERGI Core</source>
+        <translation>Относно DEXERGI Ядрото</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1273,16 +1273,16 @@ Address: %4
         <translation>Привет</translation>
     </message>
     <message>
-        <source>Welcome to PIVX Core.</source>
-        <translation>Добре Дошли в PIVX Ядрото</translation>
+        <source>Welcome to DEXERGI Core.</source>
+        <translation>Добре Дошли в DEXERGI Ядрото</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where PIVX Core will store its data.</source>
-        <translation>Тъй като това е първия път, в който стартирате програмата, имате възможността да изберете къде PIVX Ядрото ще съхранява своите данни.</translation>
+        <source>As this is the first time the program is launched, you can choose where DEXERGI Core will store its data.</source>
+        <translation>Тъй като това е първия път, в който стартирате програмата, имате възможността да изберете къде DEXERGI Ядрото ще съхранява своите данни.</translation>
     </message>
     <message>
-        <source>PIVX Core will download and store a copy of the PIVX block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>PIVX Ядрото ще изтегли и запише копие на целия PIVX блокчейн. Поне %1 гигабайта ще бъдат съхранявани в тази папка, като тенденцията е файла да расте. Портфейла също ще бъде запазен в тази папка.</translation>
+        <source>DEXERGI Core will download and store a copy of the DEXERGI block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>DEXERGI Ядрото ще изтегли и запише копие на целия DEXERGI блокчейн. Поне %1 гигабайта ще бъдат съхранявани в тази папка, като тенденцията е файла да расте. Портфейла също ще бъде запазен в тази папка.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1293,8 +1293,8 @@ Address: %4
         <translation>Задай своя папка за данни:</translation>
     </message>
     <message>
-        <source>PIVX Core</source>
-        <translation>PIVX Ядро</translation>
+        <source>DEXERGI Core</source>
+        <translation>DEXERGI Ядро</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1435,12 +1435,12 @@ Address: %4
         <translation>Въведете адреса на Получателя</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other PIVX addresses after it matures.
-To Add: enter percentage to give and PIVX address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other DEXERGI addresses after it matures.
+To Add: enter percentage to give and DEXERGI address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>МултиИзпращане Ви позволява автоматично да изпращате до 100% от вашите стейк или мастърноуд възнаграждения към списък от други PIVX адреси.
-Да Добавите: въведете процент и задайте PIVX адрес към вектора за МултиИзпращане
+        <translation>МултиИзпращане Ви позволява автоматично да изпращате до 100% от вашите стейк или мастърноуд възнаграждения към списък от други DEXERGI адреси.
+Да Добавите: въведете процент и задайте DEXERGI адрес към вектора за МултиИзпращане
 Да Прамахнете: Въведете адрес за изстриване и натиснете истрий (del).
 МултиИзпращането няма да бъде активирано докато не кликнете "Активирай"</translation>
     </message>
@@ -1762,8 +1762,8 @@ Please be patient after clicking import.</source>
         <translation>Aко изключите харча на непотвърдено ресто, рестото от превод&lt;br/&gt;не може да се използва, докато превода не получи поне 1 потвърждение. &lt;br/&gt;Това влияе и на начина по който общите Ви средства се преизчисляват.</translation>
     </message>
     <message>
-        <source>Automatically open the PIVX client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Автоматично отвори PIVX порта в рутера. Това става само ако рутера Ви подържа UPnP и последния е включен.</translation>
+        <source>Automatically open the DEXERGI client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Автоматично отвори DEXERGI порта в рутера. Това става само ако рутера Ви подържа UPnP и последния е включен.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1782,12 +1782,12 @@ Please be patient after clicking import.</source>
         <translation>Експерт</translation>
     </message>
     <message>
-        <source>Automatically start PIVX after logging in to the system.</source>
-        <translation>Стартирай PIVX автоматично след влизане в системата.</translation>
+        <source>Automatically start DEXERGI after logging in to the system.</source>
+        <translation>Стартирай DEXERGI автоматично след влизане в системата.</translation>
     </message>
     <message>
-        <source>&amp;Start PIVX on system login</source>
-        <translation>&amp;Стартирай PIVX заедно с операционната система</translation>
+        <source>&amp;Start DEXERGI on system login</source>
+        <translation>&amp;Стартирай DEXERGI заедно с операционната система</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1814,14 +1814,14 @@ Please be patient after clicking import.</source>
         <translation>&amp;Мрежа</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting PIVX.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting DEXERGI.</source>
         <translation>Промяна на езика. Настройката е активна след рестарт на портфейла.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/pivx-project/pivx-project-translations</source>
+https://www.transifex.com/dexergi-project/dexergi-project-translations</source>
         <translation>Липсващ език или непълен превод? Помогнете с преводите тук:
-https://www.transifex.com/pivx-project/pivx-project-translations</translation>
+https://www.transifex.com/dexergi-project/dexergi-project-translations</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1856,8 +1856,8 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
         <translation>Праг на споделеното съхранение:</translation>
     </message>
     <message>
-        <source>Connect to the PIVX network through a SOCKS5 proxy.</source>
-        <translation>Свържи се с PIVX мрежата със SOCKS5 прокси.</translation>
+        <source>Connect to the DEXERGI network through a SOCKS5 proxy.</source>
+        <translation>Свържи се с DEXERGI мрежата със SOCKS5 прокси.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -2031,8 +2031,8 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
         <translation>Сегашния баланс по портфейли в режим на наблюдение само</translation>
     </message>
     <message>
-        <source>Your current PIVX balance, unconfirmed and immature transactions included</source>
-        <translation>Вашите PIVX наличности, включително непотвърдените и неузрели преводи</translation>
+        <source>Your current DEXERGI balance, unconfirmed and immature transactions included</source>
+        <translation>Вашите DEXERGI наличности, включително непотвърдените и неузрели преводи</translation>
     </message>
     <message>
         <source>zPIV Balance</source>
@@ -2051,8 +2051,8 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
 Неузрели: потвърдени, но с по-малко от 1 емисии от същата деноминация след като са биле емитирани</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the PIVX network after a connection is established, but this process has not completed yet.</source>
-        <translation>Информацията на вашия екран може би е стара. Вашия портфейла синхронизира автоматично с PIVX мрежата след като има успешна свръзка, но процеса отнема време и не е завършил все още.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the DEXERGI network after a connection is established, but this process has not completed yet.</source>
+        <translation>Информацията на вашия екран може би е стара. Вашия портфейла синхронизира автоматично с DEXERGI мрежата след като има успешна свръзка, но процеса отнема време и не е завършил все още.</translation>
     </message>
     <message>
         <source>OVERVIEW</source>
@@ -2123,14 +2123,14 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
         <translation>АвтоЕмисията е включена и настроена на</translation>
     </message>
     <message>
-        <source>To disable AutoMint add 'enablezeromint=0' in pivx.conf.</source>
-        <translation>Да изключите АвтоЕмисия добавете  'enablezeromint=0' в pivx.conf файла.</translation>
+        <source>To disable AutoMint add 'enablezeromint=0' in dexergi.conf.</source>
+        <translation>Да изключите АвтоЕмисия добавете  'enablezeromint=0' в dexergi.conf файла.</translation>
     </message>
     <message>
         <source>AutoMint is currently disabled.
-To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in pivx.conf</source>
+To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in dexergi.conf</source>
         <translation>АвтоЕмисия е изключено.
-За да включите АвтоЕмисия сменете 'enablezeromint=0' на 'enablezeromint=1' в pivx.conf файла.</translation>
+За да включите АвтоЕмисия сменете 'enablezeromint=0' на 'enablezeromint=1' в dexergi.conf файла.</translation>
     </message>
 </context>
 <context>
@@ -2156,12 +2156,12 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in pivx.conf<
         <translation>Грешен адрес за плащане %1</translation>
     </message>
     <message>
-        <source>Cannot start pivx: click-to-pay handler</source>
-        <translation>Провал при стартирането на pivx: click-to-pay обработвател</translation>
+        <source>Cannot start dexergi: click-to-pay handler</source>
+        <translation>Провал при стартирането на dexergi: click-to-pay обработвател</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid PIVX address or malformed URI parameters.</source>
-        <translation>URI не може да се парсне. Вероятна причина е невалиден PIVX адрес или зле-форматирани URI Параметри.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid DEXERGI address or malformed URI parameters.</source>
+        <translation>URI не може да се парсне. Вероятна причина е невалиден DEXERGI адрес или зле-форматирани URI Параметри.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -2246,8 +2246,8 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in pivx.conf<
         <translation>Zerocoin Действия:</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the PIVX network after a connection is established, but this process has not completed yet.</source>
-        <translation>Информацията на вашия екран може би е стара. Вашия портфейла синхронизира автоматично с PIVX мрежата след като има успешна свръзка, но процеса отнема време и не е завършил все още.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the DEXERGI network after a connection is established, but this process has not completed yet.</source>
+        <translation>Информацията на вашия екран може би е стара. Вашия портфейла синхронизира автоматично с DEXERGI мрежата след като има успешна свръзка, но процеса отнема време и не е завършил все още.</translation>
     </message>
     <message>
         <source>Mint Zerocoin</source>
@@ -2330,7 +2330,7 @@ zPIV са узрели, тогава когато имат повече от 20 
         <translation>Плати На:</translation>
     </message>
     <message>
-        <source>The PIVX address to send the payment to. Creates local payment to yourself when empty.</source>
+        <source>The DEXERGI address to send the payment to. Creates local payment to yourself when empty.</source>
         <translation>Адреса на който да изпратим плащането. Ако е празно - плащането е до себе си.</translation>
     </message>
     <message>
@@ -2407,8 +2407,8 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
         <source>Show the current status of automatic zPIV minting.
 
 To change the status (restart required):
-- enable: add 'enablezeromint=1' to pivx.conf
-- disable: add 'enablezeromint=0' to pivx.conf
+- enable: add 'enablezeromint=1' to dexergi.conf
+- disable: add 'enablezeromint=0' to dexergi.conf
 
 To change the percentage (no restart required):
 - menu Settings-&gt;Options-&gt;Percentage of autominted zPIV
@@ -2417,8 +2417,8 @@ To change the percentage (no restart required):
         <translation>Покажи състоянието на автоматичното zPIV емитиране.
 
 За да пормените състоянието (изисква рестарт):
-- вклчване: добавете 'enablezeromint=1' в pivx.conf
-- изключване: добавете 'enablezeromint=0' в pivx.conf
+- вклчване: добавете 'enablezeromint=1' в dexergi.conf
+- изключване: добавете 'enablezeromint=0' в dexergi.conf
 
 За промяна в процентите (не изисква рестарт):
 - меню Настройки -&gt; Опции -&gt; Процент на автоемитиран zPIV
@@ -2709,8 +2709,8 @@ Please be patient...</source>
         <translation>Без 'Плати На' адрес, плащането е локално</translation>
     </message>
     <message>
-        <source>Invalid Pivx Address</source>
-        <translation>Невалиден PIVX адрес</translation>
+        <source>Invalid DEXERGI Address</source>
+        <translation>Невалиден DEXERGI адрес</translation>
     </message>
     <message>
         <source>Invalid Send Amount</source>
@@ -2787,8 +2787,8 @@ Please be patient...</source>
         <translation>Сума</translation>
     </message>
     <message>
-        <source>Enter a PIVX address (e.g. %1)</source>
-        <translation>Задайте PIVX адрес (например %1)</translation>
+        <source>Enter a DEXERGI address (e.g. %1)</source>
+        <translation>Задайте DEXERGI адрес (например %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2831,8 +2831,8 @@ Please be patient...</source>
         <translation>%1 милисек.</translation>
     </message>
     <message>
-        <source>PIVX Core</source>
-        <translation>PIVX Ядро</translation>
+        <source>DEXERGI Core</source>
+        <translation>DEXERGI Ядро</translation>
     </message>
     </context>
 <context>
@@ -2929,8 +2929,8 @@ Please be patient...</source>
         <translation>Блокчейн</translation>
     </message>
     <message>
-        <source>Open the PIVX debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Отвори PIVX дебъг лог файла от сегашната папка. Това може да отнеме известно време за по-дълги файлове.</translation>
+        <source>Open the DEXERGI debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Отвори DEXERGI дебъг лог файла от сегашната папка. Това може да отнеме известно време за по-дълги файлове.</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -3145,8 +3145,8 @@ Please be patient...</source>
         <translation>Изходящи:</translation>
     </message>
     <message>
-        <source>Welcome to the PIVX RPC console.</source>
-        <translation>Добре Дошли в RPC конзолата на PIVX.</translation>
+        <source>Welcome to the DEXERGI RPC console.</source>
+        <translation>Добре Дошли в RPC конзолата на DEXERGI.</translation>
     </message>
     <message>
         <source>&amp;Disconnect Node</source>
@@ -3272,16 +3272,16 @@ Please be patient...</source>
         <translation>Сума:</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the PIVX network.</source>
-        <translation>Съобщение свободен текст, което да се прикачи към платежното нареждане, за да бъде показано когато нареждането се отвори от клиента на когото е изпратено. Обърнете внимание, че съобщението няма да бъде изпратено заедно с плащането по PIVX мрежата.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the DEXERGI network.</source>
+        <translation>Съобщение свободен текст, което да се прикачи към платежното нареждане, за да бъде показано когато нареждането се отвори от клиента на когото е изпратено. Обърнете внимание, че съобщението няма да бъде изпратено заедно с плащането по DEXERGI мрежата.</translation>
     </message>
     <message>
         <source>RECEIVE</source>
         <translation>ПОЛУЧИ</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the PIVX network.</source>
-        <translation>Съобщение свободен текст, което да се прикачи към платежното нареждане, за да бъде показано когато нареждането се отвори от клиента на когото е изпратено. &lt;br&gt;Обърнете внимание, че съобщението няма да бъде изпратено заедно с плащането по PIVX мрежата.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the DEXERGI network.</source>
+        <translation>Съобщение свободен текст, което да се прикачи към платежното нареждане, за да бъде показано когато нареждането се отвори от клиента на когото е изпратено. &lt;br&gt;Обърнете внимание, че съобщението няма да бъде изпратено заедно с плащането по DEXERGI мрежата.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -3577,7 +3577,7 @@ Please be patient...</source>
         <translation>Ако собствената такса е настроена на 1000 uPIV и превода е само 250 байта, то тогава "за килобайт" само плаща 250 uPIV входяща такса,&lt;br /&gt; докато "минимална сума" плаща 1000 uPIV. За транзакции по-големи от килобайт, и двете плащат за килобайт.</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for PIVX transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for DEXERGI transactions than the network can process.</source>
         <translation>Няма проблем да платите минималната такса, стига обема преводи да е по-малък от наличното място в блоковете. &lt;br /&gt;Но имайте впредвид, че това може да се окаже в превод, който никога не получава потвърждение ако заявките за преводи са повече от колкото мрежата може да понесе.</translation>
     </message>
     <message>
@@ -3673,7 +3673,7 @@ Please be patient...</source>
         <translation>Инструмента за разделяне на блока не работи, когато се изпраща до няколко адреса едновременно. Опитайте пак.</translation>
     </message>
     <message>
-        <source>Warning: Invalid PIVX address</source>
+        <source>Warning: Invalid DEXERGI address</source>
         <translation>Предупреждение: Невалиден PIV адрес</translation>
     </message>
     <message>
@@ -3772,8 +3772,8 @@ Please be patient...</source>
         <translation>Плати На:</translation>
     </message>
     <message>
-        <source>The PIVX address to send the payment to</source>
-        <translation>PIVX адреса - получател на плащането</translation>
+        <source>The DEXERGI address to send the payment to</source>
+        <translation>DEXERGI адреса - получател на плащането</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3812,8 +3812,8 @@ Please be patient...</source>
         <translation>Съобщение:</translation>
     </message>
     <message>
-        <source>A message that was attached to the PIVX: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the PIVX network.</source>
-        <translation>Съобщение, което е било прикачено към PIVX:URI и което ще бъде запазено заедно с превода за ваша информация. Внимание: Това съобщение е само за Вас, то няма да бъде изпратено по PIVX мрежата.</translation>
+        <source>A message that was attached to the DEXERGI: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the DEXERGI network.</source>
+        <translation>Съобщение, което е било прикачено към DEXERGI:URI и което ще бъде запазено заедно с превода за ваша информация. Внимание: Това съобщение е само за Вас, то няма да бъде изпратено по DEXERGI мрежата.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -3839,8 +3839,8 @@ Please be patient...</source>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>PIVX Core is shutting down...</source>
-        <translation>Изключване на PIVX Ядрото...</translation>
+        <source>DEXERGI Core is shutting down...</source>
+        <translation>Изключване на DEXERGI Ядрото...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -3862,8 +3862,8 @@ Please be patient...</source>
         <translation>Може да подписвате съобщения с Вашите адреси, за да докажете че сте техен притежател. Внимавайте да не подписвате нищо съмнително, тъй като има хакерски атаки, които целят да придобият вашата самоличност. Само подписвайте пълен и ясен текст, с който сте напълно съгласни.</translation>
     </message>
     <message>
-        <source>The PIVX address to sign the message with</source>
-        <translation>PIVX адреса, с който да подпишете съобщението</translation>
+        <source>The DEXERGI address to sign the message with</source>
+        <translation>DEXERGI адреса, с който да подпишете съобщението</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3894,16 +3894,16 @@ Please be patient...</source>
         <translation>Копирай сегашния подпис в системния буфер</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this PIVX address</source>
-        <translation>Подпишете съобщението, за да докажете, че притежавате този PIVX адрес</translation>
+        <source>Sign the message to prove you own this DEXERGI address</source>
+        <translation>Подпишете съобщението, за да докажете, че притежавате този DEXERGI адрес</translation>
     </message>
     <message>
-        <source>The PIVX address the message was signed with</source>
-        <translation>PIVX адреса, който е подписано съобщението</translation>
+        <source>The DEXERGI address the message was signed with</source>
+        <translation>DEXERGI адреса, който е подписано съобщението</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified PIVX address</source>
-        <translation>Поверете съобщението, за да се уверите, че е подписано със зададения PIVX адрес</translation>
+        <source>Verify the message to ensure it was signed with the specified DEXERGI address</source>
+        <translation>Поверете съобщението, за да се уверите, че е подписано със зададения DEXERGI адрес</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -3989,8 +3989,8 @@ Please be patient...</source>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>PIVX Core</source>
-        <translation>PIVX Ядро</translation>
+        <source>DEXERGI Core</source>
+        <translation>DEXERGI Ядро</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -4005,8 +4005,8 @@ Please be patient...</source>
         <translation>Dash Core разработчици</translation>
     </message>
     <message>
-        <source>The PIVX Core developers</source>
-        <translation>PIVX Core разработчици</translation>
+        <source>The DEXERGI Core developers</source>
+        <translation>DEXERGI Core разработчици</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -4624,7 +4624,7 @@ Please be patient...</source>
     </message>
     </context>
 <context>
-    <name>pivx-core</name>
+    <name>dexergi-core</name>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation>(1 = пази мета данните от преводи, например собственик на акаунта и ифнормация за изисквани плащания, 2 = изхръвли мета данните от преводи)</translation>
@@ -4650,8 +4650,8 @@ Please be patient...</source>
         <translation>Изчисления чекпойнт на акумулатора не е същия като записания в блок индекса.</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. PIVX Core is probably already running.</source>
-        <translation>Не може да заключи папката с данни %s. PIVX Портфейла вероятно вече е стартиран.</translation>
+        <source>Cannot obtain a lock on data directory %s. DEXERGI Core is probably already running.</source>
+        <translation>Не може да заключи папката с данни %s. DEXERGI Портфейла вероятно вече е стартиран.</translation>
     </message>
     <message>
         <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
@@ -4822,8 +4822,8 @@ Please be patient...</source>
         <translation>Този продукт включва софтуер разработен от OpenSSL Project &lt;https://www.openssl.org/&gt; и крипто софтуер написан от Ерик Юнг и UPnP софтуер от Томас Бернард.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. PIVX Core is probably already running.</source>
-        <translation>Не може да се прикачи към %s на този компютър. PIVX Портфейла вероятно вече е стартиран.</translation>
+        <source>Unable to bind to %s on this computer. DEXERGI Core is probably already running.</source>
+        <translation>Не може да се прикачи към %s на този компютър. DEXERGI Портфейла вероятно вече е стартиран.</translation>
     </message>
     <message>
         <source>Unable to locate enough Obfuscation denominated funds for this transaction.</source>
@@ -4850,8 +4850,8 @@ Please be patient...</source>
         <translation>Внимание: -paytxfee е зададена твърде голяма! Това е преводната такса, която ще платите ако изпратите този превод.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong PIVX Core will not work properly.</source>
-        <translation>Внимание: Проверете дали датата и часа на компютъра са верни! Ако Вашият часовник греши, PIVX Портфейла няма да работи правилно.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong DEXERGI Core will not work properly.</source>
+        <translation>Внимание: Проверете дали датата и часа на компютъра са верни! Ако Вашият часовник греши, DEXERGI Портфейла няма да работи правилно.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -4982,8 +4982,8 @@ Please be patient...</source>
         <translation>Всички права запазени (c) 2014-%i Dash Core разработчици</translation>
     </message>
     <message>
-        <source>Copyright (C) 2015-%i The PIVX Core Developers</source>
-        <translation>Всички права запазени (c) 2015-%i PIVX Core разработчици</translation>
+        <source>Copyright (C) 2015-%i The DEXERGI Core Developers</source>
+        <translation>Всички права запазени (c) 2015-%i DEXERGI Core разработчици</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -5062,7 +5062,7 @@ Please be patient...</source>
         <translation>Грешка в зареждането на wallet.dat: Портфейла е повреден</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of PIVX Core</source>
+        <source>Error loading wallet.dat: Wallet requires newer version of DEXERGI Core</source>
         <translation>Грешка в зареждането на wallet.dat: Портфейла изисква по-нова версия</translation>
     </message>
     <message>
@@ -5150,7 +5150,7 @@ Please be patient...</source>
         <translation>Информация</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. PIVX Core is shutting down.</source>
+        <source>Initialization sanity check failed. DEXERGI Core is shutting down.</source>
         <translation>Стартирането на проверка на здравословното състояние на портфейла се провали. Изключваме Портфейла.</translation>
     </message>
     <message>
@@ -5254,8 +5254,8 @@ Please be patient...</source>
 </translation>
     </message>
     <message>
-        <source>Disable all PIVX specific functionality (Masternodes, Zerocoin, SwiftX, Budgeting) (0-1, default: %u)</source>
-        <translation>Изключи PIVX специфичната функционалност (Главни възли, Zerocoin, SwiftX, Бюджетиране) (0-1, po podrazbirane: %u)</translation>
+        <source>Disable all DEXERGI specific functionality (Masternodes, Zerocoin, SwiftX, Budgeting) (0-1, default: %u)</source>
+        <translation>Изключи DEXERGI специфичната функционалност (Главни възли, Zerocoin, SwiftX, Бюджетиране) (0-1, po podrazbirane: %u)</translation>
     </message>
     <message>
         <source>Enable SwiftX, show confirmations for locked transactions (bool, default: %s)</source>
@@ -5826,7 +5826,7 @@ Please be patient...</source>
         <translation>Портфейла %s е извън папката с данни %s</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart PIVX Core to complete</source>
+        <source>Wallet needed to be rewritten: restart DEXERGI Core to complete</source>
         <translation>Портфейла трябва да се пренапише: рестартирайте програмата за завършване на процеса</translation>
     </message>
     <message>

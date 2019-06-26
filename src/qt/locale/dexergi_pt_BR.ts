@@ -62,12 +62,12 @@
         <translation>Endereços de recebimento</translation>
     </message>
     <message>
-        <source>These are your PIVX addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Esses são seus endereços PIVX para envio de pagamentos. Sempre verifique a quantia e os endereços de recebimento antes de enviar moedas.</translation>
+        <source>These are your DEXERGI addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Esses são seus endereços DEXERGI para envio de pagamentos. Sempre verifique a quantia e os endereços de recebimento antes de enviar moedas.</translation>
     </message>
     <message>
-        <source>These are your PIVX addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Esses são seus endereços PIVX para recebimento de pagamentos. É recomendado usar um novo endereço para cada transação.</translation>
+        <source>These are your DEXERGI addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Esses são seus endereços DEXERGI para recebimento de pagamentos. É recomendado usar um novo endereço para cada transação.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,8 +176,8 @@
         <translation>Confirmar criptografia de carteira</translation>
     </message>
     <message>
-        <source>PIVX will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIVs from being stolen by malware infecting your computer.</source>
-        <translation>PIVX vai fechar agora para finalizar o processo de criptografia. Lembre-se que encriptar sua carteira não pode proteger totalmente suas PIVs de serem roubadas por malwares infectando seu computador.</translation>
+        <source>DEXERGI will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIVs from being stolen by malware infecting your computer.</source>
+        <translation>DEXERGI vai fechar agora para finalizar o processo de criptografia. Lembre-se que encriptar sua carteira não pode proteger totalmente suas PIVs de serem roubadas por malwares infectando seu computador.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -254,7 +254,7 @@
         <translation>Endereço:</translation>
     </message>
     <message>
-        <source>Enter a PIVX Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <source>Enter a DEXERGI Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
         <translation>Insira um endereço que você deseja criptografar usando a BIP 38. Insira a palavra-chave na caixa do meio. Pressione criptografar para computar a chave privada criptografada.</translation>
     </message>
     <message>
@@ -613,16 +613,16 @@
         <translation>Ferramentas de abas</translation>
     </message>
     <message>
-        <source>PIVX Core</source>
-        <translation>PIVX Core</translation>
+        <source>DEXERGI Core</source>
+        <translation>DEXERGI Core</translation>
     </message>
     <message>
-        <source>Send coins to a PIVX address</source>
-        <translation>Enviar moedas para um endereço PIVX</translation>
+        <source>Send coins to a DEXERGI address</source>
+        <translation>Enviar moedas para um endereço DEXERGI</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and pivx: URIs)</source>
-        <translation>Requisitar pagamentos (gera códigos QR e pivx: URIs)</translation>
+        <source>Request payments (generates QR codes and dexergi: URIs)</source>
+        <translation>Requisitar pagamentos (gera códigos QR e dexergi: URIs)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -637,24 +637,24 @@
         <translation>Procurar masternodes</translation>
     </message>
     <message>
-        <source>&amp;About PIVX Core</source>
-        <translation>&amp;Sobre o PIVX Core</translation>
+        <source>&amp;About DEXERGI Core</source>
+        <translation>&amp;Sobre o DEXERGI Core</translation>
     </message>
     <message>
-        <source>Show information about PIVX Core</source>
-        <translation>Mostra informação sobre o PIVX Core</translation>
+        <source>Show information about DEXERGI Core</source>
+        <translation>Mostra informação sobre o DEXERGI Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for PIVX</source>
-        <translation>Modificar opções de configuração para PIVX</translation>
+        <source>Modify configuration options for DEXERGI</source>
+        <translation>Modificar opções de configuração para DEXERGI</translation>
     </message>
     <message>
-        <source>Sign messages with your PIVX addresses to prove you own them</source>
-        <translation>Assine mensagens com seus endereços PIVX para provar que você os detém</translation>
+        <source>Sign messages with your DEXERGI addresses to prove you own them</source>
+        <translation>Assine mensagens com seus endereços DEXERGI para provar que você os detém</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified PIVX addresses</source>
-        <translation>Verifique as mensagens para ter certeza que estão assinadas com os endereços PIVX especificados</translation>
+        <source>Verify messages to ensure they were signed with specified DEXERGI addresses</source>
+        <translation>Verifique as mensagens para ter certeza que estão assinadas com os endereços DEXERGI especificados</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -685,8 +685,8 @@
         <translation>Abrir arquivo de configuração de Masternode</translation>
     </message>
     <message>
-        <source>Open a PIVX: URI or payment request</source>
-        <translation>Abrir um PIVX: URI ou requisição de pagamento</translation>
+        <source>Open a DEXERGI: URI or payment request</source>
+        <translation>Abrir um DEXERGI: URI ou requisição de pagamento</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -697,12 +697,12 @@
         <translation>Janela de exploração de blocos</translation>
     </message>
     <message>
-        <source>Show the PIVX Core help message to get a list with possible PIVX command-line options</source>
-        <translation>Mostra a ajuda da PIVX Core para receber uma lista com possíveis opções de linha de comando PIVX</translation>
+        <source>Show the DEXERGI Core help message to get a list with possible DEXERGI command-line options</source>
+        <translation>Mostra a ajuda da DEXERGI Core para receber uma lista com possíveis opções de linha de comando DEXERGI</translation>
     </message>
     <message>
-        <source>PIVX Core client</source>
-        <translation>Cliente Core PIVX</translation>
+        <source>DEXERGI Core client</source>
+        <translation>Cliente Core DEXERGI</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -837,8 +837,8 @@ MultiSend: %1</translation>
         <translation>Rótulo</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (pivx.conf).</source>
-        <translation>Nem todas as transações serão exibidas. Para visualizar todas as transações você precisa definir txindex=1 no arquivo de configuração (pivx.conf). </translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (dexergi.conf).</source>
+        <translation>Nem todas as transações serão exibidas. Para visualizar todas as transações você precisa definir txindex=1 no arquivo de configuração (dexergi.conf). </translation>
     </message>
 </context>
 <context>
@@ -1118,8 +1118,8 @@ MultiSend: %1</translation>
         <translation>Editar endereço remetente</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid PIVX address.</source>
-        <translation>O endereço que você selecionou, "%1" , não é um endereço válido de PIVX</translation>
+        <source>The entered address "%1" is not a valid DEXERGI address.</source>
+        <translation>O endereço que você selecionou, "%1" , não é um endereço válido de DEXERGI</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1175,16 +1175,16 @@ MultiSend: %1</translation>
         <translation>versão</translation>
     </message>
     <message>
-        <source>PIVX Core</source>
-        <translation>PIVX Core</translation>
+        <source>DEXERGI Core</source>
+        <translation>DEXERGI Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About PIVX Core</source>
-        <translation>Sobre o PIVX Core</translation>
+        <source>About DEXERGI Core</source>
+        <translation>Sobre o DEXERGI Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1226,16 +1226,16 @@ MultiSend: %1</translation>
         <translation>Bem-vindo</translation>
     </message>
     <message>
-        <source>Welcome to PIVX Core.</source>
-        <translation>Bem-vindo ao PIVX Core.</translation>
+        <source>Welcome to DEXERGI Core.</source>
+        <translation>Bem-vindo ao DEXERGI Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where PIVX Core will store its data.</source>
-        <translation>Como essa é a primeira vez que o programa é utilizado, você pode escolher onde PIVX Core vai armazenar os seus dados.</translation>
+        <source>As this is the first time the program is launched, you can choose where DEXERGI Core will store its data.</source>
+        <translation>Como essa é a primeira vez que o programa é utilizado, você pode escolher onde DEXERGI Core vai armazenar os seus dados.</translation>
     </message>
     <message>
-        <source>PIVX Core will download and store a copy of the PIVX block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>PIVX Core vai baixar e armazenar uma cópia da blockchain PIVX. Pelo menos %1GB de informação será armazenado neste diretório e irá aumentar com o tempo. A carteira também será armazenada neste diretório.</translation>
+        <source>DEXERGI Core will download and store a copy of the DEXERGI block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>DEXERGI Core vai baixar e armazenar uma cópia da blockchain DEXERGI. Pelo menos %1GB de informação será armazenado neste diretório e irá aumentar com o tempo. A carteira também será armazenada neste diretório.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1246,8 +1246,8 @@ MultiSend: %1</translation>
         <translation>Usar um diretório personalizado de dados:</translation>
     </message>
     <message>
-        <source>PIVX Core</source>
-        <translation>PIVX Core</translation>
+        <source>DEXERGI Core</source>
+        <translation>DEXERGI Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1577,8 +1577,8 @@ MultiSend: %1</translation>
         <translation>C&amp;arteira</translation>
     </message>
     <message>
-        <source>Automatically open the PIVX client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Abrir automaticamente a porta do cliente PIVX no roteador. Isto somente funciona quando seu roteador suporta UPnP e este esteja habilitado.</translation>
+        <source>Automatically open the DEXERGI client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Abrir automaticamente a porta do cliente DEXERGI no roteador. Isto somente funciona quando seu roteador suporta UPnP e este esteja habilitado.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1597,12 +1597,12 @@ MultiSend: %1</translation>
         <translation>Expert</translation>
     </message>
     <message>
-        <source>Automatically start PIVX after logging in to the system.</source>
-        <translation>Iniciar automaticamente PIVX depois de logar no sistema.</translation>
+        <source>Automatically start DEXERGI after logging in to the system.</source>
+        <translation>Iniciar automaticamente DEXERGI depois de logar no sistema.</translation>
     </message>
     <message>
-        <source>&amp;Start PIVX on system login</source>
-        <translation>&amp;Iniciar PIVX ao logar no sistema</translation>
+        <source>&amp;Start DEXERGI on system login</source>
+        <translation>&amp;Iniciar DEXERGI ao logar no sistema</translation>
     </message>
     <message>
         <source>Enable coin &amp;control features</source>
@@ -1617,18 +1617,18 @@ MultiSend: %1</translation>
         <translation>&amp;Rede</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting PIVX.</source>
-        <translation>A linguagem da interface pode ser definida aqui. Está configuração terá efeito após reinício do PIVX.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting DEXERGI.</source>
+        <translation>A linguagem da interface pode ser definida aqui. Está configuração terá efeito após reinício do DEXERGI.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/pivx-project/pivx-project-translations</source>
+https://www.transifex.com/dexergi-project/dexergi-project-translations</source>
         <translation>Linguagem não encontrada ou tradução incompleta? Ajude contribuido com traduções aqui:
-https://www.transifex.com/pivx-project/pivx-project-translations</translation>
+https://www.transifex.com/dexergi-project/dexergi-project-translations</translation>
     </message>
     <message>
-        <source>Connect to the PIVX network through a SOCKS5 proxy.</source>
-        <translation>Conectar à rede PIVX através de um proxy SOCKS5</translation>
+        <source>Connect to the DEXERGI network through a SOCKS5 proxy.</source>
+        <translation>Conectar à rede DEXERGI através de um proxy SOCKS5</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1758,8 +1758,8 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
         <translation>Imaturo:</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the PIVX network after a connection is established, but this process has not completed yet.</source>
-        <translation>A informação mostrada pode estar desatualizada. A sua carteira se sincroniza automaticamente com a rede PIVX após estabelecer uma conexão, mas esse processo ainda não foi concluído.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the DEXERGI network after a connection is established, but this process has not completed yet.</source>
+        <translation>A informação mostrada pode estar desatualizada. A sua carteira se sincroniza automaticamente com a rede DEXERGI após estabelecer uma conexão, mas esse processo ainda não foi concluído.</translation>
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
@@ -1855,8 +1855,8 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
         <translation>Ações Zerocoin:</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the PIVX network after a connection is established, but this process has not completed yet.</source>
-        <translation>A informação mostrada pode estar desatualizada. A sua carteira se sincroniza automaticamente com a rede PIVX após estabelecer uma conexão, mas esse processo ainda não foi concluído.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the DEXERGI network after a connection is established, but this process has not completed yet.</source>
+        <translation>A informação mostrada pode estar desatualizada. A sua carteira se sincroniza automaticamente com a rede DEXERGI após estabelecer uma conexão, mas esse processo ainda não foi concluído.</translation>
     </message>
     <message>
         <source>0</source>
@@ -1883,8 +1883,8 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
         <translation>Pagar &amp;Para:</translation>
     </message>
     <message>
-        <source>The PIVX address to send the payment to. Creates local payment to yourself when empty.</source>
-        <translation>O endereço PIVX para enviar o pagamento. Cria um pagamento local para si mesmo quando vazio.</translation>
+        <source>The DEXERGI address to send the payment to. Creates local payment to yourself when empty.</source>
+        <translation>O endereço DEXERGI para enviar o pagamento. Cria um pagamento local para si mesmo quando vazio.</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2045,8 +2045,8 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
         <translation>Quantidade</translation>
     </message>
     <message>
-        <source>Enter a PIVX address (e.g. %1)</source>
-        <translation>Insira um endereço PIVX (e.g. %1)</translation>
+        <source>Enter a DEXERGI address (e.g. %1)</source>
+        <translation>Insira um endereço DEXERGI (e.g. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2085,8 +2085,8 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
         <translation>%1 ms</translation>
     </message>
     <message>
-        <source>PIVX Core</source>
-        <translation>PIVX Core</translation>
+        <source>DEXERGI Core</source>
+        <translation>DEXERGI Core</translation>
     </message>
     </context>
 <context>
@@ -2307,8 +2307,8 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
         <translation>saída:</translation>
     </message>
     <message>
-        <source>Welcome to the PIVX RPC console.</source>
-        <translation>Bem-vindo ao console da PIVX RPC</translation>
+        <source>Welcome to the DEXERGI RPC console.</source>
+        <translation>Bem-vindo ao console da DEXERGI RPC</translation>
     </message>
     <message>
         <source>Do you want to continue?.&lt;br /&gt;</source>
@@ -2615,8 +2615,8 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
         <translation>Se a taxa padrão estiver definida para 1000 uPIVs e a transação for somente de 250 bytes, então "por kilobyte" pagará somente 250 uPIVs em taxa,&lt;br /&gt; pagará pelo menos 1000 uPIVs. Para transações maiores que um kilobyte ambas pagam por kilobyte.</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for PIVX transactions than the network can process.</source>
-        <translation>Pagar a taxa mínima é aceitável desde que existe menos volume de transações que espaço nos blocos. &lt;br/&gt; Mas fique atento que isso pode acabar em uma transação que nunca será confirmada caso haja mais demanda por transações de PIVX do que a rede pode processar.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for DEXERGI transactions than the network can process.</source>
+        <translation>Pagar a taxa mínima é aceitável desde que existe menos volume de transações que espaço nos blocos. &lt;br/&gt; Mas fique atento que isso pode acabar em uma transação que nunca será confirmada caso haja mais demanda por transações de DEXERGI do que a rede pode processar.</translation>
     </message>
     <message>
         <source>normal</source>
@@ -2699,8 +2699,8 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
         <translation>Copiar troco</translation>
     </message>
     <message>
-        <source>Warning: Invalid PIVX address</source>
-        <translation>Aviso: endereço PIVX inválido</translation>
+        <source>Warning: Invalid DEXERGI address</source>
+        <translation>Aviso: endereço DEXERGI inválido</translation>
     </message>
     <message>
         <source>%1 to %2</source>
@@ -2786,8 +2786,8 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
         <translation>Pagar &amp;Para:</translation>
     </message>
     <message>
-        <source>The PIVX address to send the payment to</source>
-        <translation>O endereço PIVX para enviar o pagamento</translation>
+        <source>The DEXERGI address to send the payment to</source>
+        <translation>O endereço DEXERGI para enviar o pagamento</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2849,8 +2849,8 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>PIVX Core is shutting down...</source>
-        <translation>PIVX Core está desligando...</translation>
+        <source>DEXERGI Core is shutting down...</source>
+        <translation>DEXERGI Core está desligando...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2868,8 +2868,8 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
         <translation>&amp;Assinar mensagem</translation>
     </message>
     <message>
-        <source>The PIVX address to sign the message with</source>
-        <translation>O endereço PIVX para assinar a mensagem</translation>
+        <source>The DEXERGI address to sign the message with</source>
+        <translation>O endereço DEXERGI para assinar a mensagem</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2900,16 +2900,16 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
         <translation>Copia a assinatura atual do sistema de transferência</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this PIVX address</source>
-        <translation>Assine a mensagem para provar que você possui este endereço PIVX</translation>
+        <source>Sign the message to prove you own this DEXERGI address</source>
+        <translation>Assine a mensagem para provar que você possui este endereço DEXERGI</translation>
     </message>
     <message>
-        <source>The PIVX address the message was signed with</source>
-        <translation>O endereço PIVX que assinou a mensagem</translation>
+        <source>The DEXERGI address the message was signed with</source>
+        <translation>O endereço DEXERGI que assinou a mensagem</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified PIVX address</source>
-        <translation>Verifique a mensagem para ter certeza que foi assinada com o endereço PIVX especificado.</translation>
+        <source>Verify the message to ensure it was signed with the specified DEXERGI address</source>
+        <translation>Verifique a mensagem para ter certeza que foi assinada com o endereço DEXERGI especificado.</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2991,8 +2991,8 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>PIVX Core</source>
-        <translation>PIVX Core</translation>
+        <source>DEXERGI Core</source>
+        <translation>DEXERGI Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -3007,8 +3007,8 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
         <translation>Os desenvolvedores do Dash Core</translation>
     </message>
     <message>
-        <source>The PIVX Core developers</source>
-        <translation>Os desenvolvedores do PIVX Core</translation>
+        <source>The DEXERGI Core developers</source>
+        <translation>Os desenvolvedores do DEXERGI Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3534,7 +3534,7 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
     </message>
     </context>
 <context>
-    <name>pivx-core</name>
+    <name>dexergi-core</name>
     <message>
         <source>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</source>
         <translation>Deletar todas as transações da carteira e somente recuperar aquelas partes da blockchain através de -rescan na inicialização</translation>
@@ -3592,8 +3592,8 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
         <translation>Aviso: -paytxfee está definido como muito alto! Está e a taxa de transação que você irá pagar se enviar uma transação.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong PIVX Core will not work properly.</source>
-        <translation>Aviso: Favor verificar se o horário e data de seu computador estão corretos! Se o seu relógio estiver errado o Core PIVX não vai funcionar corretamente.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong DEXERGI Core will not work properly.</source>
+        <translation>Aviso: Favor verificar se o horário e data de seu computador estão corretos! Se o seu relógio estiver errado o Core DEXERGI não vai funcionar corretamente.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -3660,8 +3660,8 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
         <translation>Todos os direitos reservados (C) 2014-%i aos Desenvolvedores do Dash Core</translation>
     </message>
     <message>
-        <source>Copyright (C) 2015-%i The PIVX Core Developers</source>
-        <translation>Todos os direitos reservados (C) 2015-%i aos Desenvolvedores do PIVX Core</translation>
+        <source>Copyright (C) 2015-%i The DEXERGI Core Developers</source>
+        <translation>Todos os direitos reservados (C) 2015-%i aos Desenvolvedores do DEXERGI Core</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -3712,8 +3712,8 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
         <translation>Erro no carregamento da wallet.dat: Carteira corrompida</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of PIVX Core</source>
-        <translation>Erro ao carregar wallet.dat: A Carteira requer uma nova versão da PIVX Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of DEXERGI Core</source>
+        <translation>Erro ao carregar wallet.dat: A Carteira requer uma nova versão da DEXERGI Core</translation>
     </message>
     <message>
         <source>Error opening block database</source>
@@ -4066,8 +4066,8 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
         <translation>Verificando carteira...</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart PIVX Core to complete</source>
-        <translation>A carteira precisa ser reescrita: reinicia o PIVX Core para completar</translation>
+        <source>Wallet needed to be rewritten: restart DEXERGI Core to complete</source>
+        <translation>A carteira precisa ser reescrita: reinicia o DEXERGI Core para completar</translation>
     </message>
     <message>
         <source>Wallet options:</source>

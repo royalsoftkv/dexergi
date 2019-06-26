@@ -1,81 +1,81 @@
-policy_module(pivx, 1.100.1)
+policy_module(dexergi, 1.100.1)
 
 ########################################
 #
 # Declarations
 #
 
-type pivx_t;
-type pivx_exec_t;
-init_daemon_domain(pivx_t, pivx_exec_t)
+type dexergi_t;
+type dexergi_exec_t;
+init_daemon_domain(dexergi_t, dexergi_exec_t)
 
-permissive pivx_t;
+permissive dexergi_t;
 
-type pivx_initrc_exec_t;
-init_script_file(pivx_initrc_exec_t)
+type dexergi_initrc_exec_t;
+init_script_file(dexergi_initrc_exec_t)
 
-type pivx_conf_t;
-files_type(pivx_conf_t)
+type dexergi_conf_t;
+files_type(dexergi_conf_t)
 
-type pivx_var_lib_t;
-files_type(pivx_var_lib_t)
+type dexergi_var_lib_t;
+files_type(dexergi_var_lib_t)
 
-type pivx_var_run_t;
-files_type(pivx_var_run_t)
+type dexergi_var_run_t;
+files_type(dexergi_var_run_t)
 
-type pivx_port_t;
-corenet_port(pivx_port_t)
+type dexergi_port_t;
+corenet_port(dexergi_port_t)
 
 ########################################
 #
-# pivx local policy
+# dexergi local policy
 #
-allow pivx_t self:process { fork };
+allow dexergi_t self:process { fork };
 
-allow pivx_t self:fifo_file rw_fifo_file_perms;
-allow pivx_t self:unix_stream_socket create_stream_socket_perms;
+allow dexergi_t self:fifo_file rw_fifo_file_perms;
+allow dexergi_t self:unix_stream_socket create_stream_socket_perms;
 
-manage_dirs_pattern(pivx_t, pivx_conf_t, pivx_conf_t)
-manage_files_pattern(pivx_t, pivx_conf_t, pivx_conf_t)
+manage_dirs_pattern(dexergi_t, dexergi_conf_t, dexergi_conf_t)
+manage_files_pattern(dexergi_t, dexergi_conf_t, dexergi_conf_t)
 
-manage_dirs_pattern(pivx_t, pivx_var_lib_t, pivx_var_lib_t)
-manage_files_pattern(pivx_t, pivx_var_lib_t, pivx_var_lib_t)
-files_var_lib_filetrans(pivx_t, pivx_var_lib_t, { dir file })
+manage_dirs_pattern(dexergi_t, dexergi_var_lib_t, dexergi_var_lib_t)
+manage_files_pattern(dexergi_t, dexergi_var_lib_t, dexergi_var_lib_t)
+files_var_lib_filetrans(dexergi_t, dexergi_var_lib_t, { dir file })
 
-manage_dirs_pattern(pivx_t, pivx_var_run_t, pivx_var_run_t)
-manage_files_pattern(pivx_t, pivx_var_run_t, pivx_var_run_t)
+manage_dirs_pattern(dexergi_t, dexergi_var_run_t, dexergi_var_run_t)
+manage_files_pattern(dexergi_t, dexergi_var_run_t, dexergi_var_run_t)
 
-sysnet_dns_name_resolve(pivx_t)
-corenet_all_recvfrom_unlabeled(pivx_t)
+sysnet_dns_name_resolve(dexergi_t)
+corenet_all_recvfrom_unlabeled(dexergi_t)
 
-allow pivx_t self:tcp_socket create_stream_socket_perms;
-corenet_tcp_sendrecv_generic_if(pivx_t)
-corenet_tcp_sendrecv_generic_node(pivx_t)
-corenet_tcp_sendrecv_all_ports(pivx_t)
-corenet_tcp_bind_generic_node(pivx_t)
-
-gen_require(`
-    type pivx_port_t;
-')
-allow pivx_t pivx_port_t:tcp_socket name_bind;
+allow dexergi_t self:tcp_socket create_stream_socket_perms;
+corenet_tcp_sendrecv_generic_if(dexergi_t)
+corenet_tcp_sendrecv_generic_node(dexergi_t)
+corenet_tcp_sendrecv_all_ports(dexergi_t)
+corenet_tcp_bind_generic_node(dexergi_t)
 
 gen_require(`
-    type pivx_port_t;
+    type dexergi_port_t;
 ')
-allow pivx_t pivx_port_t:tcp_socket name_connect;
+allow dexergi_t dexergi_port_t:tcp_socket name_bind;
 
-domain_use_interactive_fds(pivx_t)
+gen_require(`
+    type dexergi_port_t;
+')
+allow dexergi_t dexergi_port_t:tcp_socket name_connect;
 
-files_read_etc_files(pivx_t)
+domain_use_interactive_fds(dexergi_t)
 
-miscfiles_read_localization(pivx_t)
+files_read_etc_files(dexergi_t)
 
-sysnet_dns_name_resolve(pivx_t)
+miscfiles_read_localization(dexergi_t)
 
-allow pivx_t pivx_exec_t:file execute_no_trans;
-allow pivx_t self:process setsched;
-corecmd_exec_ls(pivx_t)
-corenet_tcp_connect_http_port(pivx_t)
-dev_read_urand(pivx_t)
-fs_getattr_xattr_fs(pivx_t)
-kernel_read_system_state(pivx_t)
+sysnet_dns_name_resolve(dexergi_t)
+
+allow dexergi_t dexergi_exec_t:file execute_no_trans;
+allow dexergi_t self:process setsched;
+corecmd_exec_ls(dexergi_t)
+corenet_tcp_connect_http_port(dexergi_t)
+dev_read_urand(dexergi_t)
+fs_getattr_xattr_fs(dexergi_t)
+kernel_read_system_state(dexergi_t)

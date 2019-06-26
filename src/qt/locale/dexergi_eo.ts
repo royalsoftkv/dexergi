@@ -62,11 +62,11 @@
         <translation>Ricevanta adresojn</translation>
     </message>
     <message>
-        <source>These are your PIVX addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Ĉi tiuj estas viaj PIVX adreso por sendi pagojn. Ĉiam kontroku la kvanto kaj la ricevanta antaŭ ol sendi monerojn.</translation>
+        <source>These are your DEXERGI addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Ĉi tiuj estas viaj DEXERGI adreso por sendi pagojn. Ĉiam kontroku la kvanto kaj la ricevanta antaŭ ol sendi monerojn.</translation>
     </message>
     <message>
-        <source>These are your PIVX addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your DEXERGI addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>Ĉi tiuj estas vian adreson por ricevi pagojn. Ĝi rekomendas uzi novajn ricenvantan adreson por ĉiu nova transakcio.</translation>
     </message>
     <message>
@@ -176,8 +176,8 @@
         <translation>Konfirmi monerĉifrado</translation>
     </message>
     <message>
-        <source>PIVX will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIVs from being stolen by malware infecting your computer.</source>
-        <translation>PIVX fermos nun por fini ĉifran procezon. Memoru ke ĉifri vian monujon ne povas plene protekti viajn PIVs de esti ŝtelita per malware infektanta vian komputilon.</translation>
+        <source>DEXERGI will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIVs from being stolen by malware infecting your computer.</source>
+        <translation>DEXERGI fermos nun por fini ĉifran procezon. Memoru ke ĉifri vian monujon ne povas plene protekti viajn PIVs de esti ŝtelita per malware infektanta vian komputilon.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -254,11 +254,11 @@
         <translation>Adreso:</translation>
     </message>
     <message>
-        <source>Enter a PIVX Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Eniri unu PIVX adreso ke vi volus ĉifri per BIP 38. Eniri unu pasfrazon meze skatolo. Klaku ĉifri por komputi la ĉifrita privata ŝlosilo.</translation>
+        <source>Enter a DEXERGI Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Eniri unu DEXERGI adreso ke vi volus ĉifri per BIP 38. Eniri unu pasfrazon meze skatolo. Klaku ĉifri por komputi la ĉifrita privata ŝlosilo.</translation>
     </message>
     <message>
-        <source>The PIVX address to encrypt</source>
+        <source>The DEXERGI address to encrypt</source>
         <translation>Adreson por ĉifri</translation>
     </message>
     <message>
@@ -290,8 +290,8 @@
         <translation>Kopiu la aktualan subskribo al la sistemo-poŝo</translation>
     </message>
     <message>
-        <source>Encrypt the private key for this PIVX address</source>
-        <translation>Ĉifri la privata ŝlosilo por ĉi tiu PIVX adreso</translation>
+        <source>Encrypt the private key for this DEXERGI address</source>
+        <translation>Ĉifri la privata ŝlosilo por ĉi tiu DEXERGI adreso</translation>
     </message>
     <message>
         <source>Reset all fields</source>
@@ -641,16 +641,16 @@
         <translation>Iloj langeto</translation>
     </message>
     <message>
-        <source>PIVX Core</source>
-        <translation>PIVX kerno</translation>
+        <source>DEXERGI Core</source>
+        <translation>DEXERGI kerno</translation>
     </message>
     <message>
-        <source>Send coins to a PIVX address</source>
-        <translation>Sendu mono al PIVX addreso</translation>
+        <source>Send coins to a DEXERGI address</source>
+        <translation>Sendu mono al DEXERGI addreso</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and pivx: URIs)</source>
-        <translation>Peto pagojn (generas QR kodojn kaj pivx: URIs)</translation>
+        <source>Request payments (generates QR codes and dexergi: URIs)</source>
+        <translation>Peto pagojn (generas QR kodojn kaj dexergi: URIs)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -665,24 +665,24 @@
         <translation>Foliumi mastro-nodo</translation>
     </message>
     <message>
-        <source>&amp;About PIVX Core</source>
-        <translation>&amp;Pri PIVX Kerno</translation>
+        <source>&amp;About DEXERGI Core</source>
+        <translation>&amp;Pri DEXERGI Kerno</translation>
     </message>
     <message>
-        <source>Show information about PIVX Core</source>
-        <translation>Montri informon pri PIVX Kerno</translation>
+        <source>Show information about DEXERGI Core</source>
+        <translation>Montri informon pri DEXERGI Kerno</translation>
     </message>
     <message>
-        <source>Modify configuration options for PIVX</source>
-        <translation>Modifi agordajn opciojn por PIVX</translation>
+        <source>Modify configuration options for DEXERGI</source>
+        <translation>Modifi agordajn opciojn por DEXERGI</translation>
     </message>
     <message>
-        <source>Sign messages with your PIVX addresses to prove you own them</source>
-        <translation>Subskribu mesaĝo per via PIVX adreso por pruvi vi posedas ĝin</translation>
+        <source>Sign messages with your DEXERGI addresses to prove you own them</source>
+        <translation>Subskribu mesaĝo per via DEXERGI adreso por pruvi vi posedas ĝin</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified PIVX addresses</source>
-        <translation>Kontrolu mesaĝojn por certigi ke ili estas subskribita kun specifita PIVX adreso</translation>
+        <source>Verify messages to ensure they were signed with specified DEXERGI addresses</source>
+        <translation>Kontrolu mesaĝojn por certigi ke ili estas subskribita kun specifita DEXERGI adreso</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -713,8 +713,8 @@
         <translation>Malfermi mastro-nodo agord-dosieron</translation>
     </message>
     <message>
-        <source>Open a PIVX: URI or payment request</source>
-        <translation>Malfermi unu PIVX: URI aŭ pago peto</translation>
+        <source>Open a DEXERGI: URI or payment request</source>
+        <translation>Malfermi unu DEXERGI: URI aŭ pago peto</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -725,12 +725,12 @@
         <translation>Bloko esplorilo fenestro</translation>
     </message>
     <message>
-        <source>Show the PIVX Core help message to get a list with possible PIVX command-line options</source>
-        <translation>Montri la PIVX Kore help-mesaĝo por havi liston de havebla PIVX komandlinion opciojn</translation>
+        <source>Show the DEXERGI Core help message to get a list with possible DEXERGI command-line options</source>
+        <translation>Montri la DEXERGI Kore help-mesaĝo por havi liston de havebla DEXERGI komandlinion opciojn</translation>
     </message>
     <message>
-        <source>PIVX Core client</source>
-        <translation>PIVX Kerno kliento</translation>
+        <source>DEXERGI Core client</source>
+        <translation>DEXERGI Kerno kliento</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -868,8 +868,8 @@ Muktisendi: %1</translation>
         <translation>Tekstetikedo</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (pivx.conf).</source>
-        <translation>Ĉiuj transakcio ne estos montri. Peor vidi ĉiuj transakcio bezonas agordi txindekso=1 en la agordo dosiero (pivx.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (dexergi.conf).</source>
+        <translation>Ĉiuj transakcio ne estos montri. Peor vidi ĉiuj transakcio bezonas agordi txindekso=1 en la agordo dosiero (dexergi.conf).</translation>
     </message>
 </context>
 <context>
@@ -1153,8 +1153,8 @@ Muktisendi: %1</translation>
         <translation>Redaktu sendantan adreson</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid PIVX address.</source>
-        <translation>La enirita "%1" adreso ne estas validan PIVX adreson.</translation>
+        <source>The entered address "%1" is not a valid DEXERGI address.</source>
+        <translation>La enirita "%1" adreso ne estas validan DEXERGI adreson.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1210,16 +1210,16 @@ Muktisendi: %1</translation>
         <translation>versio</translation>
     </message>
     <message>
-        <source>PIVX Core</source>
-        <translation>PIVX kerno</translation>
+        <source>DEXERGI Core</source>
+        <translation>DEXERGI kerno</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bajto)</translation>
     </message>
     <message>
-        <source>About PIVX Core</source>
-        <translation>Pri PIVX Kerno</translation>
+        <source>About DEXERGI Core</source>
+        <translation>Pri DEXERGI Kerno</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1261,16 +1261,16 @@ Muktisendi: %1</translation>
         <translation>Bonvenon</translation>
     </message>
     <message>
-        <source>Welcome to PIVX Core.</source>
-        <translation>Bonvenon al la PIVX Kerno.</translation>
+        <source>Welcome to DEXERGI Core.</source>
+        <translation>Bonvenon al la DEXERGI Kerno.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where PIVX Core will store its data.</source>
-        <translation>Ĉar estas la unuan fojon ke la programo estas lanĉita, vi povas elekti kie PIVX kernk storigis sian datumojn. </translation>
+        <source>As this is the first time the program is launched, you can choose where DEXERGI Core will store its data.</source>
+        <translation>Ĉar estas la unuan fojon ke la programo estas lanĉita, vi povas elekti kie DEXERGI kernk storigis sian datumojn. </translation>
     </message>
     <message>
-        <source>PIVX Core will download and store a copy of the PIVX block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>PIVX kerno elŝutos kaj konservi kopion de la PIVX blokĉeno. Almenaŭ %1GB datumoj stokitos en ĉi tiun dosierujo, kaj ĝi kresko kun la tempo. Monujo stokitos en ĉi tiun dosierujo.</translation>
+        <source>DEXERGI Core will download and store a copy of the DEXERGI block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>DEXERGI kerno elŝutos kaj konservi kopion de la DEXERGI blokĉeno. Almenaŭ %1GB datumoj stokitos en ĉi tiun dosierujo, kaj ĝi kresko kun la tempo. Monujo stokitos en ĉi tiun dosierujo.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1281,8 +1281,8 @@ Muktisendi: %1</translation>
         <translation>Uzi kutimon datumojn dosierujo:</translation>
     </message>
     <message>
-        <source>PIVX Core</source>
-        <translation>PIVX kerno</translation>
+        <source>DEXERGI Core</source>
+        <translation>DEXERGI kerno</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1604,8 +1604,8 @@ Muktisendi: %1</translation>
         <translation>&amp;Monujo</translation>
     </message>
     <message>
-        <source>Automatically open the PIVX client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Aŭtomate malfermi PIVX klienton havenon en la enkursigilo. Tio nur laboras kiam via enkursigilo subtenas UPnP kaj estas ebligita.</translation>
+        <source>Automatically open the DEXERGI client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Aŭtomate malfermi DEXERGI klienton havenon en la enkursigilo. Tio nur laboras kiam via enkursigilo subtenas UPnP kaj estas ebligita.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1616,8 +1616,8 @@ Muktisendi: %1</translation>
         <translation>Sperta</translation>
     </message>
     <message>
-        <source>&amp;Start PIVX on system login</source>
-        <translation>&amp;Komencu PIVX en sistem-ensaluto</translation>
+        <source>&amp;Start DEXERGI on system login</source>
+        <translation>&amp;Komencu DEXERGI en sistem-ensaluto</translation>
     </message>
     <message>
         <source>&amp;Spend unconfirmed change</source>
@@ -1628,18 +1628,18 @@ Muktisendi: %1</translation>
         <translation>&amp;Reto</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting PIVX.</source>
-        <translation>La uzanta interfaco lingvo povas esti agordi ĉi tie. Tio agordo efektivigos post rekomenci PIVX.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting DEXERGI.</source>
+        <translation>La uzanta interfaco lingvo povas esti agordi ĉi tie. Tio agordo efektivigos post rekomenci DEXERGI.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/pivx-project/pivx-project-translations</source>
+https://www.transifex.com/dexergi-project/dexergi-project-translations</source>
         <translation>Ĉu mankas lingvon aŭ nekompleta tradukado? Helpu la  tradukcio ĉi tie:
-https://www.transifex.com/pivx-project/pivx-project-translations</translation>
+https://www.transifex.com/dexergi-project/dexergi-project-translations</translation>
     </message>
     <message>
-        <source>Connect to the PIVX network through a SOCKS5 proxy.</source>
-        <translation>Konekti al la PIVX reto per SOCKS5 prokurilo.</translation>
+        <source>Connect to the DEXERGI network through a SOCKS5 proxy.</source>
+        <translation>Konekti al la DEXERGI reto per SOCKS5 prokurilo.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1713,8 +1713,8 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
         <translation>Nematura:</translation>
     </message>
     <message>
-        <source>Your current PIVX balance, unconfirmed and immature transactions included</source>
-        <translation>Via aktuala PIVX totalo, nekonformita kaj nematurita transakcioj inkluzivita</translation>
+        <source>Your current DEXERGI balance, unconfirmed and immature transactions included</source>
+        <translation>Via aktuala DEXERGI totalo, nekonformita kaj nematurita transakcioj inkluzivita</translation>
     </message>
     <message>
         <source>zPIV Balance</source>
@@ -1727,8 +1727,8 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
 Nematura: konfirmita, sed malpli ol 1 minto el la samo nomado post ĝin estis mintita</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the PIVX network after a connection is established, but this process has not completed yet.</source>
-        <translation>Montrata informon povas esti malmoderna. Via monujo automate sinkronigis kun la PIVX reto post konekcio establas, sed ĉi tio procezo ankoraŭ ne kompletigis.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the DEXERGI network after a connection is established, but this process has not completed yet.</source>
+        <translation>Montrata informon povas esti malmoderna. Via monujo automate sinkronigis kun la DEXERGI reto post konekcio establas, sed ĉi tio procezo ankoraŭ ne kompletigis.</translation>
     </message>
     <message>
         <source>OVERVIEW</source>
@@ -1780,8 +1780,8 @@ Nematura: konfirmita, sed malpli ol 1 minto el la samo nomado post ĝin estis mi
 <context>
     <name>PrivacyDialog</name>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the PIVX network after a connection is established, but this process has not completed yet.</source>
-        <translation>Montrata informon povas esti malmoderna. Via monujo automate sinkronigis kun la PIVX reto post konekcio establas, sed ĉi tio procezo ankoraŭ ne kompletigis.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the DEXERGI network after a connection is established, but this process has not completed yet.</source>
+        <translation>Montrata informon povas esti malmoderna. Via monujo automate sinkronigis kun la DEXERGI reto post konekcio establas, sed ĉi tio procezo ankoraŭ ne kompletigis.</translation>
     </message>
     <message>
         <source>0</source>
@@ -1824,8 +1824,8 @@ Nematura: konfirmita, sed malpli ol 1 minto el la samo nomado post ĝin estis mi
         <translation>Pagu &amp;Al:</translation>
     </message>
     <message>
-        <source>The PIVX address to send the payment to. Creates local payment to yourself when empty.</source>
-        <translation>PIVX adreso por alsendi la pago. Kreas lokala pago al vi mem kiam malplenija.</translation>
+        <source>The DEXERGI address to send the payment to. Creates local payment to yourself when empty.</source>
+        <translation>DEXERGI adreso por alsendi la pago. Kreas lokala pago al vi mem kiam malplenija.</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1894,8 +1894,8 @@ Nematura: konfirmita, sed malpli ol 1 minto el la samo nomado post ĝin estis mi
         <translation>&lt;b&gt;malebligita&lt;/b&gt;.</translation>
     </message>
     <message>
-        <source>Invalid Pivx Address</source>
-        <translation>Nevalida Pivx adreso</translation>
+        <source>Invalid DEXERGI Address</source>
+        <translation>Nevalida DEXERGI adreso</translation>
     </message>
     <message>
         <source>Confirm send coins</source>
@@ -1928,8 +1928,8 @@ Nematura: konfirmita, sed malpli ol 1 minto el la samo nomado post ĝin estis mi
         <translation>NEKONATA</translation>
     </message>
     <message>
-        <source>PIVX Core</source>
-        <translation>PIVX kerno</translation>
+        <source>DEXERGI Core</source>
+        <translation>DEXERGI kerno</translation>
     </message>
     </context>
 <context>
@@ -1994,8 +1994,8 @@ Nematura: konfirmita, sed malpli ol 1 minto el la samo nomado post ĝin estis mi
         <translation>Rekonstrui indekson</translation>
     </message>
     <message>
-        <source>Welcome to the PIVX RPC console.</source>
-        <translation>Bonvenon al la PIVX RPC konzolo.</translation>
+        <source>Welcome to the DEXERGI RPC console.</source>
+        <translation>Bonvenon al la DEXERGI RPC konzolo.</translation>
     </message>
     <message>
         <source>1 &amp;hour</source>
@@ -2242,8 +2242,8 @@ Nematura: konfirmita, sed malpli ol 1 minto el la samo nomado post ĝin estis mi
         <translation>Kopi ŝanĝo</translation>
     </message>
     <message>
-        <source>Warning: Invalid PIVX address</source>
-        <translation>Averto: nevalida PIVX adreson</translation>
+        <source>Warning: Invalid DEXERGI address</source>
+        <translation>Averto: nevalida DEXERGI adreson</translation>
     </message>
     <message>
         <source>Are you sure you want to send?</source>
@@ -2269,7 +2269,7 @@ Nematura: konfirmita, sed malpli ol 1 minto el la samo nomado post ĝin estis mi
         <translation>Pagu &amp;Al:</translation>
     </message>
     <message>
-        <source>The PIVX address to send the payment to</source>
+        <source>The DEXERGI address to send the payment to</source>
         <translation>PIVC adreso por sendi la pago al</translation>
     </message>
     <message>
@@ -2304,8 +2304,8 @@ Nematura: konfirmita, sed malpli ol 1 minto el la samo nomado post ĝin estis mi
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>PIVX Core is shutting down...</source>
-        <translation>PIVX kerno fermanta...</translation>
+        <source>DEXERGI Core is shutting down...</source>
+        <translation>DEXERGI kerno fermanta...</translation>
     </message>
     </context>
 <context>
@@ -2358,8 +2358,8 @@ Nematura: konfirmita, sed malpli ol 1 minto el la samo nomado post ĝin estis mi
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>PIVX Core</source>
-        <translation>PIVX kerno</translation>
+        <source>DEXERGI Core</source>
+        <translation>DEXERGI kerno</translation>
     </message>
     <message>
         <source>The Bitcoin Core developers</source>
@@ -2370,8 +2370,8 @@ Nematura: konfirmita, sed malpli ol 1 minto el la samo nomado post ĝin estis mi
         <translation>La Dash kerno programistoj</translation>
     </message>
     <message>
-        <source>The PIVX Core developers</source>
-        <translation>La PIVX kerno programistoj</translation>
+        <source>The DEXERGI Core developers</source>
+        <translation>La DEXERGI kerno programistoj</translation>
     </message>
     </context>
 <context>
@@ -2557,7 +2557,7 @@ Nematura: konfirmita, sed malpli ol 1 minto el la samo nomado post ĝin estis mi
     </message>
     </context>
 <context>
-    <name>pivx-core</name>
+    <name>dexergi-core</name>
     <message>
         <source>Connect through SOCKS5 proxy</source>
         <translation>Konekti per SOCKS5 prokurilo</translation>

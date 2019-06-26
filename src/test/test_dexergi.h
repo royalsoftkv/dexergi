@@ -1,9 +1,9 @@
-// Copyright (c) 2015 The PIVX developers
+// Copyright (c) 2015 The DEXERGI developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef PIVX_TEST_TEST_PIVX_H
-#define PIVX_TEST_TEST_PIVX_H
+#ifndef DEXERGI_TEST_TEST_DEXERGI_H
+#define DEXERGI_TEST_TEST_DEXERGI_H
 
 #include "txdb.h"
 

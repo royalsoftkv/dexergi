@@ -1,9 +1,9 @@
-// Copyright (c) 2017-2019 The PIVX developers
+// Copyright (c) 2017-2019 The DEXERGI developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef PIVX_ACCUMULATORS_H
-#define PIVX_ACCUMULATORS_H
+#ifndef DEXERGI_ACCUMULATORS_H
+#define DEXERGI_ACCUMULATORS_H
 
 #include "libzerocoin/Accumulator.h"
 #include "libzerocoin/Coin.h"
@@ -90,5 +90,5 @@ public:
     searchMintHeightException(const string &message) : message(message) {}
 };
 
-#endif //PIVX_ACCUMULATORS_H
+#endif //DEXERGI_ACCUMULATORS_H
 

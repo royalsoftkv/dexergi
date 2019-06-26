@@ -279,6 +279,6 @@
     <name>ZPivControlDialog</name>
     </context>
 <context>
-    <name>pivx-core</name>
+    <name>dexergi-core</name>
     </context>
 </TS>
