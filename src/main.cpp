@@ -2001,16 +2001,23 @@ int64_t GetBlockValue(int nHeight)
 
     int64_t nSubsidy = 0;
 
-    if (nHeight <= Params().LAST_POW_BLOCK()) {
-        nSubsidy = 200 * COIN;
-    } else {
-        nSubsidy = 100 * COIN;
+    if (nHeight == 1) {
+        nSubsidy = 2100000 * COIN;
     }
+    else if (nHeight <= Params().LAST_POW_BLOCK() && nHeight > 0) {
+        nSubsidy = 200 * COIN;
+    } else if (nHeight > Params().LAST_POW_BLOCK() && nHeight <= 1051200) { // first two years
+        nSubsidy = 400 * COIN;
+    } else if (nHeight > 1051200 && nHeight <= 2102400) { // 3rd and 4th year
+        nSubsidy = 250 * COIN;
+    } else {
+        nSubsidy = 50 * COIN;
 
-    // yearly decline of production by 10% per year until reached max coin ~21M.
-    for (int i = 3 * Params().SubsidyHalvingInterval(); i <= nHeight; i += Params().SubsidyHalvingInterval()) {
-        nSubsidy -= nSubsidy * 0.1;
-    }	
+        //After 5 years, yearly decline of production by 10% per year until reached max coin ~21M.
+        for (int i = 5 * Params().SubsidyHalvingInterval(); i <= nHeight; i += Params().SubsidyHalvingInterval()) {
+            nSubsidy -= nSubsidy * 0.1;
+        }
+    }
 
     return nSubsidy;
 }
@@ -2259,10 +2266,14 @@ int64_t GetMasternodePayment(int nHeight, int64_t blockValue)
             return 0;
     }
 
-    if (nHeight <= Params().LAST_POW_BLOCK() && nHeight > 0) {     // PoW + PoS
-        ret = blockValue * 0.1;
+    if (nHeight <= Params().LAST_POW_BLOCK() && nHeight > 0) {
+        ret = blockValue * 0.10;
+    } else if (nHeight > Params().LAST_POW_BLOCK() && nHeight <= 1051200) { // first two years
+        ret = blockValue * 0.90;   // 90% to masternodes
+    } else if (nHeight > 1051200 && nHeight <= 2102400) { // 3rd and 4th year
+        ret = blockValue * 0.70;
     } else {
-        ret = blockValue / 2;   // 50% to masternodes
+        ret = blockValue * 0.50;    // 50% to masternodes
     }
 
     return ret;
