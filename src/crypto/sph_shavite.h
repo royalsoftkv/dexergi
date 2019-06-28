@@ -1,3 +1,4 @@
+// Copyright (c) 2019-2020 The Dexergi Developers
 /* $Id: sph_shavite.h 208 2010-06-02 20:33:00Z tp $ */
 /**
  * SHAvite-3 interface. This code implements SHAvite-3 with the

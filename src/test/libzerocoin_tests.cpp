@@ -1,3 +1,4 @@
+// Copyright (c) 2019-2020 The Dexergi Developers
 /**
 * @file       Tests.cpp
 *
@@ -9,7 +10,7 @@
 * @copyright  Copyright 2013 Ian Miers, Christina Garman and Matthew Green
 * @license    This project is released under the MIT license.
 **/
-// Copyright (c) 2017-2018 The DEXERGI developers
+// Copyright (c) 2017-2018 The PIVX developers
 
 #include <boost/test/unit_test.hpp>
 #include <string>

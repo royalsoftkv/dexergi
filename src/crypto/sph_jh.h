@@ -1,3 +1,4 @@
+// Copyright (c) 2019-2020 The Dexergi Developers
 /* $Id: sph_jh.h 216 2010-06-08 09:46:57Z tp $ */
 /**
  * JH interface. JH is a family of functions which differ by

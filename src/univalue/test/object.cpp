@@ -1,3 +1,4 @@
+// Copyright (c) 2019-2020 The Dexergi Developers
 // Copyright (c) 2014 BitPay Inc.
 // Copyright (c) 2014-2016 The Bitcoin Core developers
 // Distributed under the MIT software license, see the accompanying

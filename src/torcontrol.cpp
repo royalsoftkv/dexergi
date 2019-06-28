@@ -1,3 +1,4 @@
+// Copyright (c) 2019-2020 The Dexergi Developers
 // Copyright (c) 2015-2016 The Bitcoin Core developers
 // Copyright (c) 2017 The Zcash developers
 // Copyright (c) 2017-2019 The DEXERGI developers

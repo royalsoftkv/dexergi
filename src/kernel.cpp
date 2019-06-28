@@ -1,3 +1,4 @@
+// Copyright (c) 2019-2020 The Dexergi Developers
 // Copyright (c) 2012-2013 The PPCoin developers
 // Copyright (c) 2015-2019 The PIVX developers
 // Distributed under the MIT/X11 software license, see the accompanying

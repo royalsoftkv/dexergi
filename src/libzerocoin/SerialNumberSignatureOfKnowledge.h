@@ -1,3 +1,4 @@
+// Copyright (c) 2019-2020 The Dexergi Developers
 /**
 * @file       SerialNumberSignatureOfKnowledge.h
 *

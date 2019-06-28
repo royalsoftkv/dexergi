@@ -1,3 +1,4 @@
+// Copyright (c) 2019-2020 The Dexergi Developers
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2015-2017 The DEXERGI developers
