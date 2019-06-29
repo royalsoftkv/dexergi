@@ -1,4 +1,4 @@
-// Copyright (c) 2019-2020 The Dexergi Developers
+/* Copyright (c) 2019-2020 The Dexergi Developers */
 /// \file       ParamGeneration.h
 ///
 /// \brief      Parameter generation routines for Zerocoin.

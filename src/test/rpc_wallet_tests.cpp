@@ -1,4 +1,4 @@
-// Copyright (c) 2019-2020 The Dexergi Developers
+/* Copyright (c) 2019-2020 The Dexergi Developers */
 // Copyright (c) 2013-2014 The Bitcoin Core developers
 // Copyright (c) 2017-2019 The DEXERGI developers
 // Distributed under the MIT/X11 software license, see the accompanying

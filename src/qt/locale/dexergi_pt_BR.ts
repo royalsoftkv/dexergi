@@ -184,8 +184,8 @@
         <translation>Você tem certeza que deseja criptografar sua carteira?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PIV&lt;/b&gt;!</source>
-        <translation>Aviso: se você criptografar sua carteira e perder sua senha você &lt;b&gt;PERDERÁ TODAS AS SUAS PIV&lt;b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DXR&lt;/b&gt;!</source>
+        <translation>Aviso: se você criptografar sua carteira e perder sua senha você &lt;b&gt;PERDERÁ TODAS AS SUAS DXR&lt;b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -409,8 +409,8 @@
         <translation>Olhar histórico de transação</translation>
     </message>
     <message>
-        <source>Privacy Actions for zPIV</source>
-        <translation>Ações privadas para zPIV</translation>
+        <source>Privacy Actions for zDXR</source>
+        <translation>Ações privadas para zDXR</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -1863,8 +1863,8 @@ https://www.transifex.com/dexergi-project/dexergi-project-translations</translat
         <translation>0</translation>
     </message>
     <message>
-        <source>zPIV</source>
-        <translation>zPIV</translation>
+        <source>zDXR</source>
+        <translation>zDXR</translation>
     </message>
     <message>
         <source>Reset</source>
@@ -1923,8 +1923,8 @@ https://www.transifex.com/dexergi-project/dexergi-project-translations</translat
         <translation>Estatísticas zerocoin:</translation>
     </message>
     <message>
-        <source>Total Balance including unconfirmed and immature zPIV</source>
-        <translation>Balanço Total incluindo não confirmadas e imaturas zPIV</translation>
+        <source>Total Balance including unconfirmed and immature zDXR</source>
+        <translation>Balanço Total incluindo não confirmadas e imaturas zDXR</translation>
     </message>
     <message>
         <source>Total Zerocoin  Balance:</source>
@@ -2567,8 +2567,8 @@ https://www.transifex.com/dexergi-project/dexergi-project-translations</translat
         <translation>Tamanho UTXO:</translation>
     </message>
     <message>
-        <source>0 PIV</source>
-        <translation>0 PIV</translation>
+        <source>0 DXR</source>
+        <translation>0 DXR</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -2663,8 +2663,8 @@ https://www.transifex.com/dexergi-project/dexergi-project-translations</translat
         <translation>Adicionar &amp;Recipiente</translation>
     </message>
     <message>
-        <source>Anonymized PIV</source>
-        <translation>PIV anonimizadas</translation>
+        <source>Anonymized DXR</source>
+        <translation>DXR anonimizadas</translation>
     </message>
     <message>
         <source>Balance:</source>
@@ -3525,8 +3525,8 @@ https://www.transifex.com/dexergi-project/dexergi-project-translations</translat
         <translation>0</translation>
     </message>
     <message>
-        <source>zPIV</source>
-        <translation>zPIV</translation>
+        <source>zDXR</source>
+        <translation>zDXR</translation>
     </message>
     <message>
         <source>Select/Deselect All</source>
@@ -3552,12 +3552,12 @@ https://www.transifex.com/dexergi-project/dexergi-project-translations</translat
         <translation>Executar o comando quando uma transação da carteira mudar (%s no cmd será substituído pela TxID)</translation>
     </message>
     <message>
-        <source>Fees (in PIV/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Taxas (em PIV/Kb) menores que isso serão consideradas taxa zero para propagação (padrão: %s)</translation>
+        <source>Fees (in DXR/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Taxas (em DXR/Kb) menores que isso serão consideradas taxa zero para propagação (padrão: %s)</translation>
     </message>
     <message>
-        <source>Fees (in PIV/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Taxas (em PIV/Kb) menores que isso serão consideradas taxa zero para a criação da transação (padrão: %s)</translation>
+        <source>Fees (in DXR/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Taxas (em DXR/Kb) menores que isso serão consideradas taxa zero para a criação da transação (padrão: %s)</translation>
     </message>
     <message>
         <source>In this mode -genproclimit controls how many blocks are generated immediately.</source>
@@ -3576,8 +3576,8 @@ https://www.transifex.com/dexergi-project/dexergi-project-translations</translat
         <translation>Define o tamanho máximo de transações de alta prioridade/taxa baixa em bytes (padrão: %d)</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 PIV.</source>
-        <translation>Incapaz de localizar fundos para esta transação que não são iguais a 10000 PIV.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 DXR.</source>
+        <translation>Incapaz de localizar fundos para esta transação que não são iguais a 10000 DXR.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -3752,8 +3752,8 @@ https://www.transifex.com/dexergi-project/dexergi-project-translations</translat
         <translation>Falhou em ler o bloco</translation>
     </message>
     <message>
-        <source>Fee (in PIV/kB) to add to transactions you send (default: %s)</source>
-        <translation>Taxa (em PIV/kB) a adicionar em transações que você enviar (padrão: %s)</translation>
+        <source>Fee (in DXR/kB) to add to transactions you send (default: %s)</source>
+        <translation>Taxa (em DXR/kB) a adicionar em transações que você enviar (padrão: %s)</translation>
     </message>
     <message>
         <source>Force safe mode (default: %u)</source>

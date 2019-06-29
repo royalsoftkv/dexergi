@@ -1,4 +1,4 @@
-// Copyright (c) 2019-2020 The Dexergi Developers
+/* Copyright (c) 2019-2020 The Dexergi Developers */
 // Copyright (c) 2015-2019 The PIVX developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
@@ -9,7 +9,7 @@
 #include "main.h"
 
 /****** Thread ********/
-void CLightWorker::ThreadLightZPIVSimplified() {
+void CLightWorker::ThreadLightZDXRSimplified() {
     RenameThread("dexergi-light-thread");
     isWorkerRunning = true;
     while (true) {
@@ -61,7 +61,7 @@ void CLightWorker::ThreadLightZPIVSimplified() {
                         );
 
                     } catch (NotEnoughMintsException e) {
-                        LogPrintStr(std::string("ThreadLightZPIVSimplified: ") + e.message + "\n");
+                        LogPrintStr(std::string("ThreadLightZDXRSimplified: ") + e.message + "\n");
                         rejectWork(genWit, blockHeight, NOT_ENOUGH_MINTS);
                         continue;
                     }

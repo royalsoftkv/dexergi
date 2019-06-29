@@ -184,8 +184,8 @@
         <translation>Сигурни ли сте, че искате да шифрирате вашия портфейл?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PIV&lt;/b&gt;!</source>
-        <translation>&lt;b&gt;Внимание: Ако шифрирате вашия портфейл и загубите вашата парола, вие ще ЗАГУБИТЕ ВСИЧКИТЕ ВИ PIV&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DXR&lt;/b&gt;!</source>
+        <translation>&lt;b&gt;Внимание: Ако шифрирате вашия портфейл и загубите вашата парола, вие ще ЗАГУБИТЕ ВСИЧКИТЕ ВИ DXR&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -433,8 +433,8 @@
         <translation>История на транзакциите</translation>
     </message>
     <message>
-        <source>Privacy Actions for zPIV</source>
-        <translation>Поверителни Действия за ZPIV</translation>
+        <source>Privacy Actions for zDXR</source>
+        <translation>Поверителни Действия за ZDXR</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -1628,8 +1628,8 @@ Please be patient after clicking import.</source>
         <translation>Адрес / Сума:</translation>
     </message>
     <message>
-        <source>Add destinations to send PIV to</source>
-        <translation>Добави получател на PIV</translation>
+        <source>Add destinations to send DXR to</source>
+        <translation>Добави получател на DXR</translation>
     </message>
     <message>
         <source>Add &amp;Destination</source>
@@ -1828,28 +1828,28 @@ https://www.transifex.com/dexergi-project/dexergi-project-translations</translat
         <translation>Картографирай портовете използвайки &amp;UPnP</translation>
     </message>
     <message>
-        <source>Enable automatic minting of PIV units to zPIV</source>
-        <translation>Включи автоматичното емитиране на PIV единици в zPIV</translation>
+        <source>Enable automatic minting of DXR units to zDXR</source>
+        <translation>Включи автоматичното емитиране на DXR единици в zDXR</translation>
     </message>
     <message>
-        <source>Enable zPIV Automint</source>
-        <translation>Включи Автоматично емитиране на zPIV</translation>
+        <source>Enable zDXR Automint</source>
+        <translation>Включи Автоматично емитиране на zDXR</translation>
     </message>
     <message>
-        <source>Percentage of incoming PIV which get automatically converted to zPIV via Zerocoin Protocol (min: 10%)</source>
-        <translation>Процент от входящите PIV, който автоматично да се конвертира в zPIV посредтвом Zerocoin Протокола (мин: 10%)</translation>
+        <source>Percentage of incoming DXR which get automatically converted to zDXR via Zerocoin Protocol (min: 10%)</source>
+        <translation>Процент от входящите DXR, който автоматично да се конвертира в zDXR посредтвом Zerocoin Протокола (мин: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zPIV</source>
-        <translation>Процент автоматично сечени zPIV</translation>
+        <source>Percentage of autominted zDXR</source>
+        <translation>Процент автоматично сечени zDXR</translation>
     </message>
     <message>
-        <source>Wait with automatic conversion to Zerocoin until enough PIV for this denomination is available</source>
-        <translation>Не бързай с автоматичното конвертиране в zPIV докато не се съберат достатъчно PIV за тази деноминация</translation>
+        <source>Wait with automatic conversion to Zerocoin until enough DXR for this denomination is available</source>
+        <translation>Не бързай с автоматичното конвертиране в zDXR докато не се съберат достатъчно DXR за тази деноминация</translation>
     </message>
     <message>
-        <source>Preferred Automint zPIV Denomination</source>
-        <translation>Предпочитани деноминации, в които да се сече автоматичен zPIV</translation>
+        <source>Preferred Automint zDXR Denomination</source>
+        <translation>Предпочитани деноминации, в които да се сече автоматичен zDXR</translation>
     </message>
     <message>
         <source>Stake split threshold:</source>
@@ -2007,8 +2007,8 @@ https://www.transifex.com/dexergi-project/dexergi-project-translations</translat
         <translation>Обща Наличност, включително и неналичните монети.</translation>
     </message>
     <message>
-        <source>PIV Balance</source>
-        <translation>PIV Наличности</translation>
+        <source>DXR Balance</source>
+        <translation>DXR Наличности</translation>
     </message>
     <message>
         <source>Pending:</source>
@@ -2035,14 +2035,14 @@ https://www.transifex.com/dexergi-project/dexergi-project-translations</translat
         <translation>Вашите DEXERGI наличности, включително непотвърдените и неузрели преводи</translation>
     </message>
     <message>
-        <source>zPIV Balance</source>
-        <translation>zPIV Наличности</translation>
+        <source>zDXR Balance</source>
+        <translation>zDXR Наличности</translation>
     </message>
     <message>
         <source>Mature: more than 20 confirmation and more than 1 mint of the same denomination after it was minted.
-These zPIV are spendable.</source>
+These zDXR are spendable.</source>
         <translation>Узрели: повече от 20 потвърждения и повече от 1 емисии от същата деноминация след като е била емитирана.
-Тези zPIV могат да се похарчат.</translation>
+Тези zDXR могат да се похарчат.</translation>
     </message>
     <message>
         <source>Unconfirmed: less than 20 confirmations
@@ -2095,8 +2095,8 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
         <translation>Налични за харчене:</translation>
     </message>
     <message>
-        <source>Locked PIV or Masternode collaterals. These are excluded from zPIV minting.</source>
-        <translation>Заключен PIV или допълнителни гаранции в Главни Възли. Тези не са включени в zPIV емитирането.</translation>
+        <source>Locked DXR or Masternode collaterals. These are excluded from zDXR minting.</source>
+        <translation>Заключен DXR или допълнителни гаранции в Главни Възли. Тези не са включени в zDXR емитирането.</translation>
     </message>
     <message>
         <source>Locked:</source>
@@ -2107,8 +2107,8 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
         <translation>Непотвърден</translation>
     </message>
     <message>
-        <source>Your current zPIV balance, unconfirmed and immature zPIV included.</source>
-        <translation>Вашите zPIV наличности, включеително непотвърдените и неузрелите zPIV.</translation>
+        <source>Your current zDXR balance, unconfirmed and immature zDXR included.</source>
+        <translation>Вашите zDXR наличности, включеително непотвърдените и неузрелите zDXR.</translation>
     </message>
     <message>
         <source>Recent transactions</source>
@@ -2258,8 +2258,8 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in dexergi.co
         <translation>0</translation>
     </message>
     <message>
-        <source>zPIV</source>
-        <translation>zPIV</translation>
+        <source>zDXR</source>
+        <translation>zDXR</translation>
     </message>
     <message>
         <source>Reset Zerocoin Wallet DB. Deletes transactions that did not make it into the blockchain.</source>
@@ -2286,12 +2286,12 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in dexergi.co
         <translation>КОНФИДЕНЦИАЛНОСТ</translation>
     </message>
     <message>
-        <source>zPIV Control</source>
-        <translation>zPIV Контрол</translation>
+        <source>zDXR Control</source>
+        <translation>zDXR Контрол</translation>
     </message>
     <message>
-        <source>zPIV Selected:</source>
-        <translation>Избрани zPIV:</translation>
+        <source>zDXR Selected:</source>
+        <translation>Избрани zDXR:</translation>
     </message>
     <message>
         <source>Quantity Selected:</source>
@@ -2306,24 +2306,24 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in dexergi.co
         <translation>Похарчи Zerocoin</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zPIV for spending</source>
-        <translation>Налични (узрели и готови за харчене) zPIV за употреба</translation>
+        <source>Available (mature and spendable) zDXR for spending</source>
+        <translation>Налични (узрели и готови за харчене) zDXR за употреба</translation>
     </message>
     <message>
         <source>Available Balance:</source>
         <translation>Налични:</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zPIV for spending
+        <source>Available (mature and spendable) zDXR for spending
 
-zPIV are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
-        <translation>Налични (узрели и готови за харчене) zPIV за употреба
+zDXR are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
+        <translation>Налични (узрели и готови за харчене) zDXR за употреба
 
-zPIV са узрели, тогава когато имат повече от 20 потвърждения И повече от 2 емисии от същата деноминация след като са биле емитирани</translation>
+zDXR са узрели, тогава когато имат повече от 20 потвърждения И повече от 2 емисии от същата деноминация след като са биле емитирани</translation>
     </message>
     <message>
-        <source>0 zPIV</source>
-        <translation>0 zPIV</translation>
+        <source>0 zDXR</source>
+        <translation>0 zDXR</translation>
     </message>
     <message>
         <source>Pay &amp;To:</source>
@@ -2363,7 +2363,7 @@ zPIV са узрели, тогава когато имат повече от 20 
     </message>
     <message>
         <source>Convert Change to Zerocoin (might cost additional fees)</source>
-        <translation>Изсечи zPIV от рестото (ще струва допълнително заради таксите)</translation>
+        <translation>Изсечи zDXR от рестото (ще струва допълнително заради таксите)</translation>
     </message>
     <message>
         <source>If checked, the wallet tries to minimize the returning change instead of minimizing the number of spent denominations.</source>
@@ -2382,8 +2382,8 @@ zPIV са узрели, тогава когато имат повече от 20 
         <translation>Zerocoin статистика:</translation>
     </message>
     <message>
-        <source>Total Balance including unconfirmed and immature zPIV</source>
-        <translation>Обща Наличност включеително непотвърдените и неузрели zPIV</translation>
+        <source>Total Balance including unconfirmed and immature zDXR</source>
+        <translation>Обща Наличност включеително непотвърдените и неузрели zDXR</translation>
     </message>
     <message>
         <source>Total Zerocoin  Balance:</source>
@@ -2404,24 +2404,24 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
 Неузрели: потвърдени, но с по-малко от 1 емисии от същата деноминация след като са биле емитирани</translation>
     </message>
     <message>
-        <source>Show the current status of automatic zPIV minting.
+        <source>Show the current status of automatic zDXR minting.
 
 To change the status (restart required):
 - enable: add 'enablezeromint=1' to dexergi.conf
 - disable: add 'enablezeromint=0' to dexergi.conf
 
 To change the percentage (no restart required):
-- menu Settings-&gt;Options-&gt;Percentage of autominted zPIV
+- menu Settings-&gt;Options-&gt;Percentage of autominted zDXR
 
 </source>
-        <translation>Покажи състоянието на автоматичното zPIV емитиране.
+        <translation>Покажи състоянието на автоматичното zDXR емитиране.
 
 За да пормените състоянието (изисква рестарт):
 - вклчване: добавете 'enablezeromint=1' в dexergi.conf
 - изключване: добавете 'enablezeromint=0' в dexergi.conf
 
 За промяна в процентите (не изисква рестарт):
-- меню Настройки -&gt; Опции -&gt; Процент на автоемитиран zPIV
+- меню Настройки -&gt; Опции -&gt; Процент на автоемитиран zDXR
 </translation>
     </message>
     <message>
@@ -2595,12 +2595,12 @@ Please be patient...</source>
 Моля изчакате...</translation>
     </message>
     <message>
-        <source>zPIV Spend #: </source>
-        <translation>zPIV Похарчени #:</translation>
+        <source>zDXR Spend #: </source>
+        <translation>zDXR Похарчени #:</translation>
     </message>
     <message>
-        <source>zPIV Mint</source>
-        <translation>Сечене на zPIV</translation>
+        <source>zDXR Mint</source>
+        <translation>Сечене на zDXR</translation>
     </message>
     <message>
         <source> &lt;b&gt;enabled&lt;/b&gt;.</source>
@@ -2615,12 +2615,12 @@ Please be patient...</source>
         <translation>Конфигуриран целеви процент: &lt;b&gt;</translation>
     </message>
     <message>
-        <source>zPIV is currently disabled due to maintenance.</source>
-        <translation>В момента zPIV не работи поради ремонт.</translation>
+        <source>zDXR is currently disabled due to maintenance.</source>
+        <translation>В момента zDXR не работи поради ремонт.</translation>
     </message>
     <message>
-        <source>zPIV is currently undergoing maintenance.</source>
-        <translation>В момента zPIV е в ремонт.</translation>
+        <source>zDXR is currently undergoing maintenance.</source>
+        <translation>В момента zDXR е в ремонт.</translation>
     </message>
     <message>
         <source>Denom. with value &lt;b&gt;1&lt;/b&gt;:</source>
@@ -3065,8 +3065,8 @@ Please be patient...</source>
         <translation>Персонален резервен път:</translation>
     </message>
     <message>
-        <source>Custom zPIV Backup Path:</source>
-        <translation>Персонализиран zPIV резервен път:</translation>
+        <source>Custom zDXR Backup Path:</source>
+        <translation>Персонализиран zDXR резервен път:</translation>
     </message>
     <message>
         <source>Custom Backups Threshold:</source>
@@ -3513,8 +3513,8 @@ Please be patient...</source>
         <translation>Размер на UTXO:</translation>
     </message>
     <message>
-        <source>0 PIV</source>
-        <translation>0 PIV</translation>
+        <source>0 DXR</source>
+        <translation>0 DXR</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -3625,8 +3625,8 @@ Please be patient...</source>
         <translation>Добави Получател</translation>
     </message>
     <message>
-        <source>Anonymized PIV</source>
-        <translation>Анонимизиран PIV</translation>
+        <source>Anonymized DXR</source>
+        <translation>Анонимизиран DXR</translation>
     </message>
     <message>
         <source>Balance:</source>
@@ -3674,7 +3674,7 @@ Please be patient...</source>
     </message>
     <message>
         <source>Warning: Invalid DEXERGI address</source>
-        <translation>Предупреждение: Невалиден PIV адрес</translation>
+        <translation>Предупреждение: Невалиден DXR адрес</translation>
     </message>
     <message>
         <source>%1 to %2</source>
@@ -4269,12 +4269,12 @@ Please be patient...</source>
         <translation>Получен посредством обфускация</translation>
     </message>
     <message>
-        <source>PIV Stake</source>
-        <translation>PIV Stake</translation>
+        <source>DXR Stake</source>
+        <translation>DXR Stake</translation>
     </message>
     <message>
-        <source>zPIV Stake</source>
-        <translation>zPIV Stake</translation>
+        <source>zDXR Stake</source>
+        <translation>zDXR Stake</translation>
     </message>
     <message>
         <source>Obfuscation Denominate</source>
@@ -4293,32 +4293,32 @@ Please be patient...</source>
         <translation>Обфускация и направа на Деноминации</translation>
     </message>
     <message>
-        <source>Converted PIV to zPIV</source>
-        <translation>Конвертиран PIV във zPIV</translation>
+        <source>Converted DXR to zDXR</source>
+        <translation>Конвертиран DXR във zDXR</translation>
     </message>
     <message>
-        <source>Spent zPIV</source>
-        <translation>Похарчени zPIV</translation>
+        <source>Spent zDXR</source>
+        <translation>Похарчени zDXR</translation>
     </message>
     <message>
-        <source>Received PIV from zPIV</source>
-        <translation>Получен PIV от zPIV</translation>
+        <source>Received DXR from zDXR</source>
+        <translation>Получен DXR от zDXR</translation>
     </message>
     <message>
-        <source>Minted Change as zPIV from zPIV Spend</source>
-        <translation>Исечено ресто като zPIV от похарчените zPIV</translation>
+        <source>Minted Change as zDXR from zDXR Spend</source>
+        <translation>Исечено ресто като zDXR от похарчените zDXR</translation>
     </message>
     <message>
-        <source>Converted zPIV to PIV</source>
-        <translation>Конвертиран zPIV във PIV</translation>
+        <source>Converted zDXR to DXR</source>
+        <translation>Конвертиран zDXR във DXR</translation>
     </message>
     <message>
-        <source>Anonymous (zPIV Transaction)</source>
-        <translation>Анонимен (транзакция zPIV)</translation>
+        <source>Anonymous (zDXR Transaction)</source>
+        <translation>Анонимен (транзакция zDXR)</translation>
     </message>
     <message>
-        <source>Anonymous (zPIV Stake)</source>
-        <translation>Анонимен (zPIV Stake)</translation>
+        <source>Anonymous (zDXR Stake)</source>
+        <translation>Анонимен (zDXR Stake)</translation>
     </message>
     <message>
         <source>Sent to</source>
@@ -4528,12 +4528,12 @@ Please be patient...</source>
         <translation>Експортирането Успешно</translation>
     </message>
     <message>
-        <source>Received PIV from zPIV</source>
-        <translation>Получен PIV от zPIV</translation>
+        <source>Received DXR from zDXR</source>
+        <translation>Получен DXR от zDXR</translation>
     </message>
     <message>
-        <source>Zerocoin Spend, Change in zPIV</source>
-        <translation>Харчене на Zerocoin, Ресто в zPIV</translation>
+        <source>Zerocoin Spend, Change in zDXR</source>
+        <translation>Харчене на Zerocoin, Ресто в zDXR</translation>
     </message>
     <message>
         <source>The transaction history was successfully saved to %1.</source>
@@ -4569,8 +4569,8 @@ Please be patient...</source>
         <translation>Изпрати Монети</translation>
     </message>
     <message>
-        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 PIV.</source>
-        <translation>SwiftTX не подържа изпращането на толкова големи суми. Превода е ограничен до %1 PIV.</translation>
+        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 DXR.</source>
+        <translation>SwiftTX не подържа изпращането на толкова големи суми. Превода е ограничен до %1 DXR.</translation>
     </message>
 </context>
 <context>
@@ -4603,8 +4603,8 @@ Please be patient...</source>
 <context>
     <name>ZPivControlDialog</name>
     <message>
-        <source>Select zPIV to Spend</source>
-        <translation>Изберете zPIV за Изпращане</translation>
+        <source>Select zDXR to Spend</source>
+        <translation>Изберете zDXR за Изпращане</translation>
     </message>
     <message>
         <source>Quantity</source>
@@ -4615,8 +4615,8 @@ Please be patient...</source>
         <translation>0</translation>
     </message>
     <message>
-        <source>zPIV</source>
-        <translation>zPIV</translation>
+        <source>zDXR</source>
+        <translation>zDXR</translation>
     </message>
     <message>
         <source>Select/Deselect All</source>
@@ -4678,16 +4678,16 @@ Please be patient...</source>
         <translation>Разпространява се пот MIT софтуерен лиценз, виж съпровождащия файл от &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</translation>
     </message>
     <message>
-        <source>Enable automatic wallet backups triggered after each zPIV minting (0-1, default: %u)</source>
-        <translation>Включи автоматичните бекъпи на портфейла след всяко zPIV емитиране (0-1, по подразбиране: %u)</translation>
+        <source>Enable automatic wallet backups triggered after each zDXR minting (0-1, default: %u)</source>
+        <translation>Включи автоматичните бекъпи на портфейла след всяко zDXR емитиране (0-1, по подразбиране: %u)</translation>
     </message>
     <message>
-        <source>Enable or disable staking functionality for PIV inputs (0-1, default: %u)</source>
-        <translation>Активиране или деактивиране на функцията за зареждане за PIV входове (0-1, по подразбиране: %u)</translation>
+        <source>Enable or disable staking functionality for DXR inputs (0-1, default: %u)</source>
+        <translation>Активиране или деактивиране на функцията за зареждане за DXR входове (0-1, по подразбиране: %u)</translation>
     </message>
     <message>
-        <source>Enable or disable staking functionality for zPIV inputs (0-1, default: %u)</source>
-        <translation>Активиране или деактивиране на функцията за зареждане за zPIV входове (0-1, по подразбиране: %u)</translation>
+        <source>Enable or disable staking functionality for zDXR inputs (0-1, default: %u)</source>
+        <translation>Активиране или деактивиране на функцията за зареждане за zDXR входове (0-1, по подразбиране: %u)</translation>
     </message>
     <message>
         <source>Enable spork administration functionality with the appropriate private key.</source>
@@ -4722,12 +4722,12 @@ Please be patient...</source>
         <translation>Командата влиза в сила, когато най-добрия блок се промени (%s в cmd се замества от хаш на блока)</translation>
     </message>
     <message>
-        <source>Fees (in PIV/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Такси (в PIV/Кб) по-малки от това се считат за нулеви при препращане (default: %s)</translation>
+        <source>Fees (in DXR/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Такси (в DXR/Кб) по-малки от това се считат за нулеви при препращане (default: %s)</translation>
     </message>
     <message>
-        <source>Fees (in PIV/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Такси (в PIV/Кб) по-малки от това се считат за нулеви при създаване на предовда (default: %s)</translation>
+        <source>Fees (in DXR/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Такси (в DXR/Кб) по-малки от това се считат за нулеви при създаване на предовда (default: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -4830,12 +4830,12 @@ Please be patient...</source>
         <translation>Не намираме достатъчно Обфускационно деноминирани средства за този превод.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 PIV.</source>
-        <translation>Не можем да намерим достатъчно Обфускационно не-деноминирани средства за този превод, които да не са равни на 10000 PIV.</translation>
+        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 DXR.</source>
+        <translation>Не можем да намерим достатъчно Обфускационно не-деноминирани средства за този превод, които да не са равни на 10000 DXR.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 PIV.</source>
-        <translation>Не намираме достатъчно средства за този превод, които да не са равни на 10000 PIV.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 DXR.</source>
+        <translation>Не намираме достатъчно средства за този превод, които да не са равни на 10000 DXR.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -5110,8 +5110,8 @@ Please be patient...</source>
         <translation>Неуспешно четене на блок</translation>
     </message>
     <message>
-        <source>Fee (in PIV/kB) to add to transactions you send (default: %s)</source>
-        <translation>Такса (в PIV/kB), която да се добави към изходящи преводи (по подразбиране: %s)</translation>
+        <source>Fee (in DXR/kB) to add to transactions you send (default: %s)</source>
+        <translation>Такса (в DXR/kB), която да се добави към изходящи преводи (по подразбиране: %s)</translation>
     </message>
     <message>
         <source>Force safe mode (default: %u)</source>
@@ -5214,8 +5214,8 @@ Please be patient...</source>
         <translation>Процент автоматично емитирани Zerocoin (1-100, по подразбиране: %u)</translation>
     </message>
     <message>
-        <source>Reindex the PIV and zPIV money supply statistics</source>
-        <translation>Индексирай наново PIV и zPIV данните по наличности</translation>
+        <source>Reindex the DXR and zDXR money supply statistics</source>
+        <translation>Индексирай наново DXR и zDXR данните по наличности</translation>
     </message>
     <message>
         <source>Reindexing zerocoin database...</source>
@@ -5290,8 +5290,8 @@ Please be patient...</source>
         <translation>Предпочитани деноминации за автоматично изсечените Zerocoin (1/5/10/50/100/500/1000/5000), 0 за каквито и да е. (По подразбиране: %u)</translation>
     </message>
     <message>
-        <source>Specify custom backup path to add a copy of any automatic zPIV backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</source>
-        <translation>Посочете персонализиран път за архивиране, за да добавите копие на всяко автоматично архивиране zPIV. Ако е зададено като реж., Всеки архив генерира файл с времева маркировка. Ако е зададен като файл, ще пренапише към този файл всеки архив. Ако е зададено и резервно копие, ще се случат 4 архиви</translation>
+        <source>Specify custom backup path to add a copy of any automatic zDXR backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</source>
+        <translation>Посочете персонализиран път за архивиране, за да добавите копие на всяко автоматично архивиране zDXR. Ако е зададено като реж., Всеки архив генерира файл с времева маркировка. Ако е зададен като файл, ще пренапише към този файл всеки архив. Ако е зададено и резервно копие, ще се случат 4 архиви</translation>
     </message>
     <message>
         <source>Specify custom backup path to add a copy of any wallet backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup.</source>
@@ -5702,8 +5702,8 @@ Please be patient...</source>
         <translation>Синхронизиране на вилицо-лъжиците...</translation>
     </message>
     <message>
-        <source>Syncing zPIV wallet...</source>
-        <translation>Синхронизиране на zPIV портфейла ...</translation>
+        <source>Syncing zDXR wallet...</source>
+        <translation>Синхронизиране на zDXR портфейла ...</translation>
     </message>
     <message>
         <source>The coin spend has been used</source>
@@ -5810,8 +5810,8 @@ Please be patient...</source>
         <translation>Потребителско име за JSON-RPC свръзките</translation>
     </message>
     <message>
-        <source>Value is below the smallest available denomination (= 1) of zPIV</source>
-        <translation>Стойността е под най-малката налична деноминация (= 1) в zPIV</translation>
+        <source>Value is below the smallest available denomination (= 1) of zDXR</source>
+        <translation>Стойността е под най-малката налична деноминация (= 1) в zDXR</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>

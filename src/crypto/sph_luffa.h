@@ -1,4 +1,4 @@
-// Copyright (c) 2019-2020 The Dexergi Developers
+/* Copyright (c) 2019-2020 The Dexergi Developers */
 /* $Id: sph_luffa.h 154 2010-04-26 17:00:24Z tp $ */
 /**
  * Luffa interface. Luffa is a family of functions which differ by

@@ -1,11 +1,11 @@
-// Copyright (c) 2019-2020 The Dexergi Developers
+/* Copyright (c) 2019-2020 The Dexergi Developers */
 // Copyright (c) 2015-2019 The PIVX developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 //
 
-#ifndef DEXERGI_LIGHTZPIVTHREAD_H
-#define DEXERGI_LIGHTZPIVTHREAD_H
+#ifndef DEXERGI_LIGHTZDXRTHREAD_H
+#define DEXERGI_LIGHTZDXRTHREAD_H
 
 #include <atomic>
 #include "genwit.h"
@@ -52,7 +52,7 @@ public:
 
     void StartLightZpivThread(boost::thread_group& threadGroup) {
         LogPrintf("%s thread start\n", "dexergi-light-thread");
-        threadIns = boost::thread(boost::bind(&CLightWorker::ThreadLightZPIVSimplified, this));
+        threadIns = boost::thread(boost::bind(&CLightWorker::ThreadLightZDXRSimplified, this));
     }
 
     void StopLightZpivThread() {
@@ -62,10 +62,10 @@ public:
 
 private:
 
-    void ThreadLightZPIVSimplified();
+    void ThreadLightZDXRSimplified();
 
     void rejectWork(CGenWit& wit, int blockHeight, uint32_t errorNumber);
 
 };
 
-#endif //DEXERGI_LIGHTZPIVTHREAD_H
+#endif //DEXERGI_LIGHTZDXRTHREAD_H
