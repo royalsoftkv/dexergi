@@ -88,8 +88,8 @@ BitcoinGUI::BitcoinGUI(const NetworkStyle* networkStyle, QWidget* parent) : QMai
                                                                             multisigSignAction(0),
                                                                             aboutAction(0),
                                                                             receiveCoinsAction(0),
-                                                                            governanceAction(0),
-                                                                            privacyAction(0),
+                                                                            /*  governanceAction(0),
+                                                                            privacyAction(0),*/
                                                                             optionsAction(0),
                                                                             toggleHideAction(0),
                                                                             encryptWalletAction(0),
@@ -254,7 +254,7 @@ BitcoinGUI::BitcoinGUI(const NetworkStyle* networkStyle, QWidget* parent) : QMai
     // prevents an open debug window from becoming stuck/unusable on client shutdown
     connect(quitAction, SIGNAL(triggered()), rpcConsole, SLOT(hide()));
 
-    connect(openBlockExplorerAction, SIGNAL(triggered()), explorerWindow, SLOT(show()));
+    //connect(openBlockExplorerAction, SIGNAL(triggered()), explorerWindow, SLOT(show()));
 
     // prevents an open debug window from becoming stuck/unusable on client shutdown
     connect(quitAction, SIGNAL(triggered()), explorerWindow, SLOT(hide()));
@@ -341,16 +341,16 @@ void BitcoinGUI::createActions(const NetworkStyle* networkStyle)
 #endif
     tabGroup->addAction(historyAction);
 
-    privacyAction = new QAction(QIcon(":/icons/privacy"), tr("&Privacy"), this);
-    privacyAction->setStatusTip(tr("Privacy Actions for zDXR"));
-    privacyAction->setToolTip(privacyAction->statusTip());
-    privacyAction->setCheckable(true);
-#ifdef Q_OS_MAC
-    privacyAction->setShortcut(QKeySequence(Qt::CTRL + Qt::Key_5));
-#else
-    privacyAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_5));
-#endif
-    tabGroup->addAction(privacyAction);
+//     privacyAction = new QAction(QIcon(":/icons/privacy"), tr("&Privacy"), this);
+//     privacyAction->setStatusTip(tr("Privacy Actions for zDXR"));
+//     privacyAction->setToolTip(privacyAction->statusTip());
+//     privacyAction->setCheckable(true);
+// #ifdef Q_OS_MAC
+//     privacyAction->setShortcut(QKeySequence(Qt::CTRL + Qt::Key_5));
+// #else
+//     privacyAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_5));
+// #endif
+//     tabGroup->addAction(privacyAction);
 
 #ifdef ENABLE_WALLET
 
@@ -370,16 +370,16 @@ void BitcoinGUI::createActions(const NetworkStyle* networkStyle)
         connect(masternodeAction, SIGNAL(triggered()), this, SLOT(gotoMasternodePage()));
     }
 
-    governanceAction = new QAction(QIcon(":/icons/governance"), tr("&Governance"), this);
-    governanceAction->setStatusTip(tr("Show Proposals"));
-    governanceAction->setToolTip(governanceAction->statusTip());
-    governanceAction->setCheckable(true);
-#ifdef Q_OS_MAC
-    governanceAction->setShortcut(QKeySequence(Qt::CTRL + Qt::Key_7));
-#else
-    governanceAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_7));
-#endif
-    tabGroup->addAction(governanceAction);
+//     governanceAction = new QAction(QIcon(":/icons/governance"), tr("&Governance"), this);
+//     governanceAction->setStatusTip(tr("Show Proposals"));
+//     governanceAction->setToolTip(governanceAction->statusTip());
+//     governanceAction->setCheckable(true);
+// #ifdef Q_OS_MAC
+//     governanceAction->setShortcut(QKeySequence(Qt::CTRL + Qt::Key_7));
+// #else
+//     governanceAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_7));
+// #endif
+//     tabGroup->addAction(governanceAction);
 
     // These showNormalIfMinimized are needed because Send Coins and Receive Coins
     // can be triggered from the tray menu, and need to show the GUI to be useful.
@@ -389,11 +389,11 @@ void BitcoinGUI::createActions(const NetworkStyle* networkStyle)
     connect(sendCoinsAction, SIGNAL(triggered()), this, SLOT(gotoSendCoinsPage()));
     connect(receiveCoinsAction, SIGNAL(triggered()), this, SLOT(showNormalIfMinimized()));
     connect(receiveCoinsAction, SIGNAL(triggered()), this, SLOT(gotoReceiveCoinsPage()));
-    connect(privacyAction, SIGNAL(triggered()), this, SLOT(showNormalIfMinimized()));
-    connect(privacyAction, SIGNAL(triggered()), this, SLOT(gotoPrivacyPage()));
+    //connect(privacyAction, SIGNAL(triggered()), this, SLOT(showNormalIfMinimized()));
+    //connect(privacyAction, SIGNAL(triggered()), this, SLOT(gotoPrivacyPage()));
     connect(historyAction, SIGNAL(triggered()), this, SLOT(showNormalIfMinimized()));
     connect(historyAction, SIGNAL(triggered()), this, SLOT(gotoHistoryPage()));
-    connect(governanceAction, SIGNAL(triggered()), this, SLOT(gotoGovernancePage()));
+    //connect(governanceAction, SIGNAL(triggered()), this, SLOT(gotoGovernancePage()));
 #endif // ENABLE_WALLET
 
     quitAction = new QAction(QIcon(":/icons/quit"), tr("E&xit"), this);
@@ -463,8 +463,8 @@ void BitcoinGUI::createActions(const NetworkStyle* networkStyle)
 
     openAction = new QAction(QApplication::style()->standardIcon(QStyle::SP_FileIcon), tr("Open &URI..."), this);
     openAction->setStatusTip(tr("Open a DEXERGI: URI or payment request"));
-    openBlockExplorerAction = new QAction(QIcon(":/icons/explorer"), tr("&Blockchain explorer"), this);
-    openBlockExplorerAction->setStatusTip(tr("Block explorer window"));
+    // openBlockExplorerAction = new QAction(QIcon(":/icons/explorer"), tr("&Blockchain explorer"), this);
+    // openBlockExplorerAction->setStatusTip(tr("Block explorer window"));
 
     showHelpMessageAction = new QAction(QApplication::style()->standardIcon(QStyle::SP_MessageBoxInformation), tr("&Command-line options"), this);
     showHelpMessageAction->setMenuRole(QAction::NoRole);
@@ -548,7 +548,7 @@ void BitcoinGUI::createMenuBar()
         tools->addAction(openConfEditorAction);
         tools->addAction(openMNConfEditorAction);
         tools->addAction(showBackupsAction);
-        tools->addAction(openBlockExplorerAction);
+        //tools->addAction(openBlockExplorerAction);
     }
 
     QMenu* help = appMenuBar->addMenu(tr("&Help"));
@@ -572,14 +572,14 @@ void BitcoinGUI::createToolBars()
         toolbar->addAction(overviewAction);
         toolbar->addAction(sendCoinsAction);
         toolbar->addAction(receiveCoinsAction);
-        toolbar->addAction(privacyAction);
+        //toolbar->addAction(privacyAction);
         toolbar->addAction(historyAction);
-        toolbar->addAction(privacyAction);
+        //toolbar->addAction(privacyAction);
         QSettings settings;
         if (settings.value("fShowMasternodesTab").toBool()) {
             toolbar->addAction(masternodeAction);
         }
-        toolbar->addAction(governanceAction);
+        //toolbar->addAction(governanceAction);
         toolbar->setMovable(false); // remove unused icon in upper left corner
         toolbar->setOrientation(Qt::Vertical);
         toolbar->setIconSize(QSize(40,40));
@@ -678,7 +678,7 @@ void BitcoinGUI::setWalletActionsEnabled(bool enabled)
     overviewAction->setEnabled(enabled);
     sendCoinsAction->setEnabled(enabled);
     receiveCoinsAction->setEnabled(enabled);
-    privacyAction->setEnabled(enabled);
+    //privacyAction->setEnabled(enabled);
     historyAction->setEnabled(enabled);
     QSettings settings;
     if (settings.value("fShowMasternodesTab").toBool()) {
@@ -735,7 +735,7 @@ void BitcoinGUI::createTrayIconMenu()
     trayIconMenu->addSeparator();
     trayIconMenu->addAction(sendCoinsAction);
     trayIconMenu->addAction(receiveCoinsAction);
-    trayIconMenu->addAction(privacyAction);
+    //trayIconMenu->addAction(privacyAction);
     trayIconMenu->addSeparator();
     trayIconMenu->addAction(signMessageAction);
     trayIconMenu->addAction(verifyMessageAction);
@@ -752,7 +752,7 @@ void BitcoinGUI::createTrayIconMenu()
     trayIconMenu->addAction(openConfEditorAction);
     trayIconMenu->addAction(openMNConfEditorAction);
     trayIconMenu->addAction(showBackupsAction);
-    trayIconMenu->addAction(openBlockExplorerAction);
+    //trayIconMenu->addAction(openBlockExplorerAction);
 #ifndef Q_OS_MAC // This is built-in on Mac
     trayIconMenu->addSeparator();
     trayIconMenu->addAction(quitAction);
@@ -828,7 +828,7 @@ void BitcoinGUI::gotoMasternodePage()
 
 void BitcoinGUI::gotoGovernancePage()
 {
-    governanceAction->setChecked(true);
+    //governanceAction->setChecked(true);
     if (walletFrame) walletFrame->gotoGovernancePage();
 }
 
@@ -840,7 +840,7 @@ void BitcoinGUI::gotoReceiveCoinsPage()
 
 void BitcoinGUI::gotoPrivacyPage()
 {
-    privacyAction->setChecked(true);
+    //privacyAction->setChecked(true);
     if (walletFrame) walletFrame->gotoPrivacyPage();
 }
 

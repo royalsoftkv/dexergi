@@ -110,8 +110,8 @@ private:
     QAction* multisigSignAction;
     QAction* aboutAction;
     QAction* receiveCoinsAction;
-    QAction* governanceAction;
-    QAction* privacyAction;
+    //QAction* governanceAction;
+    //QAction* privacyAction;
     QAction* optionsAction;
     QAction* toggleHideAction;
     QAction* encryptWalletAction;
@@ -129,7 +129,7 @@ private:
     QAction* openMNConfEditorAction;
     QAction* showBackupsAction;
     QAction* openAction;
-    QAction* openBlockExplorerAction;
+    //QAction* openBlockExplorerAction;
     QAction* showHelpMessageAction;
     QAction* multiSendAction;
 
