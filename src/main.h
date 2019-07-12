@@ -371,7 +371,7 @@ bool ValidOutPoint(const COutPoint out, int nHeight);
 void AddWrappedSerialsInflation();
 void RecalculateZDXRSpent();
 void RecalculateZDXRMinted();
-bool RecalculatePIVSupply(int nHeightStart);
+bool RecalculateDXRSupply(int nHeightStart);
 bool ReindexAccumulators(list<uint256>& listMissingCheckpoints, string& strError);
 
 // Fake Serial attack Range

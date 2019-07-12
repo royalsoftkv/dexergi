@@ -147,7 +147,7 @@ OverviewPage::~OverviewPage()
     delete ui;
 }
 
-void OverviewPage::getPercentage(CAmount nUnlockedBalance, CAmount nZerocoinBalance, QString& sPIVPercentage, QString& szDXRPercentage)
+void OverviewPage::getPercentage(CAmount nUnlockedBalance, CAmount nZerocoinBalance, QString& sDXRPercentage, QString& szDXRPercentage)
 {
     int nPrecision = 2;
     double dzPercentage = 0.0;
@@ -167,7 +167,7 @@ void OverviewPage::getPercentage(CAmount nUnlockedBalance, CAmount nZerocoinBala
     double dPercentage = 100.0 - dzPercentage;
 
     szDXRPercentage = "(" + QLocale(QLocale::system()).toString(dzPercentage, 'f', nPrecision) + " %)";
-    sPIVPercentage = "(" + QLocale(QLocale::system()).toString(dPercentage, 'f', nPrecision) + " %)";
+    sDXRPercentage = "(" + QLocale(QLocale::system()).toString(dPercentage, 'f', nPrecision) + " %)";
 
 }
 
@@ -237,7 +237,7 @@ void OverviewPage::setBalance(const CAmount& balance, const CAmount& unconfirmed
     ui->labelTotalz->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, sumTotalBalance, false, BitcoinUnits::separatorAlways));
 
     // Percentage labels
-    ui->labelPIVPercent->setText(sPercentage);
+    ui->labelDXRPercent->setText(sPercentage);
     ui->labelzDXRPercent->setText(szPercentage);
 
     // Adjust bubble-help according to AutoMint settings
@@ -263,32 +263,32 @@ void OverviewPage::setBalance(const CAmount& balance, const CAmount& unconfirmed
     bool showWatchOnly = nTotalWatchBalance != 0;
 
     // DXR Available
-    bool showPIVAvailable = settingShowAllBalances || pivAvailableBalance != nTotalBalance;
-    bool showWatchOnlyPIVAvailable = showPIVAvailable || nAvailableWatchBalance != nTotalWatchBalance;
-    ui->labelBalanceText->setVisible(showPIVAvailable || showWatchOnlyPIVAvailable);
-    ui->labelBalance->setVisible(showPIVAvailable || showWatchOnlyPIVAvailable);
-    ui->labelWatchAvailable->setVisible(showWatchOnlyPIVAvailable && showWatchOnly);
+    bool showDXRAvailable = settingShowAllBalances || pivAvailableBalance != nTotalBalance;
+    bool showWatchOnlyDXRAvailable = showDXRAvailable || nAvailableWatchBalance != nTotalWatchBalance;
+    ui->labelBalanceText->setVisible(showDXRAvailable || showWatchOnlyDXRAvailable);
+    ui->labelBalance->setVisible(showDXRAvailable || showWatchOnlyDXRAvailable);
+    ui->labelWatchAvailable->setVisible(showWatchOnlyDXRAvailable && showWatchOnly);
 
     // DXR Pending
-    bool showPIVPending = settingShowAllBalances || unconfirmedBalance != 0;
-    bool showWatchOnlyPIVPending = showPIVPending || watchUnconfBalance != 0;
-    ui->labelPendingText->setVisible(showPIVPending || showWatchOnlyPIVPending);
-    ui->labelUnconfirmed->setVisible(showPIVPending || showWatchOnlyPIVPending);
-    ui->labelWatchPending->setVisible(showWatchOnlyPIVPending && showWatchOnly);
+    bool showDXRPending = settingShowAllBalances || unconfirmedBalance != 0;
+    bool showWatchOnlyDXRPending = showDXRPending || watchUnconfBalance != 0;
+    ui->labelPendingText->setVisible(showDXRPending || showWatchOnlyDXRPending);
+    ui->labelUnconfirmed->setVisible(showDXRPending || showWatchOnlyDXRPending);
+    ui->labelWatchPending->setVisible(showWatchOnlyDXRPending && showWatchOnly);
 
     // DXR Immature
-    bool showPIVImmature = settingShowAllBalances || immatureBalance != 0;
-    bool showWatchOnlyImmature = showPIVImmature || watchImmatureBalance != 0;
-    ui->labelImmatureText->setVisible(showPIVImmature || showWatchOnlyImmature);
-    ui->labelImmature->setVisible(showPIVImmature || showWatchOnlyImmature); // for symmetry reasons also show immature label when the watch-only one is shown
+    bool showDXRImmature = settingShowAllBalances || immatureBalance != 0;
+    bool showWatchOnlyImmature = showDXRImmature || watchImmatureBalance != 0;
+    ui->labelImmatureText->setVisible(showDXRImmature || showWatchOnlyImmature);
+    ui->labelImmature->setVisible(showDXRImmature || showWatchOnlyImmature); // for symmetry reasons also show immature label when the watch-only one is shown
     ui->labelWatchImmature->setVisible(showWatchOnlyImmature && showWatchOnly); // show watch-only immature balance
 
     // DXR Locked
-    bool showPIVLocked = settingShowAllBalances || nLockedBalance != 0;
-    bool showWatchOnlyPIVLocked = showPIVLocked || nWatchOnlyLockedBalance != 0;
-    ui->labelLockedBalanceText->setVisible(showPIVLocked || showWatchOnlyPIVLocked);
-    ui->labelLockedBalance->setVisible(showPIVLocked || showWatchOnlyPIVLocked);
-    ui->labelWatchLocked->setVisible(showWatchOnlyPIVLocked && showWatchOnly);
+    bool showDXRLocked = settingShowAllBalances || nLockedBalance != 0;
+    bool showWatchOnlyDXRLocked = showDXRLocked || nWatchOnlyLockedBalance != 0;
+    ui->labelLockedBalanceText->setVisible(showDXRLocked || showWatchOnlyDXRLocked);
+    ui->labelLockedBalance->setVisible(showDXRLocked || showWatchOnlyDXRLocked);
+    ui->labelWatchLocked->setVisible(showWatchOnlyDXRLocked && showWatchOnly);
 
     // zDXR
     bool showzDXRAvailable = settingShowAllBalances || zerocoinBalance != matureZerocoinBalance;
@@ -303,7 +303,7 @@ void OverviewPage::setBalance(const CAmount& balance, const CAmount& unconfirmed
 
     // Percent split
     bool showPercentages = ! (zerocoinBalance == 0 && nTotalBalance == 0);
-    ui->labelPIVPercent->setVisible(showPercentages);
+    ui->labelDXRPercent->setVisible(showPercentages);
     ui->labelzDXRPercent->setVisible(showPercentages);
 
     static int cachedTxLocks = 0;

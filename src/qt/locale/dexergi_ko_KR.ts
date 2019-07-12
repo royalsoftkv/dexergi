@@ -176,8 +176,8 @@
         <translation>지갑 암호화 확인</translation>
     </message>
     <message>
-        <source>DEXERGI will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIVs from being stolen by malware infecting your computer.</source>
-        <translation>DEXERGI는 이제 암호화 프로세스를 마치기 위해 닫힐것입니다. 지갑을 암호화하더라도 맬웨어로 인한 PIVs 의 도난당하는 것을 완벽하게 보호 할 수는 없습니다.</translation>
+        <source>DEXERGI will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your DXRs from being stolen by malware infecting your computer.</source>
+        <translation>DEXERGI는 이제 암호화 프로세스를 마치기 위해 닫힐것입니다. 지갑을 암호화하더라도 맬웨어로 인한 DXRs 의 도난당하는 것을 완벽하게 보호 할 수는 없습니다.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -185,7 +185,7 @@
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DXR&lt;/b&gt;!</source>
-        <translation>경고: 지갑 암호화 후 암호를 분실하게 되면 &lt;b&gt;모든 PIV를 잃게 됩니다&lt;/b&gt;!</translation>
+        <translation>경고: 지갑 암호화 후 암호를 분실하게 되면 &lt;b&gt;모든 DXR를 잃게 됩니다&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -1633,7 +1633,7 @@ Please be patient after clicking import.</source>
     </message>
     <message>
         <source>Add destinations to send DXR to</source>
-        <translation>PIV를 보낼 목적지 추가</translation>
+        <translation>DXR를 보낼 목적지 추가</translation>
     </message>
     <message>
         <source>Add &amp;Destination</source>
@@ -1833,7 +1833,7 @@ https://www.transifex.com/dexergi-project/dexergi-project-translations</translat
     </message>
     <message>
         <source>Enable automatic minting of DXR units to zDXR</source>
-        <translation>보상받은 PIV를 zDXR로 자동변환 활성화</translation>
+        <translation>보상받은 DXR를 zDXR로 자동변환 활성화</translation>
     </message>
     <message>
         <source>Enable zDXR Automint</source>
@@ -1841,7 +1841,7 @@ https://www.transifex.com/dexergi-project/dexergi-project-translations</translat
     </message>
     <message>
         <source>Percentage of incoming DXR which get automatically converted to zDXR via Zerocoin Protocol (min: 10%)</source>
-        <translation>PIV수신시 자동변환 zDXR 비율 (최소값:10%)</translation>
+        <translation>DXR수신시 자동변환 zDXR 비율 (최소값:10%)</translation>
     </message>
     <message>
         <source>Percentage of autominted zDXR</source>
@@ -1849,7 +1849,7 @@ https://www.transifex.com/dexergi-project/dexergi-project-translations</translat
     </message>
     <message>
         <source>Wait with automatic conversion to Zerocoin until enough DXR for this denomination is available</source>
-        <translation>이 디노미네이션의 PIV가 충분해질 때까지 Zerocoin으로 자동전환은 보류됩니다.</translation>
+        <translation>이 디노미네이션의 DXR가 충분해질 때까지 Zerocoin으로 자동전환은 보류됩니다.</translation>
     </message>
     <message>
         <source>Preferred Automint zDXR Denomination</source>
@@ -2342,7 +2342,7 @@ zDXR는 성명서가 20 개 이상 있고 명칭이 동일하지 않은 2 개 �
     </message>
     <message>
         <source>The DEXERGI address to send the payment to. Creates local payment to yourself when empty.</source>
-        <translation>PIV를 전송할 DEXERGI 주소입니다. 비어있을 때 자신에게 지불할 주소를 생성합니다.</translation>
+        <translation>DXR를 전송할 DEXERGI 주소입니다. 비어있을 때 자신에게 지불할 주소를 생성합니다.</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -4308,7 +4308,7 @@ Please be patient...</source>
     </message>
     <message>
         <source>Converted DXR to zDXR</source>
-        <translation>PIV를 zDXR로 변환</translation>
+        <translation>DXR를 zDXR로 변환</translation>
     </message>
     <message>
         <source>Spent zDXR</source>
@@ -4316,7 +4316,7 @@ Please be patient...</source>
     </message>
     <message>
         <source>Received DXR from zDXR</source>
-        <translation>zDXR를 PIV로 받음</translation>
+        <translation>zDXR를 DXR로 받음</translation>
     </message>
     <message>
         <source>Minted Change as zDXR from zDXR Spend</source>
@@ -4324,7 +4324,7 @@ Please be patient...</source>
     </message>
     <message>
         <source>Converted zDXR to DXR</source>
-        <translation>zDXR를 PIV로 변환</translation>
+        <translation>zDXR를 DXR로 변환</translation>
     </message>
     <message>
         <source>Anonymous (zDXR Transaction)</source>
@@ -4543,7 +4543,7 @@ Please be patient...</source>
     </message>
     <message>
         <source>Received DXR from zDXR</source>
-        <translation>zDXR를 PIV로 받음</translation>
+        <translation>zDXR를 DXR로 받음</translation>
     </message>
     <message>
         <source>Zerocoin Spend, Change in zDXR</source>
@@ -4584,7 +4584,7 @@ Please be patient...</source>
     </message>
     <message>
         <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 DXR.</source>
-        <translation>SwiftTX는 아직 높은 값을 전송하는 것을 지원하지 않습니다. 트랜잭션은 현재 %1 PIV로 제한됩니다.</translation>
+        <translation>SwiftTX는 아직 높은 값을 전송하는 것을 지원하지 않습니다. 트랜잭션은 현재 %1 DXR로 제한됩니다.</translation>
     </message>
 </context>
 <context>
@@ -4845,11 +4845,11 @@ Please be patient...</source>
     </message>
     <message>
         <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 DXR.</source>
-        <translation>이 트랜잭션를 위해 난독화 표기가 안된 충분한 금액을 찾을 수 없습니다. 10000 PIV과 일치하지 않음.</translation>
+        <translation>이 트랜잭션를 위해 난독화 표기가 안된 충분한 금액을 찾을 수 없습니다. 10000 DXR과 일치하지 않음.</translation>
     </message>
     <message>
         <source>Unable to locate enough funds for this transaction that are not equal 10000 DXR.</source>
-        <translation>트랜잭션에 대한 충분한 금액을 찾을 수 없습니다. 10000 PIV와 같지 않음</translation>
+        <translation>트랜잭션에 대한 충분한 금액을 찾을 수 없습니다. 10000 DXR와 같지 않음</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>

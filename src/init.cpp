@@ -612,7 +612,7 @@ std::string LicenseInfo()
            "\n" +
            FormatParagraph(strprintf(_("Copyright (C) 2014-%i The Dash Core Developers"), COPYRIGHT_YEAR)) + "\n" +
            "\n" +
-           FormatParagraph(strprintf(_("Copyright (C) 2015-%i The PIVX Core Developers"), COPYRIGHT_YEAR)) + "\n" +
+           FormatParagraph(strprintf(_("Copyright (C) 2015-%i The DXRX Core Developers"), COPYRIGHT_YEAR)) + "\n" +
            "\n" +
            FormatParagraph(strprintf(_("Copyright (C) 2019-%i The Dexergi Core Developers"), COPYRIGHT_YEAR)) + "\n" +
            "\n" +
@@ -1540,7 +1540,7 @@ bool AppInit2()
                         RecalculateZDXRSpent();
                     }
                     // Recalculate from the zerocoin activation or from scratch.
-                    RecalculatePIVSupply(reindexZerocoin ? Params().Zerocoin_StartHeight() : 1);
+                    RecalculateDXRSupply(reindexZerocoin ? Params().Zerocoin_StartHeight() : 1);
                 }
 
                 // Check Recalculation result
@@ -1947,8 +1947,8 @@ bool AppInit2()
        is convertable to another.
 
        For example:
-       1PIV+1000 == (.1PIV+100)*10
-       10PIV+10000 == (1PIV+1000)*10
+       1DXR+1000 == (.1DXR+100)*10
+       10DXR+10000 == (1DXR+1000)*10
     */
     obfuScationDenominations.push_back((10000 * COIN) + 10000000);
     obfuScationDenominations.push_back((1000 * COIN) + 1000000);

@@ -61,7 +61,7 @@ QString BitcoinUnits::name(int unit)
         case mDXR:
             return QString("mDXR");
         case uDXR:
-            return QString::fromUtf8("μPIV");
+            return QString::fromUtf8("μDXR");
         default:
             return QString("???");
         }
@@ -95,11 +95,11 @@ QString BitcoinUnits::description(int unit)
     } else {
         switch (unit) {
         case DXR:
-            return QString("TestPIVs");
+            return QString("TestDXRs");
         case mDXR:
-            return QString("Milli-TestPIV (1 / 1" THIN_SP_UTF8 "000)");
+            return QString("Milli-TestDXR (1 / 1" THIN_SP_UTF8 "000)");
         case uDXR:
-            return QString("Micro-TestPIV (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            return QString("Micro-TestDXR (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
         default:
             return QString("???");
         }

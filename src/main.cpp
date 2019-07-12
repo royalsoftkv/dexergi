@@ -2927,7 +2927,7 @@ void RecalculateZDXRSpent()
     uiInterface.ShowProgress("", 100);
 }
 
-bool RecalculatePIVSupply(int nHeightStart)
+bool RecalculateDXRSupply(int nHeightStart)
 {
     if (nHeightStart > chainActive.Height())
         return false;
@@ -3348,7 +3348,7 @@ bool ConnectBlock(const CBlock& block, CValidationState& state, CBlockIndex* pin
     // if (pindex->nHeight == Params().Zerocoin_Block_RecalculateAccumulators() + 1) {
     //     RecalculateZDXRMinted();
     //     RecalculateZDXRSpent();
-    //     RecalculatePIVSupply(Params().Zerocoin_StartHeight());
+    //     RecalculateDXRSupply(Params().Zerocoin_StartHeight());
     // }
 
     //Track zDXR money supply in the block index
@@ -4763,7 +4763,7 @@ bool AcceptBlock(CBlock& block, CValidationState& state, CBlockIndex** ppindex, 
                 pivInputs.push_back(stakeIn);
             }
         }
-        const bool hasPIVInputs = !pivInputs.empty();
+        const bool hasDXRInputs = !pivInputs.empty();
         const bool hasZDXRInputs = !zDXRInputs.empty();
 
         // ZC started after PoS.
@@ -4802,7 +4802,7 @@ bool AcceptBlock(CBlock& block, CValidationState& state, CBlockIndex** ppindex, 
                     }
                 }
                 if(tx.IsCoinStake()) continue;
-                if(hasPIVInputs)
+                if(hasDXRInputs)
                     // Check if coinstake input is double spent inside the same block
                     for (const CTxIn& pivIn : pivInputs){
                         if(pivIn.prevout == in.prevout){
@@ -4846,7 +4846,7 @@ bool AcceptBlock(CBlock& block, CValidationState& state, CBlockIndex** ppindex, 
                             // if it's already spent
 
                             // First regular staking check
-                            if (hasPIVInputs) {
+                            if (hasDXRInputs) {
                                 if (stakeIn.prevout == in.prevout) {
                                     return state.DoS(100, error("%s: input already spent on a previous block",
                                                                 __func__));

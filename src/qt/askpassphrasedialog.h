@@ -39,7 +39,7 @@ public:
         Encrypt,        /** Encrypt unencrypted wallet */
         ToggleLock,     /** Toggle wallet lock state */
         ChangePass,     /** Change passphrase */
-        Send_PIV,       /** Send DXR */
+        Send_DXR,       /** Send DXR */
         Send_zDXR,      /** Send zDXR */
         Mint_zDXR,      /** Mint zDXR */
         BIP_38,         /** BIP38 menu */
