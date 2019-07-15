@@ -135,7 +135,7 @@ public:
         pchMessageStart[1] = 0x8d;
         pchMessageStart[2] = 0xa1;
         pchMessageStart[3] = 0xeb;
-        vAlertPubKey = ParseHex("0000098d3ba6ba6e7423fa5cbd6a89e0a9a5348f88d332b44a5cb1a8b7ed2c1eaa335fc8dc4f012cb8241cc0bdafd6ca70c5f5448916e4e6f511bcd746ed57dc50");
+        vAlertPubKey = ParseHex("04f7cb2edc06b95f190fe219999f3dc1a26299fc44f0ba02ff071d13b0fa11af52d8fe10bd905b9cf37a577675268cecdbce552acc4bd70e9d4ac6535e88d15bc4");
         nDefaultPort = 5536;
         bnProofOfWorkLimit = ~uint256(0) >> 20; // DEXERGI starting difficulty is 1 / 2^12
         nSubsidyHalvingInterval = 525600;
@@ -156,23 +156,15 @@ public:
         nModifierUpdateBlock = INT_MAX;    // this and following five are all Zerocoin and thus irrelevant
         nZerocoinStartHeight = INT_MAX;
         nZerocoinStartTime = INT_MAX; // October 17, 2017 4:30:00 AM
-        nBlockEnforceSerialRange = INT_MAX; //Enforce serial range starting this block
-        nBlockRecalculateAccumulators = INT_MAX; //Trigger a recalculation of accumulators
-        nBlockFirstFraudulent = INT_MAX; //First block that bad serials emerged
 
-        nBlockLastGoodCheckpoint = INT_MAX; //Last valid accumulator checkpoint
-        nBlockEnforceInvalidUTXO = INT_MAX; //Start enforcing the invalid UTXO's
-        nInvalidAmountFiltered = 0*COIN; //Amount of invalid coins filtered through exchanges, that should be considered valid
         nBlockZerocoinV2 = INT_MAX; //!> The block that zerocoin v2 becomes active - roughly Tuesday, May 8, 2018 4:00:00 AM GMT
         nBlockDoubleAccumulated = INT_MAX;
-        nEnforceNewSporkKey = INT_MAX; //!> Sporks signed after (GMT): Tuesday, May 1, 2018 7:00:00 AM GMT must use the new spork key
-        nRejectOldSporkKey = INT_MAX; //!> Fully reject old spork key after (GMT): Friday, June 1, 2018 12:00:00 AM
 
         // Public coin spend enforcement
         nPublicZCSpends = INT_MAX;
 
         // Fake Serial Attack
-        nFakeSerialBlockheightEnd = INT_MAX;
+        nFakeSerialBlockheightEnd = 0;
         nSupplyBeforeFakeSerial = 0 * COIN;   // zerocoin supply at block nFakeSerialBlockheightEnd
 
         /**
@@ -231,9 +223,8 @@ public:
 
         nPoolMaxTransactions = 3;
         nBudgetCycleBlocks = 43200; //!< Amount of blocks in a months period of time (using 1 minutes per) = (60*24*30)
-        strSporkKey = "0499A7AF4806FC6DE640D23BC5936C29B77ADF2174B4F45492727F897AE63CF8D27B2F05040606E0D14B547916379FA10716E344E745F880EDC037307186AA25B7";
-        strSporkKeyOld = "04B433E6598390C992F4F022F20D3B4CBBE691652EE7C48243B81701CBDB7CC7D7BF0EE09E154E6FCBF2043D65AF4E9E97B89B5DBAF830D83B9B7F469A6C45A717";
-        strObfuscationPoolDummyAddress = "D87q2gC9j6nNrnzCsg4aY6bHMLsT9nUhEw";
+        strSporkKey = "0424ec1b57c3acd9544e40d10aaa10791369b366c9bfbeaaf67b3b4d4a4be0c73fef80c80a1b4cc76a5410804803eb6b6cfed9ecb262e3c5cb88aeff14a566bd04";
+        strObfuscationPoolDummyAddress = "EgSoe3kkZXQJkTaxZNRB75auLMsM2XeW3D";
         nStartMasternodePayments = 1403728576; //Wed, 25 Jun 2014 20:36:16 GMT
 
         /** Zerocoin */
@@ -295,21 +286,13 @@ public:
 
         nZerocoinStartHeight = INT_MAX;
         nZerocoinStartTime = INT_MAX;
-        nBlockEnforceSerialRange = INT_MAX; //Enforce serial range starting this block
-        nBlockRecalculateAccumulators = INT_MAX; //Trigger a recalculation of accumulators
-        nBlockFirstFraudulent = INT_MAX; //First block that bad serials emerged
-        nBlockLastGoodCheckpoint = INT_MAX; //Last valid accumulator checkpoint
-        nBlockEnforceInvalidUTXO = INT_MAX; //Start enforcing the invalid UTXO's
-        nInvalidAmountFiltered = 0; //Amount of invalid coins filtered through exchanges, that should be considered valid
         nBlockZerocoinV2 = INT_MAX; //!> The block that zerocoin v2 becomes active
-        nEnforceNewSporkKey = INT_MAX; //!> Sporks signed after Wednesday, March 21, 2018 4:00:00 AM GMT must use the new spork key
-        nRejectOldSporkKey = INT_MAX; //!> Reject old spork key after Saturday, March 31, 2018 12:00:00 AM GMT
 
         // Public coin spend enforcement
         nPublicZCSpends = INT_MAX;
 
         // Fake Serial Attack
-        nFakeSerialBlockheightEnd = INT_MAX;
+        nFakeSerialBlockheightEnd = 0;
         nSupplyBeforeFakeSerial = 0;
 
         //! Modify the testnet genesis block so the timestamp is valid for a later start.
@@ -344,7 +327,6 @@ public:
         nPoolMaxTransactions = 2;
         nBudgetCycleBlocks = 144; //!< Ten cycles per day on testnet
         strSporkKey = "04A8B319388C0F8588D238B9941DC26B26D3F9465266B368A051C5C100F79306A557780101FE2192FE170D7E6DEFDCBEE4C8D533396389C0DAFFDBC842B002243C";
-        strSporkKeyOld = "04348C2F50F90267E64FACC65BFDC9D0EB147D090872FB97ABAE92E9A36E6CA60983E28E741F8E7277B11A7479B626AC115BA31463AC48178A5075C5A9319D4A38";
         strObfuscationPoolDummyAddress = "y57cqfGRkekRyDRNeJiLtYVEbvhXrNbmox";
         nStartMasternodePayments = 1420837558; //Fri, 09 Jan 2015 21:05:58 GMT
         nBudget_Fee_Confirmations = 3; // Number of confirmations for the finalization fee. We have to make this very short
@@ -392,16 +374,12 @@ public:
         nZerocoinStartHeight = INT_MAX;
         nBlockZerocoinV2 = INT_MAX;
         nZerocoinStartTime = INT_MAX;
-        nBlockEnforceSerialRange = INT_MAX; //Enforce serial range starting this block
-        nBlockRecalculateAccumulators = INT_MAX; //Trigger a recalculation of accumulators
-        nBlockFirstFraudulent = INT_MAX; //First block that bad serials emerged
-        nBlockLastGoodCheckpoint = INT_MAX; //Last valid accumulator checkpoint
 
         // Public coin spend enforcement
         nPublicZCSpends = INT_MAX;
 
         // Fake Serial Attack
-        nFakeSerialBlockheightEnd = INT_MAX;
+        nFakeSerialBlockheightEnd = 0;
 
         //! Modify the regtest genesis block so the timestamp is valid for a later start.
         genesis.nTime = 1561020233;
