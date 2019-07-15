@@ -197,9 +197,8 @@ public:
         assert(genesis.hashMerkleRoot == uint256("0x178daba4034f1a649bc912fd7f2dc46d2350bf1f51eb5c50dd8adf2386704e9e"));
 
         vSeeds.clear();
-        //vSeeds.push_back(CDNSSeedData("fuzzbawls.pw", "DEXERGI.seed.fuzzbawls.pw"));     // Primary DNS Seeder from Fuzzbawls
-        //vSeeds.push_back(CDNSSeedData("fuzzbawls.pw", "DEXERGI.seed2.fuzzbawls.pw"));    // Secondary DNS Seeder from Fuzzbawls
-        //vSeeds.push_back(CDNSSeedData("warrows.dev", "dnsseed.DEXERGI.warrows.dev"));    // Primery DNS Seeder from warrows
+        vSeeds.push_back(CDNSSeedData("dexergi.io", "seed1.dexergi.io"));     // Primary DNS Seeder from dexergi
+        vSeeds.push_back(CDNSSeedData("dexergi.io", "seed2.dexergi.io"));    // Secondary DNS Seeder from dexergi
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 33);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 63);
@@ -268,7 +267,7 @@ public:
         pchMessageStart[1] = 0xd4;
         pchMessageStart[2] = 0xb0;
         pchMessageStart[3] = 0x93;
-        vAlertPubKey = ParseHex("000010e83b2703ccf322f7dbd62dd5855ac7c10bd055814ce121ba32607d573b8810c02c0582aed05b4deb9c4b77b26d92428c61256cd42774babea0a073b2ed0c9");
+        vAlertPubKey = ParseHex("04f7cb2edc06b95f190fe219999f3dc1a26299fc44f0ba02ff071d13b0fa11af52d8fe10bd905b9cf37a577675268cecdbce552acc4bd70e9d4ac6535e88d15bc4");
         nDefaultPort = 15536;
         nSubsidyHalvingInterval = 525600;
         nEnforceBlockUpgradeMajority = 4320; // 75%
