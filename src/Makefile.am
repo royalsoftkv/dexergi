@@ -77,6 +77,7 @@ endif
 # dexergi core #
 BITCOIN_CORE_H = \
   activemasternode.h \
+  addressindex.h \
   addrman.h \
   alert.h \
   allocators.h \
