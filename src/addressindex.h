@@ -92,17 +92,17 @@ struct CAddressUnspentKey {
     }
     template<typename Stream>
     void Serialize(Stream& s, int nType, int nVersion) const {
-        ser_writedata8(s, type);
+        ::Serialize(s, VARINT(type), nType, nVersion);
         hashBytes.Serialize(s, nType, nVersion);
         txhash.Serialize(s, nType, nVersion);
-        ser_writedata32(s, index);
+        ::Serialize(s, VARINT(index), nType, nVersion);
     }
     template<typename Stream>
     void Unserialize(Stream& s, int nType, int nVersion) {
-        type = ser_readdata8(s);
+        ::Unserialize(s, VARINT(type), nType, nVersion);
         hashBytes.Unserialize(s, nType, nVersion);
         txhash.Unserialize(s, nType, nVersion);
-        index = ser_readdata32(s);
+        ::Unserialize(s, VARINT(index), nType, nVersion);
     }
 
     CAddressUnspentKey(unsigned int addressType, uint160 addressHash, uint256 txid, size_t indexValue) {
@@ -173,25 +173,26 @@ struct CAddressIndexKey {
     }
     template<typename Stream>
     void Serialize(Stream& s, int nType, int nVersion) const {
-        ser_writedata8(s, type);
+        ::Serialize(s, VARINT(type), nType, nVersion);
         hashBytes.Serialize(s, nType, nVersion);
         // Heights are stored big-endian for key sorting in LevelDB
-        ser_writedata32be(s, blockHeight);
-        ser_writedata32be(s, txindex);
+        ::Serialize(s, VARINT(blockHeight), nType, nVersion);
+        ::Serialize(s, VARINT(txindex), nType, nVersion);
         txhash.Serialize(s, nType, nVersion);
-        ser_writedata32(s, index);
+        ::Serialize(s, VARINT(index), nType, nVersion);
         char f = spending;
-        ser_writedata8(s, f);
+        ::Serialize(s, f, nType, nVersion);
     }
     template<typename Stream>
     void Unserialize(Stream& s, int nType, int nVersion) {
-        type = ser_readdata8(s);
+        ::Unserialize(s, VARINT(type), nType, nVersion);
         hashBytes.Unserialize(s, nType, nVersion);
-        blockHeight = ser_readdata32be(s);
-        txindex = ser_readdata32be(s);
+        ::Unserialize(s, VARINT(blockHeight), nType, nVersion);
+        ::Unserialize(s, VARINT(txindex), nType, nVersion);
         txhash.Unserialize(s, nType, nVersion);
-        index = ser_readdata32(s);
-        char f = ser_readdata8(s);
+        ::Unserialize(s, VARINT(index), nType, nVersion);
+        char f;
+        ::Unserialize(s, f, nType, nVersion);
         spending = f;
     }
 
@@ -231,12 +232,12 @@ struct CAddressIndexIteratorKey {
     }
     template<typename Stream>
     void Serialize(Stream& s, int nType, int nVersion) const {
-        ser_writedata8(s, type);
+        ::Serialize(s, VARINT(type), nType, nVersion);
         hashBytes.Serialize(s, nType, nVersion);
     }
     template<typename Stream>
     void Unserialize(Stream& s, int nType, int nVersion) {
-        type = ser_readdata8(s);
+        ::Unserialize(s, VARINT(type), nType, nVersion);
         hashBytes.Unserialize(s, nType, nVersion);
     }
 
@@ -265,15 +266,15 @@ struct CAddressIndexIteratorHeightKey {
     }
     template<typename Stream>
     void Serialize(Stream& s, int nType, int nVersion) const {
-        ser_writedata8(s, type);
+        ::Serialize(s, VARINT(type), nType, nVersion);
         hashBytes.Serialize(s, nType, nVersion);
-        ser_writedata32be(s, blockHeight);
+        ::Serialize(s, VARINT(blockHeight), nType, nVersion);
     }
     template<typename Stream>
     void Unserialize(Stream& s, int nType, int nVersion) {
-        type = ser_readdata8(s);
+        ::Unserialize(s, VARINT(type), nType, nVersion);
         hashBytes.Unserialize(s, nType, nVersion);
-        blockHeight = ser_readdata32be(s);
+        ::Unserialize(s, VARINT(blockHeight), nType, nVersion);
     }
 
     CAddressIndexIteratorHeightKey(unsigned int addressType, uint160 addressHash, int height) {
