@@ -59,6 +59,7 @@
 #include <QThread>
 #include <QUrlQuery>
 #include <QMouseEvent>
+#include <QProcess>
 
 
 #if BOOST_FILESYSTEM_VERSION >= 3
@@ -351,20 +352,44 @@ void openDebugLogfile()
 
 void openConfigfile()
 {
+    bool res = false;
     boost::filesystem::path pathConfig = GetConfigFile();
 
     /* Open dexergi.conf with the associated application */
-    if (boost::filesystem::exists(pathConfig))
-        QDesktopServices::openUrl(QUrl::fromLocalFile(boostPathToQString(pathConfig)));
+    if (boost::filesystem::exists(pathConfig)) {
+        res = QDesktopServices::openUrl(QUrl::fromLocalFile(boostPathToQString(pathConfig)));
+#ifdef Q_OS_MAC
+        // Workaround for macOS-specific behavior, courtesy bitcoin devs
+        if (!res) {
+            res = QProcess::startDetached("/usr/bin/open", QStringList{"-t", boostPathToQString(pathConfig)});
+        }
+#endif
+    }
+
+    if (!res ) {
+        LogPrintf("Failed to open the config file %s", pathConfig.string());
+    }
 }
 
 void openMNConfigfile()
 {
-    boost::filesystem::path pathConfig = GetMasternodeConfigFile();
+    bool res = false;
+    boost::filesystem::path mnConfigPath = GetMasternodeConfigFile();
 
-    /* Open masternode.conf with the associated application */
-    if (boost::filesystem::exists(pathConfig))
-        QDesktopServices::openUrl(QUrl::fromLocalFile(boostPathToQString(pathConfig)));
+    /* Open dexergi.conf with the associated application */
+    if (boost::filesystem::exists(mnConfigPath)) {
+        res = QDesktopServices::openUrl(QUrl::fromLocalFile(boostPathToQString(mnConfigPath)));
+#ifdef Q_OS_MAC
+        // Workaround for macOS-specific behavior, courtesy bitcoin devs
+        if (!res) {
+            res = QProcess::startDetached("/usr/bin/open", QStringList{"-t", boostPathToQString(mnConfigPath)});
+        }
+#endif
+    }
+
+    if (!res ) {
+        LogPrintf("Failed to open the masternode config file %s\n", mnConfigPath.string());
+    }
 }
 
 void showBackups()
