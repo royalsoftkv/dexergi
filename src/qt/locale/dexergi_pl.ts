@@ -177,16 +177,16 @@ Użyj hasła składającego się z dziesięciu lub więcej losowych znaków lub 
         <translation>Potwierdź szyfrowanie portfela</translation>
     </message>
     <message>
-        <source>DEXERGI will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your DXRs from being stolen by malware infecting your computer.</source>
-        <translation>DEXERGI zamknie się teraz, aby zakończyć proces szyfrowania. Pamiętaj, że zaszyfrowanie portfela nie chroni w pełni Twoich DXR przed kradzieżą przez złośliwe oprogramowanie infekujące Twój komputer.</translation>
+        <source>DEXERGI will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your DEXRs from being stolen by malware infecting your computer.</source>
+        <translation>DEXERGI zamknie się teraz, aby zakończyć proces szyfrowania. Pamiętaj, że zaszyfrowanie portfela nie chroni w pełni Twoich DEXR przed kradzieżą przez złośliwe oprogramowanie infekujące Twój komputer.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Czy na pewno chcesz zaszyfrować swój portfel?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DXR&lt;/b&gt;!</source>
-        <translation>Ostrzeżenie: Jeżeli zaszyfrujesz portfel i stracisz do niego hasło , &lt;b&gt;UTRACISZ WSZYSTKIE DXR&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DEXR&lt;/b&gt;!</source>
+        <translation>Ostrzeżenie: Jeżeli zaszyfrujesz portfel i stracisz do niego hasło , &lt;b&gt;UTRACISZ WSZYSTKIE DEXR&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -434,8 +434,8 @@ Użyj hasła składającego się z dziesięciu lub więcej losowych znaków lub 
         <translation>Przeglądaj historię transakcji</translation>
     </message>
     <message>
-        <source>Privacy Actions for zDXR</source>
-        <translation>Prywatne Akcje zDXR</translation>
+        <source>Privacy Actions for zDEXR</source>
+        <translation>Prywatne Akcje zDEXR</translation>
     </message>
     <message>
         <source>&amp;Governance</source>
@@ -1123,8 +1123,8 @@ MultiWysyłlka: %1</translation>
         <translation>Ta etykieta zmienia kolor na czerwony, jeśli odbiorca otrzymuje mniej niż %1.</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 uDXR per input.</source>
-        <translation>Zmienia się +/- %1 uDXR</translation>
+        <source>Can vary +/- %1 uDEXR per input.</source>
+        <translation>Zmienia się +/- %1 uDEXR</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1742,8 +1742,8 @@ Please be patient after clicking import.</source>
         <translation>Adres / kwota:</translation>
     </message>
     <message>
-        <source>Add destinations to send DXR to</source>
-        <translation>Dodaj miejsca docelowe, żeby wysłać DXR do</translation>
+        <source>Add destinations to send DEXR to</source>
+        <translation>Dodaj miejsca docelowe, żeby wysłać DEXR do</translation>
     </message>
     <message>
         <source>Add &amp;Destination</source>
@@ -1942,36 +1942,36 @@ https://www.transifex.com/dexergi-project/dexergi-project-translations </transla
         <translation>Mapuj port za pomocą &amp;UPnP</translation>
     </message>
     <message>
-        <source>Enable automatic minting of DXR units to zDXR</source>
-        <translation>Włącz automatyczny minting DXR do zDXR</translation>
+        <source>Enable automatic minting of DEXR units to zDEXR</source>
+        <translation>Włącz automatyczny minting DEXR do zDEXR</translation>
     </message>
     <message>
-        <source>Enable zDXR Automint</source>
-        <translation>Włącz zDXR Automint</translation>
+        <source>Enable zDEXR Automint</source>
+        <translation>Włącz zDEXR Automint</translation>
     </message>
     <message>
-        <source>Enable automatic zDXR minting from specific addresses</source>
-        <translation>Włącz automatyczne wybijanie zDXR-ów z określonych adresów</translation>
+        <source>Enable automatic zDEXR minting from specific addresses</source>
+        <translation>Włącz automatyczne wybijanie zDEXR-ów z określonych adresów</translation>
     </message>
     <message>
         <source>Enable Automint Addresses</source>
         <translation>Włącz adresy Automint</translation>
     </message>
     <message>
-        <source>Percentage of incoming DXR which get automatically converted to zDXR via Zerocoin Protocol (min: 10%)</source>
-        <translation>Procent DXR, które są automatycznie konwertowane na zDXR za pomocą protokołu Zerocoin (min: 10%)</translation>
+        <source>Percentage of incoming DEXR which get automatically converted to zDEXR via Zerocoin Protocol (min: 10%)</source>
+        <translation>Procent DEXR, które są automatycznie konwertowane na zDEXR za pomocą protokołu Zerocoin (min: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zDXR</source>
-        <translation>Procent automint zDXR</translation>
+        <source>Percentage of autominted zDEXR</source>
+        <translation>Procent automint zDEXR</translation>
     </message>
     <message>
-        <source>Wait with automatic conversion to Zerocoin until enough DXR for this denomination is available</source>
-        <translation>Zaczekaj z automatyczną konwersją na Zerocoin, aż będzie dostępna wystarczająca wartość DXR dla tego nominału</translation>
+        <source>Wait with automatic conversion to Zerocoin until enough DEXR for this denomination is available</source>
+        <translation>Zaczekaj z automatyczną konwersją na Zerocoin, aż będzie dostępna wystarczająca wartość DEXR dla tego nominału</translation>
     </message>
     <message>
-        <source>Preferred Automint zDXR Denomination</source>
-        <translation>Preferowane nominały Automint zDXR</translation>
+        <source>Preferred Automint zDEXR Denomination</source>
+        <translation>Preferowane nominały Automint zDEXR</translation>
     </message>
     <message>
         <source>Stake split threshold:</source>
@@ -2137,8 +2137,8 @@ https://www.transifex.com/dexergi-project/dexergi-project-translations </transla
         <translation>Saldo całkowite, w tym wszystkie niedostępne monety.</translation>
     </message>
     <message>
-        <source>DXR Balance</source>
-        <translation>DXR Saldo</translation>
+        <source>DEXR Balance</source>
+        <translation>DEXR Saldo</translation>
     </message>
     <message>
         <source>Pending:</source>
@@ -2165,14 +2165,14 @@ https://www.transifex.com/dexergi-project/dexergi-project-translations </transla
         <translation>Twoje bieżące saldo DEXERGI, niepotwierdzone transakcje zostały uwzględnione</translation>
     </message>
     <message>
-        <source>zDXR Balance</source>
-        <translation>zDXR Saldo</translation>
+        <source>zDEXR Balance</source>
+        <translation>zDEXR Saldo</translation>
     </message>
     <message>
         <source>Mature: more than 20 confirmation and more than 1 mint of the same denomination after it was minted.
-These zDXR are spendable.</source>
+These zDEXR are spendable.</source>
         <translation>Dojrzałe: ponad 20 potwierdzeń i więcej niż 1 mint o tym samym nominale po jej wybiciu.
-Te zDXR można wydać</translation>
+Te zDEXR można wydać</translation>
     </message>
     <message>
         <source>Unconfirmed: less than 20 confirmations
@@ -2225,8 +2225,8 @@ Niedojrzały: potwierdzony, ale mniej niż 1 mint o tym samym nominale po wybici
         <translation>Możliwy do wysłania:</translation>
     </message>
     <message>
-        <source>Locked DXR or Masternode collaterals. These are excluded from zDXR minting.</source>
-        <translation>Zablokowane DXR lub Masternode. Są one wyłączone zDXR minting</translation>
+        <source>Locked DEXR or Masternode collaterals. These are excluded from zDEXR minting.</source>
+        <translation>Zablokowane DEXR lub Masternode. Są one wyłączone zDEXR minting</translation>
     </message>
     <message>
         <source>Locked:</source>
@@ -2237,8 +2237,8 @@ Niedojrzały: potwierdzony, ale mniej niż 1 mint o tym samym nominale po wybici
         <translation>Niepotwierdzone:</translation>
     </message>
     <message>
-        <source>Your current zDXR balance, unconfirmed and immature zDXR included.</source>
-        <translation>Twoje obecne saldo zDXR, niepotwierdzone i niedojrzałe zDXR włącznie.</translation>
+        <source>Your current zDEXR balance, unconfirmed and immature zDEXR included.</source>
+        <translation>Twoje obecne saldo zDEXR, niepotwierdzone i niedojrzałe zDEXR włącznie.</translation>
     </message>
     <message>
         <source>Recent transactions</source>
@@ -2249,10 +2249,10 @@ Niedojrzały: potwierdzony, ale mniej niż 1 mint o tym samym nominale po wybici
         <translation>Brak synchronizacji</translation>
     </message>
     <message>
-        <source>Current percentage of zDXR.
+        <source>Current percentage of zDEXR.
 If AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%).
 </source>
-        <translation>Aktualny procent zDXR.
+        <translation>Aktualny procent zDEXR.
 Jeśli włączona jest funkcja AutoMint, procent ten ustabilizuje się wokół skonfigurowanej wartości AutoMint (domyślnie = 10%).
 </translation>
     </message>
@@ -2396,8 +2396,8 @@ Aby włączyć AutoMint zmień "enablezeromint = 0" na "enablezeromint = 1" w pl
         <translation>0</translation>
     </message>
     <message>
-        <source>zDXR</source>
-        <translation>zDXR</translation>
+        <source>zDEXR</source>
+        <translation>zDEXR</translation>
     </message>
     <message>
         <source>Reset Zerocoin Wallet DB. Deletes transactions that did not make it into the blockchain.</source>
@@ -2424,12 +2424,12 @@ Aby włączyć AutoMint zmień "enablezeromint = 0" na "enablezeromint = 1" w pl
         <translation>PRYWATNOŚĆ</translation>
     </message>
     <message>
-        <source>zDXR Control</source>
-        <translation>Kontrola zDXR</translation>
+        <source>zDEXR Control</source>
+        <translation>Kontrola zDEXR</translation>
     </message>
     <message>
-        <source>zDXR Selected:</source>
-        <translation>Wybrano zDXR:</translation>
+        <source>zDEXR Selected:</source>
+        <translation>Wybrano zDEXR:</translation>
     </message>
     <message>
         <source>Quantity Selected:</source>
@@ -2444,24 +2444,24 @@ Aby włączyć AutoMint zmień "enablezeromint = 0" na "enablezeromint = 1" w pl
         <translation>Wydaj Zerocoin</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zDXR for spending</source>
-        <translation>Dostępne (starsze i dostępne) zDXR do wydania</translation>
+        <source>Available (mature and spendable) zDEXR for spending</source>
+        <translation>Dostępne (starsze i dostępne) zDEXR do wydania</translation>
     </message>
     <message>
         <source>Available Balance:</source>
         <translation>Dostępne saldo:</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zDXR for spending
+        <source>Available (mature and spendable) zDEXR for spending
 
-zDXR are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
-        <translation>Dostępne (starsze i dostępne) zDXR do wydania
+zDEXR are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
+        <translation>Dostępne (starsze i dostępne) zDEXR do wydania
 
-zDXR są dojrzałe, gdy mają więcej niż 20 potwierdzeń I więcej niż 2 mints tego samego nominału które po nich zostały wybite</translation>
+zDEXR są dojrzałe, gdy mają więcej niż 20 potwierdzeń I więcej niż 2 mints tego samego nominału które po nich zostały wybite</translation>
     </message>
     <message>
-        <source>0 zDXR</source>
-        <translation>0 zDXR</translation>
+        <source>0 zDEXR</source>
+        <translation>0 zDEXR</translation>
     </message>
     <message>
         <source>Pay &amp;To:</source>
@@ -2520,8 +2520,8 @@ zDXR są dojrzałe, gdy mają więcej niż 20 potwierdzeń I więcej niż 2 mint
         <translation>Zerocoin Stats:</translation>
     </message>
     <message>
-        <source>Total Balance including unconfirmed and immature zDXR</source>
-        <translation>Łączne saldo razem z niepotwierdzonym i niedojrzałym zDXR</translation>
+        <source>Total Balance including unconfirmed and immature zDEXR</source>
+        <translation>Łączne saldo razem z niepotwierdzonym i niedojrzałym zDEXR</translation>
     </message>
     <message>
         <source>Total Zerocoin  Balance:</source>
@@ -2542,24 +2542,24 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
 Niedojrzały: potwierdzony, ale mniej niż 1 mint o tym samym nominale po wybiciu</translation>
     </message>
     <message>
-        <source>Show the current status of automatic zDXR minting.
+        <source>Show the current status of automatic zDEXR minting.
 
 To change the status (restart required):
 - enable: add 'enablezeromint=1' to dexergi.conf
 - disable: add 'enablezeromint=0' to dexergi.conf
 
 To change the percentage (no restart required):
-- menu Settings-&gt;Options-&gt;Percentage of autominted zDXR
+- menu Settings-&gt;Options-&gt;Percentage of autominted zDEXR
 
 </source>
-        <translation>Pokaż aktualny status automatycznego mint zDXR.
+        <translation>Pokaż aktualny status automatycznego mint zDEXR.
 
 Aby zmienić status (wymagany restart):
 - włącz: dodaj "enablezeromint = 1" do pliku dexergi.conf
 - wyłącz: dodaj "enablezeromint = 0" do pliku dexergi.conf
 
 Aby zmienić procent (bez ponownego uruchamiania):
-- menu Ustawienia-&gt; Opcje-&gt; Procent autominted zDXR
+- menu Ustawienia-&gt; Opcje-&gt; Procent autominted zDEXR
 
 </translation>
     </message>
@@ -2608,8 +2608,8 @@ Aby zmienić procent (bez ponownego uruchamiania):
         <translation>0 x</translation>
     </message>
     <message>
-        <source>Show zDXR denominations list</source>
-        <translation> Pokaż listę jednostek zDXR</translation>
+        <source>Show zDEXR denominations list</source>
+        <translation> Pokaż listę jednostek zDEXR</translation>
     </message>
     <message>
         <source>Show Denominations</source>
@@ -2746,12 +2746,12 @@ Please be patient...</source>
 Proszę być cierpliwym...</translation>
     </message>
     <message>
-        <source>zDXR Spend #: </source>
-        <translation>Wydaj zDXR #:</translation>
+        <source>zDEXR Spend #: </source>
+        <translation>Wydaj zDEXR #:</translation>
     </message>
     <message>
-        <source>zDXR Mint</source>
-        <translation>zDXR Mint</translation>
+        <source>zDEXR Mint</source>
+        <translation>zDEXR Mint</translation>
     </message>
     <message>
         <source> &lt;b&gt;enabled&lt;/b&gt;.</source>
@@ -2766,12 +2766,12 @@ Proszę być cierpliwym...</translation>
         <translation>Skonfigurowana wartość procentowa:&lt;b&gt;</translation>
     </message>
     <message>
-        <source>zDXR is currently disabled due to maintenance.</source>
-        <translation>zDXR jest obecnie wyłączony z powodu konserwacji.</translation>
+        <source>zDEXR is currently disabled due to maintenance.</source>
+        <translation>zDEXR jest obecnie wyłączony z powodu konserwacji.</translation>
     </message>
     <message>
-        <source>zDXR is currently undergoing maintenance.</source>
-        <translation>zDXR jest obecnie w trakcie konserwacji.</translation>
+        <source>zDEXR is currently undergoing maintenance.</source>
+        <translation>zDEXR jest obecnie w trakcie konserwacji.</translation>
     </message>
     <message>
         <source>Denom. with value &lt;b&gt;1&lt;/b&gt;:</source>
@@ -3314,8 +3314,8 @@ Proszę być cierpliwym...</translation>
         <translation>Standardowa ścieżka kopii zapasowej:</translation>
     </message>
     <message>
-        <source>Custom zDXR Backup Path:</source>
-        <translation>standardowa ścieżka kopii zapasowej zDXR:</translation>
+        <source>Custom zDEXR Backup Path:</source>
+        <translation>standardowa ścieżka kopii zapasowej zDEXR:</translation>
     </message>
     <message>
         <source>Custom Backups Threshold:</source>
@@ -3782,12 +3782,12 @@ Proszę być cierpliwym...</translation>
         <translation>Rozmiar UTXO:</translation>
     </message>
     <message>
-        <source>0 DXR</source>
-        <translation>0 DXR</translation>
+        <source>0 DEXR</source>
+        <translation>0 DEXR</translation>
     </message>
     <message>
-        <source>SwiftX technology allows for near instant transactions - A flat fee of 0.01 DXR applies</source>
-        <translation>Technologia SwiftX umożliwia dokonywanie transakcji zbliżonych do błyskawicznych - obowiązuje opłata ryczałtowa w wysokości 0,01 DXR</translation>
+        <source>SwiftX technology allows for near instant transactions - A flat fee of 0.01 DEXR applies</source>
+        <translation>Technologia SwiftX umożliwia dokonywanie transakcji zbliżonych do błyskawicznych - obowiązuje opłata ryczałtowa w wysokości 0,01 DEXR</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -3842,12 +3842,12 @@ Proszę być cierpliwym...</translation>
         <translation>Monety automatycznie wybrane</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uDXRs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uDXRs in fee,&lt;br /&gt;while "at least" pays 1000 uDXRs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Jeśli opłata trasakcyjna jest ustawiona na 1000 uDXR i transakcja ma tylko 250 bajtów, to płaci się tylko 250 uDXR,&lt;br /&gt; W przypadku transakcji większych niż kilobajt płacisz za kilobajta.</translation>
+        <source>If the custom fee is set to 1000 uDEXRs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uDEXRs in fee,&lt;br /&gt;while "at least" pays 1000 uDEXRs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Jeśli opłata trasakcyjna jest ustawiona na 1000 uDEXR i transakcja ma tylko 250 bajtów, to płaci się tylko 250 uDEXR,&lt;br /&gt; W przypadku transakcji większych niż kilobajt płacisz za kilobajta.</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uDXRs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uDXRs in fee,&lt;br /&gt;while "total at least" pays 1000 uDXRs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Jeśli opłata trasakcyjna jest ustawiona na 1000 uDXR i transakcja ma tylko 250 bajtów, to płaci się tylko 250 uDXR, &lt;br /&gt; W przypadku transakcji większych niż kilobajt płacisz za kilobajta.</translation>
+        <source>If the custom fee is set to 1000 uDEXRs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uDEXRs in fee,&lt;br /&gt;while "total at least" pays 1000 uDEXRs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Jeśli opłata trasakcyjna jest ustawiona na 1000 uDEXR i transakcja ma tylko 250 bajtów, to płaci się tylko 250 uDEXR, &lt;br /&gt; W przypadku transakcji większych niż kilobajt płacisz za kilobajta.</translation>
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for DEXERGI transactions than the network can process.</source>
@@ -3898,8 +3898,8 @@ Proszę być cierpliwym...</translation>
         <translation>Dodaj odbiorcę</translation>
     </message>
     <message>
-        <source>Anonymized DXR</source>
-        <translation>Anonimowy DXR</translation>
+        <source>Anonymized DEXR</source>
+        <translation>Anonimowy DEXR</translation>
     </message>
     <message>
         <source>Balance:</source>
@@ -4546,12 +4546,12 @@ Proszę być cierpliwym...</translation>
         <translation>Otrzymane przez Zamaskowanie</translation>
     </message>
     <message>
-        <source>DXR Stake</source>
-        <translation>DXR Stake</translation>
+        <source>DEXR Stake</source>
+        <translation>DEXR Stake</translation>
     </message>
     <message>
-        <source>zDXR Stake</source>
-        <translation>zDXR Stake</translation>
+        <source>zDEXR Stake</source>
+        <translation>zDEXR Stake</translation>
     </message>
     <message>
         <source>Obfuscation Denominate</source>
@@ -4570,32 +4570,32 @@ Proszę być cierpliwym...</translation>
         <translation>Zamaskowanie Utwórz denominacje</translation>
     </message>
     <message>
-        <source>Converted DXR to zDXR</source>
-        <translation>przekonwertowany DXR to zDXR</translation>
+        <source>Converted DEXR to zDEXR</source>
+        <translation>przekonwertowany DEXR to zDEXR</translation>
     </message>
     <message>
-        <source>Spent zDXR</source>
-        <translation>Wydaj zDXR</translation>
+        <source>Spent zDEXR</source>
+        <translation>Wydaj zDEXR</translation>
     </message>
     <message>
-        <source>Received DXR from zDXR</source>
-        <translation>Otrzymano DXR z zDXR</translation>
+        <source>Received DEXR from zDEXR</source>
+        <translation>Otrzymano DEXR z zDEXR</translation>
     </message>
     <message>
-        <source>Minted Change as zDXR from zDXR Spend</source>
-        <translation>Reszta Minted jako zDXR z Wysyłki zDXR</translation>
+        <source>Minted Change as zDEXR from zDEXR Spend</source>
+        <translation>Reszta Minted jako zDEXR z Wysyłki zDEXR</translation>
     </message>
     <message>
-        <source>Converted zDXR to DXR</source>
-        <translation>przekonwertowany zDXR to DXR</translation>
+        <source>Converted zDEXR to DEXR</source>
+        <translation>przekonwertowany zDEXR to DEXR</translation>
     </message>
     <message>
-        <source>Anonymous (zDXR Transaction)</source>
-        <translation>Anonimowa (transakcja zDXR)</translation>
+        <source>Anonymous (zDEXR Transaction)</source>
+        <translation>Anonimowa (transakcja zDEXR)</translation>
     </message>
     <message>
-        <source>Anonymous (zDXR Stake)</source>
-        <translation>Anonimowy (zDXR Stake)</translation>
+        <source>Anonymous (zDEXR Stake)</source>
+        <translation>Anonimowy (zDEXR Stake)</translation>
     </message>
     <message>
         <source>Sent to</source>
@@ -4809,12 +4809,12 @@ Proszę być cierpliwym...</translation>
         <translation>Eksportowanie zakończyło się pomyślnie</translation>
     </message>
     <message>
-        <source>Received DXR from zDXR</source>
-        <translation>Otrzymano DXR z zDXR</translation>
+        <source>Received DEXR from zDEXR</source>
+        <translation>Otrzymano DEXR z zDEXR</translation>
     </message>
     <message>
-        <source>Zerocoin Spend, Change in zDXR</source>
-        <translation>Wydawanie Zerocoin, Zmień z zDXR</translation>
+        <source>Zerocoin Spend, Change in zDEXR</source>
+        <translation>Wydawanie Zerocoin, Zmień z zDEXR</translation>
     </message>
     <message>
         <source>The transaction history was successfully saved to %1.</source>
@@ -4850,8 +4850,8 @@ Proszę być cierpliwym...</translation>
         <translation>Wyślij monety</translation>
     </message>
     <message>
-        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 DXR.</source>
-        <translation>SwiftX nie obsługuje wysyłania wysokich wartości. Transakcje są obecnie ograniczone do %1 DXR.</translation>
+        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 DEXR.</source>
+        <translation>SwiftX nie obsługuje wysyłania wysokich wartości. Transakcje są obecnie ograniczone do %1 DEXR.</translation>
     </message>
 </context>
 <context>
@@ -4884,8 +4884,8 @@ Proszę być cierpliwym...</translation>
 <context>
     <name>ZPivControlDialog</name>
     <message>
-        <source>Select zDXR to Spend</source>
-        <translation>Wybierz zDXR do wydania</translation>
+        <source>Select zDEXR to Spend</source>
+        <translation>Wybierz zDEXR do wydania</translation>
     </message>
     <message>
         <source>Quantity</source>
@@ -4896,8 +4896,8 @@ Proszę być cierpliwym...</translation>
         <translation>0</translation>
     </message>
     <message>
-        <source>zDXR</source>
-        <translation>zDXR</translation>
+        <source>zDEXR</source>
+        <translation>zDEXR</translation>
     </message>
     <message>
         <source>Select/Deselect All</source>
@@ -4967,16 +4967,16 @@ Proszę być cierpliwym...</translation>
         <translation>Włącz automatyczne wybijanie Zerocoin z określonych adresów (0-1, domyślnie:%u)</translation>
     </message>
     <message>
-        <source>Enable automatic wallet backups triggered after each zDXR minting (0-1, default: %u)</source>
-        <translation>Włącz automatyczne kopie zapasowe portfela uruchamiane po każdym mintingu zDXR (0-1, domyślnie: %u)</translation>
+        <source>Enable automatic wallet backups triggered after each zDEXR minting (0-1, default: %u)</source>
+        <translation>Włącz automatyczne kopie zapasowe portfela uruchamiane po każdym mintingu zDEXR (0-1, domyślnie: %u)</translation>
     </message>
     <message>
-        <source>Enable or disable staking functionality for DXR inputs (0-1, default: %u)</source>
-        <translation>Włączanie lub wyłączanie funkcji stake dla przychodzących DXR (0-1, domyślnie:%u)</translation>
+        <source>Enable or disable staking functionality for DEXR inputs (0-1, default: %u)</source>
+        <translation>Włączanie lub wyłączanie funkcji stake dla przychodzących DEXR (0-1, domyślnie:%u)</translation>
     </message>
     <message>
-        <source>Enable or disable staking functionality for zDXR inputs (0-1, default: %u)</source>
-        <translation>Włączanie lub wyłączanie funkcji staking dla nowych zDXR (0-1, domyślnie: %u)</translation>
+        <source>Enable or disable staking functionality for zDEXR inputs (0-1, default: %u)</source>
+        <translation>Włączanie lub wyłączanie funkcji staking dla nowych zDEXR (0-1, domyślnie: %u)</translation>
     </message>
     <message>
         <source>Enable spork administration functionality with the appropriate private key.</source>
@@ -5011,12 +5011,12 @@ Proszę być cierpliwym...</translation>
         <translation>Wykonaj polecenie, gdy najlepszy blok zostanie zmieniony ( %s w cmd zostanie zastąpione hash blokiem)</translation>
     </message>
     <message>
-        <source>Fees (in DXR/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Opłaty za przekazywanie (w DXR/Kb) mniejsze od tej są uznawane za opłaty zerowe (domyślnie: %s)</translation>
+        <source>Fees (in DEXR/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Opłaty za przekazywanie (w DEXR/Kb) mniejsze od tej są uznawane za opłaty zerowe (domyślnie: %s)</translation>
     </message>
     <message>
-        <source>Fees (in DXR/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Opłaty za tworzenie transakcji (w DXR/Kb) mniejsze od tej są uznawane za opłaty zerowe (domyślnie: %s)</translation>
+        <source>Fees (in DEXR/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Opłaty za tworzenie transakcji (w DEXR/Kb) mniejsze od tej są uznawane za opłaty zerowe (domyślnie: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -5131,12 +5131,12 @@ Proszę być cierpliwym...</translation>
         <translation>Nie można znaleźć wystarczającej liczby funduszy ukrytych dla tej transakcji.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 DXR.</source>
-        <translation>Nie można zlokalizować wystarczająco dużo zaciemnionych Środków. Ta transakcja nie jest równa 10000 DXR.</translation>
+        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 DEXR.</source>
+        <translation>Nie można zlokalizować wystarczająco dużo zaciemnionych Środków. Ta transakcja nie jest równa 10000 DEXR.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 DXR.</source>
-        <translation>Nie można zlokalizować wystarczająco dużo Środków. Ta transakcja nie jest równa 10000 DXR.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 DEXR.</source>
+        <translation>Nie można zlokalizować wystarczająco dużo Środków. Ta transakcja nie jest równa 10000 DEXR.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -5343,8 +5343,8 @@ Proszę być cierpliwym...</translation>
         <translation>Włącz automatyczne Zerocoin minting (0-100, domyślnie: %u)</translation>
     </message>
     <message>
-        <source>Enable precomputation of zDXR spends and stakes (0-1, default %u)</source>
-        <translation>Włącz wstępne obliczanie wydatków i stawek zDXR (0-1, domyślnie %u)</translation>
+        <source>Enable precomputation of zDEXR spends and stakes (0-1, default %u)</source>
+        <translation>Włącz wstępne obliczanie wydatków i stawek zDEXR (0-1, domyślnie %u)</translation>
     </message>
     <message>
         <source>Enable publish hash transaction (locked via SwiftX) in &lt;address&gt;</source>
@@ -5435,8 +5435,8 @@ Proszę być cierpliwym...</translation>
         <translation>Nie można odczytać bloku</translation>
     </message>
     <message>
-        <source>Fee (in DXR/kB) to add to transactions you send (default: %s)</source>
-        <translation>Opłata (w DXR/kB) dodawana do wysyłanych transakcji (domyślnie: %s)</translation>
+        <source>Fee (in DEXR/kB) to add to transactions you send (default: %s)</source>
+        <translation>Opłata (w DEXR/kB) dodawana do wysyłanych transakcji (domyślnie: %s)</translation>
     </message>
     <message>
         <source>Force safe mode (default: %u)</source>
@@ -5539,20 +5539,20 @@ Proszę być cierpliwym...</translation>
         <translation>Odsetek automatycznych minted Zerocoin (1-100, domyślnie: %u)</translation>
     </message>
     <message>
-        <source>Recalculating DXR supply...</source>
-        <translation>Przeliczanie podaży DXR ...</translation>
+        <source>Recalculating DEXR supply...</source>
+        <translation>Przeliczanie podaży DEXR ...</translation>
     </message>
     <message>
-        <source>Recalculating minted ZDXR...</source>
-        <translation>Przeliczenie wybitego ZDXR ...</translation>
+        <source>Recalculating minted ZDEXR...</source>
+        <translation>Przeliczenie wybitego ZDEXR ...</translation>
     </message>
     <message>
-        <source>Recalculating spent ZDXR...</source>
-        <translation>Przeliczanie wydanego ZDXR ...</translation>
+        <source>Recalculating spent ZDEXR...</source>
+        <translation>Przeliczanie wydanego ZDEXR ...</translation>
     </message>
     <message>
-        <source>Reindex the DXR and zDXR money supply statistics</source>
-        <translation>Ponownie oblicz statystyki podaży pieniądza DXR i zDXR</translation>
+        <source>Reindex the DEXR and zDEXR money supply statistics</source>
+        <translation>Ponownie oblicz statystyki podaży pieniądza DEXR i zDEXR</translation>
     </message>
     <message>
         <source>Reindexing zerocoin database...</source>
@@ -5627,8 +5627,8 @@ Proszę być cierpliwym...</translation>
         <translation>Preferowana jednostka dla automatycznych minted Zerocoin (1/5/10/50/100/500/1000/5000), 0 bez żadnych preferencji. domyślnie: %u)</translation>
     </message>
     <message>
-        <source>Specify custom backup path to add a copy of any automatic zDXR backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</source>
-        <translation>Określ standardową ścieżkę kopii zapasowej, aby dodać kopię automatycznej kopii zapasowej zDXR. Jeśli ustawione jako katalog, każda kopia zapasowa generuje plik z sygnaturą czasową. Jeśli ustawione jako plik, będzie przepisywać do tego pliku każdą kopię zapasową. Jeśli ustawiona jest również ścieżka tworzenia kopii zapasowych, zostaną utworzone 4 kopie zapasowe</translation>
+        <source>Specify custom backup path to add a copy of any automatic zDEXR backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</source>
+        <translation>Określ standardową ścieżkę kopii zapasowej, aby dodać kopię automatycznej kopii zapasowej zDEXR. Jeśli ustawione jako katalog, każda kopia zapasowa generuje plik z sygnaturą czasową. Jeśli ustawione jako plik, będzie przepisywać do tego pliku każdą kopię zapasową. Jeśli ustawiona jest również ścieżka tworzenia kopii zapasowych, zostaną utworzone 4 kopie zapasowe</translation>
     </message>
     <message>
         <source>Specify custom backup path to add a copy of any wallet backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup.</source>
@@ -5959,8 +5959,8 @@ Proszę być cierpliwym...</translation>
         <translation>Synchronizowanie sporks...</translation>
     </message>
     <message>
-        <source>Syncing zDXR wallet...</source>
-        <translation>Synchronizuję portfel zDXR ...</translation>
+        <source>Syncing zDEXR wallet...</source>
+        <translation>Synchronizuję portfel zDEXR ...</translation>
     </message>
     <message>
         <source>The coin spend has been used</source>
@@ -6023,8 +6023,8 @@ Proszę być cierpliwym...</translation>
         <translation>Nazwa użytkownika dla połączeń JSON-RPC</translation>
     </message>
     <message>
-        <source>Value is below the smallest available denomination (= 1) of zDXR</source>
-        <translation>Wartość jest mniejsza od najmniejszej dostępnej (= 1) zDXR</translation>
+        <source>Value is below the smallest available denomination (= 1) of zDEXR</source>
+        <translation>Wartość jest mniejsza od najmniejszej dostępnej (= 1) zDEXR</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>

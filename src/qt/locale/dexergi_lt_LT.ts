@@ -176,16 +176,16 @@
         <translation>Patvirtinkite piniginės užšifravimą.</translation>
     </message>
     <message>
-        <source>DEXERGI will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your DXRs from being stolen by malware infecting your computer.</source>
-        <translation>Dabar DEXERGI išsijungs, kad būtų užbaigtas šifravimo procesas. Atminkite, kad jūsų piniginės užšifravimas negali visiškai apsaugoti jūsų DXR nuo kenkėjiškų programų, užkrėsto jūsų kompiuterio.</translation>
+        <source>DEXERGI will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your DEXRs from being stolen by malware infecting your computer.</source>
+        <translation>Dabar DEXERGI išsijungs, kad būtų užbaigtas šifravimo procesas. Atminkite, kad jūsų piniginės užšifravimas negali visiškai apsaugoti jūsų DEXR nuo kenkėjiškų programų, užkrėsto jūsų kompiuterio.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Ar tikrai norite užšifruoti savo piniginę?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DXR&lt;/b&gt;!</source>
-        <translation>Įspėjimas: jei užšifruosite savo piniginę ir prarasite slaptafrazę, jūs &lt;b&gt;PRARASITE VISUS SAVO DXR&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DEXR&lt;/b&gt;!</source>
+        <translation>Įspėjimas: jei užšifruosite savo piniginę ir prarasite slaptafrazę, jūs &lt;b&gt;PRARASITE VISUS SAVO DEXR&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -433,8 +433,8 @@
         <translation>Naršyti pavedimų istoriją</translation>
     </message>
     <message>
-        <source>Privacy Actions for zDXR</source>
-        <translation>zDXR Saugumo Veiksmai </translation>
+        <source>Privacy Actions for zDEXR</source>
+        <translation>zDEXR Saugumo Veiksmai </translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -1098,8 +1098,8 @@ MultiSend: %1</translation>
         <translation>Ši etiketė taps raudona, jei gavėjas gaus sumą mažesnę už %1</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 uDXR per input.</source>
-        <translation>Gali skirtis +/- %1 uDXR kiekvienoje įvestyje.</translation>
+        <source>Can vary +/- %1 uDEXR per input.</source>
+        <translation>Gali skirtis +/- %1 uDEXR kiekvienoje įvestyje.</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1604,8 +1604,8 @@ MultiSend nebus aktyvuotas, nebent paspausite "Įjungti"</translation>
         <translation>Adresas / Suma:</translation>
     </message>
     <message>
-        <source>Add destinations to send DXR to</source>
-        <translation>Pridėkite vietas, kurioms norite siųsti DXR</translation>
+        <source>Add destinations to send DEXR to</source>
+        <translation>Pridėkite vietas, kurioms norite siųsti DEXR</translation>
     </message>
     <message>
         <source>Add &amp;Destination</source>
@@ -1776,24 +1776,24 @@ https://www.transifex.com/dexergi-project/dexergi-project-translations</translat
         <translation>Įrašyti prievadą naudojant &amp;UPnP</translation>
     </message>
     <message>
-        <source>Enable automatic minting of DXR units to zDXR</source>
-        <translation>Įgalinti automatinį konvertavimą iš DXR į zDXR</translation>
+        <source>Enable automatic minting of DEXR units to zDEXR</source>
+        <translation>Įgalinti automatinį konvertavimą iš DEXR į zDEXR</translation>
     </message>
     <message>
-        <source>Enable zDXR Automint</source>
-        <translation>Įgalinti zDXR Automatinį nukaldinima</translation>
+        <source>Enable zDEXR Automint</source>
+        <translation>Įgalinti zDEXR Automatinį nukaldinima</translation>
     </message>
     <message>
-        <source>Percentage of incoming DXR which get automatically converted to zDXR via Zerocoin Protocol (min: 10%)</source>
-        <translation>Procentas gauto DXR, kuris automatiškai bus konvertuotas į zDXR naudojant Zerocoin Protokolą (min: 10%)</translation>
+        <source>Percentage of incoming DEXR which get automatically converted to zDEXR via Zerocoin Protocol (min: 10%)</source>
+        <translation>Procentas gauto DEXR, kuris automatiškai bus konvertuotas į zDEXR naudojant Zerocoin Protokolą (min: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zDXR</source>
-        <translation>Automatiškai sukurtų zDXR procentas</translation>
+        <source>Percentage of autominted zDEXR</source>
+        <translation>Automatiškai sukurtų zDEXR procentas</translation>
     </message>
     <message>
-        <source>Preferred Automint zDXR Denomination</source>
-        <translation>Pageidautinas zDXR Automatinio Nukaldinimo Nominalas</translation>
+        <source>Preferred Automint zDEXR Denomination</source>
+        <translation>Pageidautinas zDEXR Automatinio Nukaldinimo Nominalas</translation>
     </message>
     <message>
         <source>Connect to the DEXERGI network through a SOCKS5 proxy.</source>
@@ -1915,8 +1915,8 @@ https://www.transifex.com/dexergi-project/dexergi-project-translations</translat
         <translation>Bendras balansas, įskaitant visas nepasiekiamas monetas.</translation>
     </message>
     <message>
-        <source>DXR Balance</source>
-        <translation>DXR Balansas</translation>
+        <source>DEXR Balance</source>
+        <translation>DEXR Balansas</translation>
     </message>
     <message>
         <source>Pending:</source>
@@ -1943,14 +1943,14 @@ https://www.transifex.com/dexergi-project/dexergi-project-translations</translat
         <translation>Jūsų dabartinis DEXERGI balansas, įskaitant nepatvirtintus ir nesubrendusius sandorius</translation>
     </message>
     <message>
-        <source>zDXR Balance</source>
-        <translation>zDXR Balansas</translation>
+        <source>zDEXR Balance</source>
+        <translation>zDEXR Balansas</translation>
     </message>
     <message>
         <source>Mature: more than 20 confirmation and more than 1 mint of the same denomination after it was minted.
-These zDXR are spendable.</source>
+These zDEXR are spendable.</source>
         <translation>Subrendę: daugiau nei 20 patvirtinimų ir daugiau nei 1 konvertacija to pačio nominalo, kai jis jau buvo konvertuotas.
-Šiuos zDXR galima išleisti.</translation>
+Šiuos zDEXR galima išleisti.</translation>
     </message>
     <message>
         <source>Unconfirmed: less than 20 confirmations
@@ -2003,8 +2003,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
         <translation>Prienamas išleidimui:</translation>
     </message>
     <message>
-        <source>Locked DXR or Masternode collaterals. These are excluded from zDXR minting.</source>
-        <translation>Užrakinti DXR arba Masternode užstatai. Jie yra neįtraukti į zDXR kalimą.</translation>
+        <source>Locked DEXR or Masternode collaterals. These are excluded from zDEXR minting.</source>
+        <translation>Užrakinti DEXR arba Masternode užstatai. Jie yra neįtraukti į zDEXR kalimą.</translation>
     </message>
     <message>
         <source>Locked:</source>
@@ -2108,8 +2108,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
         <translation>0</translation>
     </message>
     <message>
-        <source>zDXR</source>
-        <translation>zDXR</translation>
+        <source>zDEXR</source>
+        <translation>zDEXR</translation>
     </message>
     <message>
         <source>Reset</source>
@@ -2128,12 +2128,12 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
         <translation>PRIVATUMAS</translation>
     </message>
     <message>
-        <source>zDXR Control</source>
+        <source>zDEXR Control</source>
         <translation>zPiv Kontrolė</translation>
     </message>
     <message>
-        <source>zDXR Selected:</source>
-        <translation>Pasirinkta zDXR:</translation>
+        <source>zDEXR Selected:</source>
+        <translation>Pasirinkta zDEXR:</translation>
     </message>
     <message>
         <source>Quantity Selected:</source>
@@ -2152,8 +2152,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
         <translation>Prieinamas Balansas: </translation>
     </message>
     <message>
-        <source>0 zDXR</source>
-        <translation>0 zDXR</translation>
+        <source>0 zDEXR</source>
+        <translation>0 zDEXR</translation>
     </message>
     <message>
         <source>Pay &amp;To:</source>
@@ -2192,8 +2192,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
         <translation>Zerocoin Statistika:</translation>
     </message>
     <message>
-        <source>Total Balance including unconfirmed and immature zDXR</source>
-        <translation>Bendras balansas, įskaitant nepatvirtintą ir nesubrendusį zDXR</translation>
+        <source>Total Balance including unconfirmed and immature zDEXR</source>
+        <translation>Bendras balansas, įskaitant nepatvirtintą ir nesubrendusį zDEXR</translation>
     </message>
     <message>
         <source>Total Zerocoin  Balance:</source>
@@ -2362,12 +2362,12 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
         <translation>Konvertavimo Statusas: Geras</translation>
     </message>
     <message>
-        <source>zDXR Spend #: </source>
-        <translation>zDXR Išleidimas #:</translation>
+        <source>zDEXR Spend #: </source>
+        <translation>zDEXR Išleidimas #:</translation>
     </message>
     <message>
-        <source>zDXR Mint</source>
-        <translation>zDXR Konvertavimas</translation>
+        <source>zDEXR Mint</source>
+        <translation>zDEXR Konvertavimas</translation>
     </message>
     <message>
         <source> &lt;b&gt;enabled&lt;/b&gt;.</source>
@@ -2850,8 +2850,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
         <translation>Pasirinktinio pakeitimo adresas</translation>
     </message>
     <message>
-        <source>0 DXR</source>
-        <translation>0 DXR</translation>
+        <source>0 DEXR</source>
+        <translation>0 DEXR</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -3304,8 +3304,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
         <translation>0</translation>
     </message>
     <message>
-        <source>zDXR</source>
-        <translation>zDXR</translation>
+        <source>zDEXR</source>
+        <translation>zDEXR</translation>
     </message>
     </context>
 <context>

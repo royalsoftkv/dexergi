@@ -176,16 +176,16 @@
         <translation>지갑 암호화 확인</translation>
     </message>
     <message>
-        <source>DEXERGI will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your DXRs from being stolen by malware infecting your computer.</source>
-        <translation>DEXERGI는 이제 암호화 프로세스를 마치기 위해 닫힐것입니다. 지갑을 암호화하더라도 맬웨어로 인한 DXRs 의 도난당하는 것을 완벽하게 보호 할 수는 없습니다.</translation>
+        <source>DEXERGI will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your DEXRs from being stolen by malware infecting your computer.</source>
+        <translation>DEXERGI는 이제 암호화 프로세스를 마치기 위해 닫힐것입니다. 지갑을 암호화하더라도 맬웨어로 인한 DEXRs 의 도난당하는 것을 완벽하게 보호 할 수는 없습니다.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>지갑을 암호화 하시겠습니까?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DXR&lt;/b&gt;!</source>
-        <translation>경고: 지갑 암호화 후 암호를 분실하게 되면 &lt;b&gt;모든 DXR를 잃게 됩니다&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DEXR&lt;/b&gt;!</source>
+        <translation>경고: 지갑 암호화 후 암호를 분실하게 되면 &lt;b&gt;모든 DEXR를 잃게 됩니다&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -433,8 +433,8 @@
         <translation>겨래내역 보기</translation>
     </message>
     <message>
-        <source>Privacy Actions for zDXR</source>
-        <translation>zDXR 생성 및 관리</translation>
+        <source>Privacy Actions for zDEXR</source>
+        <translation>zDEXR 생성 및 관리</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -1110,8 +1110,8 @@ Address: %4
         <translation>받는 사람이 %1 보다 작은 금액을 받으면 라벨이 빨간색으로 변경됩니다.</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 uDXR per input.</source>
-        <translation>Can vary +/- %1 uDXR per input.</translation>
+        <source>Can vary +/- %1 uDEXR per input.</source>
+        <translation>Can vary +/- %1 uDEXR per input.</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1632,8 +1632,8 @@ Please be patient after clicking import.</source>
         <translation>주소 / 금액:</translation>
     </message>
     <message>
-        <source>Add destinations to send DXR to</source>
-        <translation>DXR를 보낼 목적지 추가</translation>
+        <source>Add destinations to send DEXR to</source>
+        <translation>DEXR를 보낼 목적지 추가</translation>
     </message>
     <message>
         <source>Add &amp;Destination</source>
@@ -1832,28 +1832,28 @@ https://www.transifex.com/dexergi-project/dexergi-project-translations</translat
         <translation>&amp;UPnp를 사용하여 포트 매핑</translation>
     </message>
     <message>
-        <source>Enable automatic minting of DXR units to zDXR</source>
-        <translation>보상받은 DXR를 zDXR로 자동변환 활성화</translation>
+        <source>Enable automatic minting of DEXR units to zDEXR</source>
+        <translation>보상받은 DEXR를 zDEXR로 자동변환 활성화</translation>
     </message>
     <message>
-        <source>Enable zDXR Automint</source>
-        <translation>zDXR 자동생성 활성화</translation>
+        <source>Enable zDEXR Automint</source>
+        <translation>zDEXR 자동생성 활성화</translation>
     </message>
     <message>
-        <source>Percentage of incoming DXR which get automatically converted to zDXR via Zerocoin Protocol (min: 10%)</source>
-        <translation>DXR수신시 자동변환 zDXR 비율 (최소값:10%)</translation>
+        <source>Percentage of incoming DEXR which get automatically converted to zDEXR via Zerocoin Protocol (min: 10%)</source>
+        <translation>DEXR수신시 자동변환 zDEXR 비율 (최소값:10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zDXR</source>
-        <translation>자동 변환되는 zDXR 비율</translation>
+        <source>Percentage of autominted zDEXR</source>
+        <translation>자동 변환되는 zDEXR 비율</translation>
     </message>
     <message>
-        <source>Wait with automatic conversion to Zerocoin until enough DXR for this denomination is available</source>
-        <translation>이 디노미네이션의 DXR가 충분해질 때까지 Zerocoin으로 자동전환은 보류됩니다.</translation>
+        <source>Wait with automatic conversion to Zerocoin until enough DEXR for this denomination is available</source>
+        <translation>이 디노미네이션의 DEXR가 충분해질 때까지 Zerocoin으로 자동전환은 보류됩니다.</translation>
     </message>
     <message>
-        <source>Preferred Automint zDXR Denomination</source>
-        <translation>선호하는 자동생성 zDXR 디노미네이션 </translation>
+        <source>Preferred Automint zDEXR Denomination</source>
+        <translation>선호하는 자동생성 zDEXR 디노미네이션 </translation>
     </message>
     <message>
         <source>Stake split threshold:</source>
@@ -2011,8 +2011,8 @@ https://www.transifex.com/dexergi-project/dexergi-project-translations</translat
         <translation>전체 잔액, (현재 전송이 불가능한 코인 포함)</translation>
     </message>
     <message>
-        <source>DXR Balance</source>
-        <translation>DXR 잔액</translation>
+        <source>DEXR Balance</source>
+        <translation>DEXR 잔액</translation>
     </message>
     <message>
         <source>Pending:</source>
@@ -2039,14 +2039,14 @@ https://www.transifex.com/dexergi-project/dexergi-project-translations</translat
         <translation>현재 DEXERGI 잔액, 미확정, 생성중인 코인 포함</translation>
     </message>
     <message>
-        <source>zDXR Balance</source>
-        <translation>zDXR 잔액</translation>
+        <source>zDEXR Balance</source>
+        <translation>zDEXR 잔액</translation>
     </message>
     <message>
         <source>Mature: more than 20 confirmation and more than 1 mint of the same denomination after it was minted.
-These zDXR are spendable.</source>
+These zDEXR are spendable.</source>
         <translation>성숙한 : 그것이 발행 된 후 같은 명칭의 20 개 이상의 확인 및 1 개 민트.
-이 zDXR는 쓸만합니다.</translation>
+이 zDEXR는 쓸만합니다.</translation>
     </message>
     <message>
         <source>Unconfirmed: less than 20 confirmations
@@ -2099,8 +2099,8 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
         <translation>출금 가능 액수:</translation>
     </message>
     <message>
-        <source>Locked DXR or Masternode collaterals. These are excluded from zDXR minting.</source>
-        <translation>잠금 DXR 또는 Masternode collaterals. 이들은 zDXR minting에서 제외됩니다.</translation>
+        <source>Locked DEXR or Masternode collaterals. These are excluded from zDEXR minting.</source>
+        <translation>잠금 DEXR 또는 Masternode collaterals. 이들은 zDEXR minting에서 제외됩니다.</translation>
     </message>
     <message>
         <source>Locked:</source>
@@ -2111,8 +2111,8 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
         <translation>미승인:</translation>
     </message>
     <message>
-        <source>Your current zDXR balance, unconfirmed and immature zDXR included.</source>
-        <translation>zDXR 잔액, 미확정, 생성중인 zDXR 포함.</translation>
+        <source>Your current zDEXR balance, unconfirmed and immature zDEXR included.</source>
+        <translation>zDEXR 잔액, 미확정, 생성중인 zDEXR 포함.</translation>
     </message>
     <message>
         <source>Recent transactions</source>
@@ -2123,10 +2123,10 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
         <translation>동기화되지 않음</translation>
     </message>
     <message>
-        <source>Current percentage of zDXR.
+        <source>Current percentage of zDEXR.
 If AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%).
 </source>
-        <translation>현재 zDXR의 백분율 .
+        <translation>현재 zDEXR의 백분율 .
 자동 저장 기능이 활성화 된 경우이 비율은 구성된 자동 저장 비율 (기본값 = 10 %)을 기준으로 정해집니다.</translation>
     </message>
     <message>
@@ -2269,8 +2269,8 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in dexergi.co
         <translation>0</translation>
     </message>
     <message>
-        <source>zDXR</source>
-        <translation>zDXR</translation>
+        <source>zDEXR</source>
+        <translation>zDEXR</translation>
     </message>
     <message>
         <source>Reset Zerocoin Wallet DB. Deletes transactions that did not make it into the blockchain.</source>
@@ -2297,12 +2297,12 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in dexergi.co
         <translation>프라이버시</translation>
     </message>
     <message>
-        <source>zDXR Control</source>
-        <translation>zDXR 컨트롤</translation>
+        <source>zDEXR Control</source>
+        <translation>zDEXR 컨트롤</translation>
     </message>
     <message>
-        <source>zDXR Selected:</source>
-        <translation>선택된 zDXR :</translation>
+        <source>zDEXR Selected:</source>
+        <translation>선택된 zDEXR :</translation>
     </message>
     <message>
         <source>Quantity Selected:</source>
@@ -2317,24 +2317,24 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in dexergi.co
         <translation>제로코인 보내기</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zDXR for spending</source>
-        <translation>전송 가능한 zDXR</translation>
+        <source>Available (mature and spendable) zDEXR for spending</source>
+        <translation>전송 가능한 zDEXR</translation>
     </message>
     <message>
         <source>Available Balance:</source>
         <translation>가능한 잔액:</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zDXR for spending
+        <source>Available (mature and spendable) zDEXR for spending
 
-zDXR are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
-        <translation>지출에 사용할 수있는 성숙한 소비재 zDXR
+zDEXR are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
+        <translation>지출에 사용할 수있는 성숙한 소비재 zDEXR
 
-zDXR는 성명서가 20 개 이상 있고 명칭이 동일하지 않은 2 개 이상의 민트가 작성되었을 때 성숙합니다.</translation>
+zDEXR는 성명서가 20 개 이상 있고 명칭이 동일하지 않은 2 개 이상의 민트가 작성되었을 때 성숙합니다.</translation>
     </message>
     <message>
-        <source>0 zDXR</source>
-        <translation>0 zDXR</translation>
+        <source>0 zDEXR</source>
+        <translation>0 zDEXR</translation>
     </message>
     <message>
         <source>Pay &amp;To:</source>
@@ -2342,7 +2342,7 @@ zDXR는 성명서가 20 개 이상 있고 명칭이 동일하지 않은 2 개 �
     </message>
     <message>
         <source>The DEXERGI address to send the payment to. Creates local payment to yourself when empty.</source>
-        <translation>DXR를 전송할 DEXERGI 주소입니다. 비어있을 때 자신에게 지불할 주소를 생성합니다.</translation>
+        <translation>DEXR를 전송할 DEXERGI 주소입니다. 비어있을 때 자신에게 지불할 주소를 생성합니다.</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2393,7 +2393,7 @@ zDXR는 성명서가 20 개 이상 있고 명칭이 동일하지 않은 2 개 �
         <translation>제로코인 상태 :</translation>
     </message>
     <message>
-        <source>Total Balance including unconfirmed and immature zDXR</source>
+        <source>Total Balance including unconfirmed and immature zDEXR</source>
         <translation>승인중이거나, 생성중인 제로코인도 포함된 전체 잔액입니다.</translation>
     </message>
     <message>
@@ -2415,24 +2415,24 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
 미성숙 : 확인되었지만 발행 된 후 같은 종파 1 개 미만</translation>
     </message>
     <message>
-        <source>Show the current status of automatic zDXR minting.
+        <source>Show the current status of automatic zDEXR minting.
 
 To change the status (restart required):
 - enable: add 'enablezeromint=1' to dexergi.conf
 - disable: add 'enablezeromint=0' to dexergi.conf
 
 To change the percentage (no restart required):
-- menu Settings-&gt;Options-&gt;Percentage of autominted zDXR
+- menu Settings-&gt;Options-&gt;Percentage of autominted zDEXR
 
 </source>
-        <translation>현재 zDXR 자동 생성 상태를 보여줍니다.
+        <translation>현재 zDEXR 자동 생성 상태를 보여줍니다.
 
 자동생성 상태를 변경하시려면 (지갑 재시작 필요함):
 - 활성화: 'enablezeromint=1' 를 dexergi.conf 파일에 추가
 - 비활성화: 'enablezeromint=0' 를 dexergi.conf 파일에 추가
 
 자동 생성 비율 변경하시려면 (지갑 재시작 필요없음):
-- 메뉴 설정-&gt;옵션-&gt;zDXR 자동생성 비율
+- 메뉴 설정-&gt;옵션-&gt;zDEXR 자동생성 비율
 
 </translation>
     </message>
@@ -2607,12 +2607,12 @@ Please be patient...</source>
 기다려주세요...</translation>
     </message>
     <message>
-        <source>zDXR Spend #: </source>
-        <translation>zDXR 전송 # :</translation>
+        <source>zDEXR Spend #: </source>
+        <translation>zDEXR 전송 # :</translation>
     </message>
     <message>
-        <source>zDXR Mint</source>
-        <translation>zDXR 생성</translation>
+        <source>zDEXR Mint</source>
+        <translation>zDEXR 생성</translation>
     </message>
     <message>
         <source> &lt;b&gt;enabled&lt;/b&gt;.</source>
@@ -2627,12 +2627,12 @@ Please be patient...</source>
         <translation> 구성된 목표 비율 : &lt;b&gt;</translation>
     </message>
     <message>
-        <source>zDXR is currently disabled due to maintenance.</source>
-        <translation>zDXR는 현재 점검중이라 사용하실수 없습니다.</translation>
+        <source>zDEXR is currently disabled due to maintenance.</source>
+        <translation>zDEXR는 현재 점검중이라 사용하실수 없습니다.</translation>
     </message>
     <message>
-        <source>zDXR is currently undergoing maintenance.</source>
-        <translation>zDXR는 현재 점검중입니다.</translation>
+        <source>zDEXR is currently undergoing maintenance.</source>
+        <translation>zDEXR는 현재 점검중입니다.</translation>
     </message>
     <message>
         <source>Denom. with value &lt;b&gt;1&lt;/b&gt;:</source>
@@ -3077,8 +3077,8 @@ Please be patient...</source>
         <translation>맞춤 백업 경로 :</translation>
     </message>
     <message>
-        <source>Custom zDXR Backup Path:</source>
-        <translation>맞춤 zDXR 백업 경로 :</translation>
+        <source>Custom zDEXR Backup Path:</source>
+        <translation>맞춤 zDEXR 백업 경로 :</translation>
     </message>
     <message>
         <source>Custom Backups Threshold:</source>
@@ -3526,8 +3526,8 @@ Please be patient...</source>
         <translation>UTXO 크기:</translation>
     </message>
     <message>
-        <source>0 DXR</source>
-        <translation>0 DXR</translation>
+        <source>0 DEXR</source>
+        <translation>0 DEXR</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -3582,12 +3582,12 @@ Please be patient...</source>
         <translation>자동으로 선택됩니다.</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uDXRs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uDXRs in fee,&lt;br /&gt;while "at least" pays 1000 uDXRs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>트랜잭션이 250바이트 인 경우 사용자 지정 수수료가 1000 uDXRs로 설정되고,&lt;br /&gt;1000 uDXRs 안에는 최소 "킬로바이트당" 250 uDXRs 만 지불합니다. 1 킬로바이트보다 큰 트랜잭션의 경우 모두 킬로바이트 단위로 지불합니다.</translation>
+        <source>If the custom fee is set to 1000 uDEXRs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uDEXRs in fee,&lt;br /&gt;while "at least" pays 1000 uDEXRs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>트랜잭션이 250바이트 인 경우 사용자 지정 수수료가 1000 uDEXRs로 설정되고,&lt;br /&gt;1000 uDEXRs 안에는 최소 "킬로바이트당" 250 uDEXRs 만 지불합니다. 1 킬로바이트보다 큰 트랜잭션의 경우 모두 킬로바이트 단위로 지불합니다.</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uDXRs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uDXRs in fee,&lt;br /&gt;while "total at least" pays 1000 uDXRs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>트랜잭션이 250바이트 인 경우 사용자 지정 수수료가 1000 uDXRs로 설정되고,&lt;br /&gt;1000 uDXRs 안에는 전체에서 최소 "킬로바이트당" 250 uDXRs 만 지불합니다. 1 킬로바이트보다 큰 트랜잭션의 경우 모두 킬로바이트 단위로 지불합니다.</translation>
+        <source>If the custom fee is set to 1000 uDEXRs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uDEXRs in fee,&lt;br /&gt;while "total at least" pays 1000 uDEXRs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>트랜잭션이 250바이트 인 경우 사용자 지정 수수료가 1000 uDEXRs로 설정되고,&lt;br /&gt;1000 uDEXRs 안에는 전체에서 최소 "킬로바이트당" 250 uDEXRs 만 지불합니다. 1 킬로바이트보다 큰 트랜잭션의 경우 모두 킬로바이트 단위로 지불합니다.</translation>
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for DEXERGI transactions than the network can process.</source>
@@ -3638,8 +3638,8 @@ Please be patient...</source>
         <translation>&amp;받는 사람 추가</translation>
     </message>
     <message>
-        <source>Anonymized DXR</source>
-        <translation>익명화된 DXR</translation>
+        <source>Anonymized DEXR</source>
+        <translation>익명화된 DEXR</translation>
     </message>
     <message>
         <source>Balance:</source>
@@ -4283,12 +4283,12 @@ Please be patient...</source>
         <translation>난독화를 통해 수신 됨</translation>
     </message>
     <message>
-        <source>DXR Stake</source>
-        <translation>DXR stake</translation>
+        <source>DEXR Stake</source>
+        <translation>DEXR stake</translation>
     </message>
     <message>
-        <source>zDXR Stake</source>
-        <translation>zDXR stake</translation>
+        <source>zDEXR Stake</source>
+        <translation>zDEXR stake</translation>
     </message>
     <message>
         <source>Obfuscation Denominate</source>
@@ -4307,32 +4307,32 @@ Please be patient...</source>
         <translation>난독화 표시 만들기</translation>
     </message>
     <message>
-        <source>Converted DXR to zDXR</source>
-        <translation>DXR를 zDXR로 변환</translation>
+        <source>Converted DEXR to zDEXR</source>
+        <translation>DEXR를 zDEXR로 변환</translation>
     </message>
     <message>
-        <source>Spent zDXR</source>
-        <translation>zDXR 사용</translation>
+        <source>Spent zDEXR</source>
+        <translation>zDEXR 사용</translation>
     </message>
     <message>
-        <source>Received DXR from zDXR</source>
-        <translation>zDXR를 DXR로 받음</translation>
+        <source>Received DEXR from zDEXR</source>
+        <translation>zDEXR를 DEXR로 받음</translation>
     </message>
     <message>
-        <source>Minted Change as zDXR from zDXR Spend</source>
-        <translation>zDXR 전송후 남은 zDXR로 잔돈 생성</translation>
+        <source>Minted Change as zDEXR from zDEXR Spend</source>
+        <translation>zDEXR 전송후 남은 zDEXR로 잔돈 생성</translation>
     </message>
     <message>
-        <source>Converted zDXR to DXR</source>
-        <translation>zDXR를 DXR로 변환</translation>
+        <source>Converted zDEXR to DEXR</source>
+        <translation>zDEXR를 DEXR로 변환</translation>
     </message>
     <message>
-        <source>Anonymous (zDXR Transaction)</source>
-        <translation>Anonymous (zDXR 거래)</translation>
+        <source>Anonymous (zDEXR Transaction)</source>
+        <translation>Anonymous (zDEXR 거래)</translation>
     </message>
     <message>
-        <source>Anonymous (zDXR Stake)</source>
-        <translation>Anonymous (zDXR 스테이킹)</translation>
+        <source>Anonymous (zDEXR Stake)</source>
+        <translation>Anonymous (zDEXR 스테이킹)</translation>
     </message>
     <message>
         <source>Sent to</source>
@@ -4542,12 +4542,12 @@ Please be patient...</source>
         <translation>내보내기 성공</translation>
     </message>
     <message>
-        <source>Received DXR from zDXR</source>
-        <translation>zDXR를 DXR로 받음</translation>
+        <source>Received DEXR from zDEXR</source>
+        <translation>zDEXR를 DEXR로 받음</translation>
     </message>
     <message>
-        <source>Zerocoin Spend, Change in zDXR</source>
-        <translation>제로코인 전송, 잔돈은 zDXR</translation>
+        <source>Zerocoin Spend, Change in zDEXR</source>
+        <translation>제로코인 전송, 잔돈은 zDEXR</translation>
     </message>
     <message>
         <source>The transaction history was successfully saved to %1.</source>
@@ -4583,8 +4583,8 @@ Please be patient...</source>
         <translation>코인 전송 </translation>
     </message>
     <message>
-        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 DXR.</source>
-        <translation>SwiftTX는 아직 높은 값을 전송하는 것을 지원하지 않습니다. 트랜잭션은 현재 %1 DXR로 제한됩니다.</translation>
+        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 DEXR.</source>
+        <translation>SwiftTX는 아직 높은 값을 전송하는 것을 지원하지 않습니다. 트랜잭션은 현재 %1 DEXR로 제한됩니다.</translation>
     </message>
 </context>
 <context>
@@ -4617,8 +4617,8 @@ Please be patient...</source>
 <context>
     <name>ZPivControlDialog</name>
     <message>
-        <source>Select zDXR to Spend</source>
-        <translation>사용할 zDXR 선택</translation>
+        <source>Select zDEXR to Spend</source>
+        <translation>사용할 zDEXR 선택</translation>
     </message>
     <message>
         <source>Quantity</source>
@@ -4629,8 +4629,8 @@ Please be patient...</source>
         <translation>0</translation>
     </message>
     <message>
-        <source>zDXR</source>
-        <translation>zDXR</translation>
+        <source>zDEXR</source>
+        <translation>zDEXR</translation>
     </message>
     <message>
         <source>Select/Deselect All</source>
@@ -4692,16 +4692,16 @@ Please be patient...</source>
         <translation>MIT 소프트웨어 라이센스에 따라 배포, 첨부 파일 COPYING 또는 &lt;http://www.opensource.org/licenses/mit-license.php&gt; 를 참조하십시오.</translation>
     </message>
     <message>
-        <source>Enable automatic wallet backups triggered after each zDXR minting (0-1, default: %u)</source>
-        <translation>Enable automatic wallet backups triggered after each zDXR minting (0-1, default: %u)</translation>
+        <source>Enable automatic wallet backups triggered after each zDEXR minting (0-1, default: %u)</source>
+        <translation>Enable automatic wallet backups triggered after each zDEXR minting (0-1, default: %u)</translation>
     </message>
     <message>
-        <source>Enable or disable staking functionality for DXR inputs (0-1, default: %u)</source>
-        <translation>Enable or disable staking functionality for DXR inputs (0-1, default: %u)</translation>
+        <source>Enable or disable staking functionality for DEXR inputs (0-1, default: %u)</source>
+        <translation>Enable or disable staking functionality for DEXR inputs (0-1, default: %u)</translation>
     </message>
     <message>
-        <source>Enable or disable staking functionality for zDXR inputs (0-1, default: %u)</source>
-        <translation>Enable or disable staking functionality for zDXR inputs (0-1, default: %u)</translation>
+        <source>Enable or disable staking functionality for zDEXR inputs (0-1, default: %u)</source>
+        <translation>Enable or disable staking functionality for zDEXR inputs (0-1, default: %u)</translation>
     </message>
     <message>
         <source>Enable spork administration functionality with the appropriate private key.</source>
@@ -4736,12 +4736,12 @@ Please be patient...</source>
         <translation>최고 블록이 변경될 경우 명령을 실행하십시오 (명령 내 %s 는 블록 해시로 대체 되었습니다)</translation>
     </message>
     <message>
-        <source>Fees (in DXR/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>이것보다 작은 수수료 (DXR/Kb)는 중계 수수료가 없는 것으로 간주됩니다 (기본값: %s)</translation>
+        <source>Fees (in DEXR/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>이것보다 작은 수수료 (DEXR/Kb)는 중계 수수료가 없는 것으로 간주됩니다 (기본값: %s)</translation>
     </message>
     <message>
-        <source>Fees (in DXR/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>이것보다 작은 수수료 (DXR/Kb)는 트랜잭션 생성 수수료가 없는 것으로 간주됩니다 (기본값: %s)</translation>
+        <source>Fees (in DEXR/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>이것보다 작은 수수료 (DEXR/Kb)는 트랜잭션 생성 수수료가 없는 것으로 간주됩니다 (기본값: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -4844,12 +4844,12 @@ Please be patient...</source>
         <translation>이 트랜잭션를 위해 난독화 표기된 충분한 금액을 찾을 수 없습니다.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 DXR.</source>
-        <translation>이 트랜잭션를 위해 난독화 표기가 안된 충분한 금액을 찾을 수 없습니다. 10000 DXR과 일치하지 않음.</translation>
+        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 DEXR.</source>
+        <translation>이 트랜잭션를 위해 난독화 표기가 안된 충분한 금액을 찾을 수 없습니다. 10000 DEXR과 일치하지 않음.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 DXR.</source>
-        <translation>트랜잭션에 대한 충분한 금액을 찾을 수 없습니다. 10000 DXR와 같지 않음</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 DEXR.</source>
+        <translation>트랜잭션에 대한 충분한 금액을 찾을 수 없습니다. 10000 DEXR와 같지 않음</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -5132,8 +5132,8 @@ Please be patient...</source>
         <translation>블록을 받아오는데 실패했습니다.</translation>
     </message>
     <message>
-        <source>Fee (in DXR/kB) to add to transactions you send (default: %s)</source>
-        <translation>당신이 보내는 트랜잭션에 추가 할 수수료 (DXR/kB) (기본값: %s)</translation>
+        <source>Fee (in DEXR/kB) to add to transactions you send (default: %s)</source>
+        <translation>당신이 보내는 트랜잭션에 추가 할 수수료 (DEXR/kB) (기본값: %s)</translation>
     </message>
     <message>
         <source>Force safe mode (default: %u)</source>
@@ -5233,11 +5233,11 @@ Please be patient...</source>
     </message>
     <message>
         <source>Percentage of automatically minted Zerocoin  (1-100, default: %u)</source>
-        <translation>자동생성 zDXR 비율  (1-100, default: %u)</translation>
+        <translation>자동생성 zDEXR 비율  (1-100, default: %u)</translation>
     </message>
     <message>
-        <source>Reindex the DXR and zDXR money supply statistics</source>
-        <translation>DXR 및 zDXR 공급량 다시 색인</translation>
+        <source>Reindex the DEXR and zDEXR money supply statistics</source>
+        <translation>DEXR 및 zDEXR 공급량 다시 색인</translation>
     </message>
     <message>
         <source>Reindexing zerocoin database...</source>
@@ -5312,8 +5312,8 @@ Please be patient...</source>
         <translation>자동생성 제로코인 선호 디노미네이션 (1/5/10/50/100/500/1000/5000) 0사용안됨, 기본값 : %u)</translation>
     </message>
     <message>
-        <source>Specify custom backup path to add a copy of any automatic zDXR backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</source>
-        <translation>Specify custom backup path to add a copy of any automatic zDXR backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</translation>
+        <source>Specify custom backup path to add a copy of any automatic zDEXR backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</source>
+        <translation>Specify custom backup path to add a copy of any automatic zDEXR backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</translation>
     </message>
     <message>
         <source>Specify custom backup path to add a copy of any wallet backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup.</source>
@@ -5724,8 +5724,8 @@ Please be patient...</source>
         <translation>sporks와 동기화 중입니다...</translation>
     </message>
     <message>
-        <source>Syncing zDXR wallet...</source>
-        <translation>zDXR 지갑 동기화중...</translation>
+        <source>Syncing zDEXR wallet...</source>
+        <translation>zDEXR 지갑 동기화중...</translation>
     </message>
     <message>
         <source>The coin spend has been used</source>
@@ -5832,8 +5832,8 @@ Please be patient...</source>
         <translation>JSON-RPC 연결 사용자 이름</translation>
     </message>
     <message>
-        <source>Value is below the smallest available denomination (= 1) of zDXR</source>
-        <translation>Value is below the smallest available denomination (= 1) of zDXR</translation>
+        <source>Value is below the smallest available denomination (= 1) of zDEXR</source>
+        <translation>Value is below the smallest available denomination (= 1) of zDEXR</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>
@@ -5877,7 +5877,7 @@ Please be patient...</source>
     </message>
     <message>
         <source>You don't have enough Zerocoins in your wallet</source>
-        <translation>지갑에 zDXR 가 부족합니다.</translation>
+        <translation>지갑에 zDEXR 가 부족합니다.</translation>
     </message>
     <message>
         <source>You need to rebuild the database using -reindex to change -txindex</source>

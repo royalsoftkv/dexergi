@@ -15,7 +15,7 @@ from test_framework.util import assert_equal, assert_greater_than
 
 from fake_stake.base_test import DEXERGI_FakeStakeTest
 
-class zDXRwrappedSerialsTest(DEXERGI_FakeStakeTest):
+class zDEXRwrappedSerialsTest(DEXERGI_FakeStakeTest):
 
     def run_test(self):
         q = 73829871667027927151400291810255409637272593023945445234219354687881008052707
@@ -35,7 +35,7 @@ class zDXRwrappedSerialsTest(DEXERGI_FakeStakeTest):
         sleep(2)
 
         # 2) Mint zerocoins
-        self.log.info("Minting %d-denom zDXRs..." % DENOM_TO_USE)
+        self.log.info("Minting %d-denom zDEXRs..." % DENOM_TO_USE)
         balance = self.node.getbalance("*", 100)
         assert_greater_than(balance, DENOM_TO_USE)
         total_mints = 0
@@ -105,4 +105,4 @@ class zDXRwrappedSerialsTest(DEXERGI_FakeStakeTest):
 
 
 if __name__ == '__main__':
-    zDXRwrappedSerialsTest().main()
+    zDEXRwrappedSerialsTest().main()

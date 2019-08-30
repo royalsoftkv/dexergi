@@ -3,8 +3,8 @@
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef ZDXRCONTROLDIALOG_H
-#define ZDXRCONTROLDIALOG_H
+#ifndef ZDEXRCONTROLDIALOG_H
+#define ZDEXRCONTROLDIALOG_H
 
 #include <QDialog>
 #include <QTreeWidgetItem>
@@ -66,4 +66,4 @@ private slots:
     void ButtonAllClicked();
 };
 
-#endif // ZDXRCONTROLDIALOG_H
+#endif // ZDEXRCONTROLDIALOG_H

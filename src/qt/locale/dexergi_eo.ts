@@ -176,15 +176,15 @@
         <translation>Konfirmi monerĉifrado</translation>
     </message>
     <message>
-        <source>DEXERGI will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your DXRs from being stolen by malware infecting your computer.</source>
-        <translation>DEXERGI fermos nun por fini ĉifran procezon. Memoru ke ĉifri vian monujon ne povas plene protekti viajn DXRs de esti ŝtelita per malware infektanta vian komputilon.</translation>
+        <source>DEXERGI will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your DEXRs from being stolen by malware infecting your computer.</source>
+        <translation>DEXERGI fermos nun por fini ĉifran procezon. Memoru ke ĉifri vian monujon ne povas plene protekti viajn DEXRs de esti ŝtelita per malware infektanta vian komputilon.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Ĉu vi certas ke vi volas ĉifri vian monujon?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DXR&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DEXR&lt;/b&gt;!</source>
         <translation>Averto: se vi ĉifras vian monujo kaj perdi vian pasfrazon, vi &lt;b&gt;PERDOS VIAN TUTAN MONON&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -433,8 +433,8 @@
         <translation>&amp;Foliumi transakcio historio</translation>
     </message>
     <message>
-        <source>Privacy Actions for zDXR</source>
-        <translation>Privataj agoj por zDXR</translation>
+        <source>Privacy Actions for zDEXR</source>
+        <translation>Privataj agoj por zDEXR</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -1098,8 +1098,8 @@ Muktisendi: %1</translation>
         <translation>Ĉi tiun etikedo ruĝiĝas se iu ajna ricevanto ricevas totalo pli malgranda ol %1.</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 uDXR per input.</source>
-        <translation>Povas varii +/- %1 uDXR per enigo.</translation>
+        <source>Can vary +/- %1 uDEXR per input.</source>
+        <translation>Povas varii +/- %1 uDEXR per enigo.</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1514,8 +1514,8 @@ Muktisendi: %1</translation>
         <translation>Adreso / Kvanto:</translation>
     </message>
     <message>
-        <source>Add destinations to send DXR to</source>
-        <translation>Aldonu destinoj por sendi DXR al</translation>
+        <source>Add destinations to send DEXR to</source>
+        <translation>Aldonu destinoj por sendi DEXR al</translation>
     </message>
     <message>
         <source>Add &amp;Destination</source>
@@ -1705,8 +1705,8 @@ https://www.transifex.com/dexergi-project/dexergi-project-translations</translat
         <translation>Via aktuala elspezebla saldo</translation>
     </message>
     <message>
-        <source>DXR Balance</source>
-        <translation>DXR kvanto</translation>
+        <source>DEXR Balance</source>
+        <translation>DEXR kvanto</translation>
     </message>
     <message>
         <source>Immature:</source>
@@ -1717,8 +1717,8 @@ https://www.transifex.com/dexergi-project/dexergi-project-translations</translat
         <translation>Via aktuala DEXERGI totalo, nekonformita kaj nematurita transakcioj inkluzivita</translation>
     </message>
     <message>
-        <source>zDXR Balance</source>
-        <translation>zDXR kvanto</translation>
+        <source>zDEXR Balance</source>
+        <translation>zDEXR kvanto</translation>
     </message>
     <message>
         <source>Unconfirmed: less than 20 confirmations
@@ -1788,20 +1788,20 @@ Nematura: konfirmita, sed malpli ol 1 minto el la samo nomado post ĝin estis mi
         <translation>0</translation>
     </message>
     <message>
-        <source>zDXR</source>
-        <translation>zDXR</translation>
+        <source>zDEXR</source>
+        <translation>zDEXR</translation>
     </message>
     <message>
         <source>Reset</source>
         <translation>Restarigi</translation>
     </message>
     <message>
-        <source>zDXR Control</source>
-        <translation>zDXR kontrolu</translation>
+        <source>zDEXR Control</source>
+        <translation>zDEXR kontrolu</translation>
     </message>
     <message>
-        <source>zDXR Selected:</source>
-        <translation>Elektita zDXR</translation>
+        <source>zDEXR Selected:</source>
+        <translation>Elektita zDEXR</translation>
     </message>
     <message>
         <source>Quantity Selected:</source>
@@ -1812,12 +1812,12 @@ Nematura: konfirmita, sed malpli ol 1 minto el la samo nomado post ĝin estis mi
         <translation>Elspezi zerocoin</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zDXR for spending</source>
-        <translation>Havebla (matura kaj elspezebla) zDXR por elspezi</translation>
+        <source>Available (mature and spendable) zDEXR for spending</source>
+        <translation>Havebla (matura kaj elspezebla) zDEXR por elspezi</translation>
     </message>
     <message>
-        <source>0 zDXR</source>
-        <translation>0 zDXR</translation>
+        <source>0 zDEXR</source>
+        <translation>0 zDEXR</translation>
     </message>
     <message>
         <source>Pay &amp;To:</source>
@@ -2194,8 +2194,8 @@ Nematura: konfirmita, sed malpli ol 1 minto el la samo nomado post ĝin estis mi
         <translation>Se estas aktiva sed ŝanĝo-adreso estas malpleniĝa au nevalida, ŝanĝo sendos al nova generita adreson.</translation>
     </message>
     <message>
-        <source>0 DXR</source>
-        <translation>0 DXR</translation>
+        <source>0 DEXR</source>
+        <translation>0 DEXR</translation>
     </message>
     <message>
         <source>Open Coin Control...</source>
@@ -2270,7 +2270,7 @@ Nematura: konfirmita, sed malpli ol 1 minto el la samo nomado post ĝin estis mi
     </message>
     <message>
         <source>The DEXERGI address to send the payment to</source>
-        <translation>DXRC adreso por sendi la pago al</translation>
+        <translation>DEXRC adreso por sendi la pago al</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2552,8 +2552,8 @@ Nematura: konfirmita, sed malpli ol 1 minto el la samo nomado post ĝin estis mi
         <translation>0</translation>
     </message>
     <message>
-        <source>zDXR</source>
-        <translation>zDXR</translation>
+        <source>zDEXR</source>
+        <translation>zDEXR</translation>
     </message>
     </context>
 <context>

@@ -3,8 +3,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 //
-#ifndef DEXERGI_ZDXRMODULE_H
-#define DEXERGI_ZDXRMODULE_H
+#ifndef DEXERGI_ZDEXRMODULE_H
+#define DEXERGI_ZDEXRMODULE_H
 
 #include "libzerocoin/bignum.h"
 #include "libzerocoin/Denominations.h"
@@ -73,7 +73,7 @@ public:
 
 class CValidationState;
 
-namespace ZDXRModule {
+namespace ZDEXRModule {
     bool createInput(CTxIn &in, CZerocoinMint& mint, uint256 hashTxOut);
     bool parseCoinSpend(const CTxIn &in, const CTransaction& tx, const CTxOut &prevOut, PublicCoinSpend& publicCoinSpend);
     bool validateInput(const CTxIn &in, const CTxOut &prevOut, const CTransaction& tx, PublicCoinSpend& ret);
@@ -90,4 +90,4 @@ namespace ZDXRModule {
 };
 
 
-#endif //DEXERGI_ZDXRMODULE_H
+#endif //DEXERGI_ZDEXRMODULE_H

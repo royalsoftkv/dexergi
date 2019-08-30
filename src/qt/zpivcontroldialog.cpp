@@ -143,9 +143,9 @@ void ZPivControlDialog::updateList()
             if(nConfirmations < Params().Zerocoin_MintRequiredConfirmations())
                 strReason = strprintf("Needs %d more confirmations", Params().Zerocoin_MintRequiredConfirmations() - nConfirmations);
             else if (model->getEncryptionStatus() == WalletModel::EncryptionStatus::Locked)
-                strReason = "Your wallet is locked. Impossible to precompute or spend zDXR.";
+                strReason = "Your wallet is locked. Impossible to precompute or spend zDEXR.";
             else if (!mint.isSeedCorrect)
-                strReason = "The zDXR seed used to mint this zDXR is not the same as currently hold in the wallet";
+                strReason = "The zDEXR seed used to mint this zDEXR is not the same as currently hold in the wallet";
             else
                 strReason = strprintf("Needs %d more mints added to network", Params().Zerocoin_RequiredAccumulation());
 

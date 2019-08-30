@@ -35,7 +35,7 @@ class TxViewDelegate : public QAbstractItemDelegate
 {
     Q_OBJECT
 public:
-    TxViewDelegate() : QAbstractItemDelegate(), unit(BitcoinUnits::DXR)
+    TxViewDelegate() : QAbstractItemDelegate(), unit(BitcoinUnits::DEXR)
     {
     }
 
@@ -147,7 +147,7 @@ OverviewPage::~OverviewPage()
     delete ui;
 }
 
-void OverviewPage::getPercentage(CAmount nUnlockedBalance, CAmount nZerocoinBalance, QString& sDXRPercentage, QString& szDXRPercentage)
+void OverviewPage::getPercentage(CAmount nUnlockedBalance, CAmount nZerocoinBalance, QString& sDEXRPercentage, QString& szDEXRPercentage)
 {
     int nPrecision = 2;
     double dzPercentage = 0.0;
@@ -166,8 +166,8 @@ void OverviewPage::getPercentage(CAmount nUnlockedBalance, CAmount nZerocoinBala
 
     double dPercentage = 100.0 - dzPercentage;
 
-    szDXRPercentage = "(" + QLocale(QLocale::system()).toString(dzPercentage, 'f', nPrecision) + " %)";
-    sDXRPercentage = "(" + QLocale(QLocale::system()).toString(dPercentage, 'f', nPrecision) + " %)";
+    szDEXRPercentage = "(" + QLocale(QLocale::system()).toString(dzPercentage, 'f', nPrecision) + " %)";
+    sDEXRPercentage = "(" + QLocale(QLocale::system()).toString(dPercentage, 'f', nPrecision) + " %)";
 
 }
 
@@ -192,16 +192,16 @@ void OverviewPage::setBalance(const CAmount& balance, const CAmount& unconfirmed
         nWatchOnlyLockedBalance = pwalletMain->GetLockedWatchOnlyBalance();
     }
 
-    // DXR Balance
+    // DEXR Balance
     CAmount nTotalBalance = balance + unconfirmedBalance;
     CAmount pivAvailableBalance = balance - immatureBalance - nLockedBalance;
     CAmount nUnlockedBalance = nTotalBalance - nLockedBalance;
 
-    // DXR Watch-Only Balance
+    // DEXR Watch-Only Balance
     CAmount nTotalWatchBalance = watchOnlyBalance + watchUnconfBalance;
     CAmount nAvailableWatchBalance = watchOnlyBalance - watchImmatureBalance - nWatchOnlyLockedBalance;
 
-    // zDXR Balance
+    // zDEXR Balance
     CAmount matureZerocoinBalance = zerocoinBalance - unconfirmedZerocoinBalance - immatureZerocoinBalance;
 
     // Percentages
@@ -212,7 +212,7 @@ void OverviewPage::setBalance(const CAmount& balance, const CAmount& unconfirmed
     CAmount availableTotalBalance = pivAvailableBalance + matureZerocoinBalance;
     CAmount sumTotalBalance = nTotalBalance + zerocoinBalance;
 
-    // DXR labels
+    // DEXR labels
     ui->labelBalance->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, pivAvailableBalance, false, BitcoinUnits::separatorAlways));
     ui->labelUnconfirmed->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, unconfirmedBalance, false, BitcoinUnits::separatorAlways));
     ui->labelImmature->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, immatureBalance, false, BitcoinUnits::separatorAlways));
@@ -226,7 +226,7 @@ void OverviewPage::setBalance(const CAmount& balance, const CAmount& unconfirmed
     ui->labelWatchLocked->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, nWatchOnlyLockedBalance, false, BitcoinUnits::separatorAlways));
     ui->labelWatchTotal->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, nTotalWatchBalance, false, BitcoinUnits::separatorAlways));
 
-    // zDXR labels
+    // zDEXR labels
     ui->labelzBalance->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, zerocoinBalance, false, BitcoinUnits::separatorAlways));
     ui->labelzBalanceUnconfirmed->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, unconfirmedZerocoinBalance, false, BitcoinUnits::separatorAlways));
     ui->labelzBalanceMature->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, matureZerocoinBalance, false, BitcoinUnits::separatorAlways));
@@ -237,11 +237,11 @@ void OverviewPage::setBalance(const CAmount& balance, const CAmount& unconfirmed
     ui->labelTotalz->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, sumTotalBalance, false, BitcoinUnits::separatorAlways));
 
     // Percentage labels
-    ui->labelDXRPercent->setText(sPercentage);
-    ui->labelzDXRPercent->setText(szPercentage);
+    ui->labelDEXRPercent->setText(sPercentage);
+    ui->labelzDEXRPercent->setText(szPercentage);
 
     // Adjust bubble-help according to AutoMint settings
-    QString automintHelp = tr("Current percentage of zDXR.\nIf AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%).\n");
+    QString automintHelp = tr("Current percentage of zDEXR.\nIf AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%).\n");
     bool fEnableZeromint = GetBoolArg("-enablezeromint", true);
     int nZeromintPercentage = GetArg("-zeromintpercentage", 10);
     if (fEnableZeromint) {
@@ -262,49 +262,49 @@ void OverviewPage::setBalance(const CAmount& balance, const CAmount& unconfirmed
 
     bool showWatchOnly = nTotalWatchBalance != 0;
 
-    // DXR Available
-    bool showDXRAvailable = settingShowAllBalances || pivAvailableBalance != nTotalBalance;
-    bool showWatchOnlyDXRAvailable = showDXRAvailable || nAvailableWatchBalance != nTotalWatchBalance;
-    ui->labelBalanceText->setVisible(showDXRAvailable || showWatchOnlyDXRAvailable);
-    ui->labelBalance->setVisible(showDXRAvailable || showWatchOnlyDXRAvailable);
-    ui->labelWatchAvailable->setVisible(showWatchOnlyDXRAvailable && showWatchOnly);
+    // DEXR Available
+    bool showDEXRAvailable = settingShowAllBalances || pivAvailableBalance != nTotalBalance;
+    bool showWatchOnlyDEXRAvailable = showDEXRAvailable || nAvailableWatchBalance != nTotalWatchBalance;
+    ui->labelBalanceText->setVisible(showDEXRAvailable || showWatchOnlyDEXRAvailable);
+    ui->labelBalance->setVisible(showDEXRAvailable || showWatchOnlyDEXRAvailable);
+    ui->labelWatchAvailable->setVisible(showWatchOnlyDEXRAvailable && showWatchOnly);
 
-    // DXR Pending
-    bool showDXRPending = settingShowAllBalances || unconfirmedBalance != 0;
-    bool showWatchOnlyDXRPending = showDXRPending || watchUnconfBalance != 0;
-    ui->labelPendingText->setVisible(showDXRPending || showWatchOnlyDXRPending);
-    ui->labelUnconfirmed->setVisible(showDXRPending || showWatchOnlyDXRPending);
-    ui->labelWatchPending->setVisible(showWatchOnlyDXRPending && showWatchOnly);
+    // DEXR Pending
+    bool showDEXRPending = settingShowAllBalances || unconfirmedBalance != 0;
+    bool showWatchOnlyDEXRPending = showDEXRPending || watchUnconfBalance != 0;
+    ui->labelPendingText->setVisible(showDEXRPending || showWatchOnlyDEXRPending);
+    ui->labelUnconfirmed->setVisible(showDEXRPending || showWatchOnlyDEXRPending);
+    ui->labelWatchPending->setVisible(showWatchOnlyDEXRPending && showWatchOnly);
 
-    // DXR Immature
-    bool showDXRImmature = settingShowAllBalances || immatureBalance != 0;
-    bool showWatchOnlyImmature = showDXRImmature || watchImmatureBalance != 0;
-    ui->labelImmatureText->setVisible(showDXRImmature || showWatchOnlyImmature);
-    ui->labelImmature->setVisible(showDXRImmature || showWatchOnlyImmature); // for symmetry reasons also show immature label when the watch-only one is shown
+    // DEXR Immature
+    bool showDEXRImmature = settingShowAllBalances || immatureBalance != 0;
+    bool showWatchOnlyImmature = showDEXRImmature || watchImmatureBalance != 0;
+    ui->labelImmatureText->setVisible(showDEXRImmature || showWatchOnlyImmature);
+    ui->labelImmature->setVisible(showDEXRImmature || showWatchOnlyImmature); // for symmetry reasons also show immature label when the watch-only one is shown
     ui->labelWatchImmature->setVisible(showWatchOnlyImmature && showWatchOnly); // show watch-only immature balance
 
-    // DXR Locked
-    bool showDXRLocked = settingShowAllBalances || nLockedBalance != 0;
-    bool showWatchOnlyDXRLocked = showDXRLocked || nWatchOnlyLockedBalance != 0;
-    ui->labelLockedBalanceText->setVisible(showDXRLocked || showWatchOnlyDXRLocked);
-    ui->labelLockedBalance->setVisible(showDXRLocked || showWatchOnlyDXRLocked);
-    ui->labelWatchLocked->setVisible(showWatchOnlyDXRLocked && showWatchOnly);
+    // DEXR Locked
+    bool showDEXRLocked = settingShowAllBalances || nLockedBalance != 0;
+    bool showWatchOnlyDEXRLocked = showDEXRLocked || nWatchOnlyLockedBalance != 0;
+    ui->labelLockedBalanceText->setVisible(showDEXRLocked || showWatchOnlyDEXRLocked);
+    ui->labelLockedBalance->setVisible(showDEXRLocked || showWatchOnlyDEXRLocked);
+    ui->labelWatchLocked->setVisible(showWatchOnlyDEXRLocked && showWatchOnly);
 
-    // zDXR
-    bool showzDXRAvailable = settingShowAllBalances || zerocoinBalance != matureZerocoinBalance;
-    bool showzDXRUnconfirmed = settingShowAllBalances || unconfirmedZerocoinBalance != 0;
-    bool showzDXRImmature = settingShowAllBalances || immatureZerocoinBalance != 0;
-    ui->labelzBalanceMature->setVisible(showzDXRAvailable);
-    ui->labelzBalanceMatureText->setVisible(showzDXRAvailable);
-    ui->labelzBalanceUnconfirmed->setVisible(showzDXRUnconfirmed);
-    ui->labelzBalanceUnconfirmedText->setVisible(showzDXRUnconfirmed);
-    ui->labelzBalanceImmature->setVisible(showzDXRImmature);
-    ui->labelzBalanceImmatureText->setVisible(showzDXRImmature);
+    // zDEXR
+    bool showzDEXRAvailable = settingShowAllBalances || zerocoinBalance != matureZerocoinBalance;
+    bool showzDEXRUnconfirmed = settingShowAllBalances || unconfirmedZerocoinBalance != 0;
+    bool showzDEXRImmature = settingShowAllBalances || immatureZerocoinBalance != 0;
+    ui->labelzBalanceMature->setVisible(showzDEXRAvailable);
+    ui->labelzBalanceMatureText->setVisible(showzDEXRAvailable);
+    ui->labelzBalanceUnconfirmed->setVisible(showzDEXRUnconfirmed);
+    ui->labelzBalanceUnconfirmedText->setVisible(showzDEXRUnconfirmed);
+    ui->labelzBalanceImmature->setVisible(showzDEXRImmature);
+    ui->labelzBalanceImmatureText->setVisible(showzDEXRImmature);
 
     // Percent split
     bool showPercentages = ! (zerocoinBalance == 0 && nTotalBalance == 0);
-    ui->labelDXRPercent->setVisible(showPercentages);
-    ui->labelzDXRPercent->setVisible(showPercentages);
+    ui->labelDEXRPercent->setVisible(showPercentages);
+    ui->labelzDEXRPercent->setVisible(showPercentages);
 
     static int cachedTxLocks = 0;
 
@@ -376,7 +376,7 @@ void OverviewPage::setWalletModel(WalletModel* model)
         connect(model, SIGNAL(notifyWatchonlyChanged(bool)), this, SLOT(updateWatchOnlyLabels(bool)));
     }
 
-    // update the display unit, to not use the default ("DXR")
+    // update the display unit, to not use the default ("DEXR")
     updateDisplayUnit();
 
     // Hide orphans

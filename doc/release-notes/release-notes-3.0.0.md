@@ -43,53 +43,53 @@ frequently tested on them.
 Notable Changes
 ===============
 
-Zerocoin (zDXR) Protocol
+Zerocoin (zDEXR) Protocol
 ---------------------
 
-At long last, the zDXR release is here and the zerocoin protocol has been fully implemented! This allows users to send transactions with 100% fungible coins and absolutely zero history or link-ability to their previous owners.
+At long last, the zDEXR release is here and the zerocoin protocol has been fully implemented! This allows users to send transactions with 100% fungible coins and absolutely zero history or link-ability to their previous owners.
 
-The Zerocoin protocol allows user to convert (mint) their *DXR* to zerocoins, which we call *zDXR*. When zDXR are converted back to DXR there is no trail associated with the coins being sent, such as who originally minted those coins. Essentially the only thing the receiver of the zDXR transaction will see is that it came from the zerocoin protocol.
+The Zerocoin protocol allows user to convert (mint) their *DEXR* to zerocoins, which we call *zDEXR*. When zDEXR are converted back to DEXR there is no trail associated with the coins being sent, such as who originally minted those coins. Essentially the only thing the receiver of the zDEXR transaction will see is that it came from the zerocoin protocol.
 
-### zDXR Denominations
-zDXR comes in specific denominations of 1, 5, 10, 50, 100, 500, 1000, and 5000. A denomination is a similar concept to paper currency, where you can hold a $100 bill but there is no available $99 bill for you to hold.
+### zDEXR Denominations
+zDEXR comes in specific denominations of 1, 5, 10, 50, 100, 500, 1000, and 5000. A denomination is a similar concept to paper currency, where you can hold a $100 bill but there is no available $99 bill for you to hold.
 
-Other implementations of the zerocoin protocol only allow for spending of one denomination/zerocoin at a time. The DEXERGI implementation of zerocoin allows users to spend any amount of zDXR they would like (with certain limitations). If a user held two denominations of 5 and they send 7.75 to a merchant, the wallet will automatically grab the two denominations of 5 and then issue 2.25 DXR in change to the spender. There is currently a limit of up to 6 individual zerocoin `coins` that can be combined into a spend, where each `coin` could be a different or similar denomination
+Other implementations of the zerocoin protocol only allow for spending of one denomination/zerocoin at a time. The DEXERGI implementation of zerocoin allows users to spend any amount of zDEXR they would like (with certain limitations). If a user held two denominations of 5 and they send 7.75 to a merchant, the wallet will automatically grab the two denominations of 5 and then issue 2.25 DEXR in change to the spender. There is currently a limit of up to 6 individual zerocoin `coins` that can be combined into a spend, where each `coin` could be a different or similar denomination
 
 The DEXERGI zerocoin implementation is structured in such a way that denominations aren't needed to be known by the average user.
 
 ### Fees
 zPiv transactions require more computation and disk space than typical DEXERGI transactions, and as such require a higher transaction fee in order to prevent network spam. Fees are only charged when minting zPiv, each minted denomination is charged a flat rate of 0.01 Piv. zPiv spends are not charged a transaction fee unless the change is minted into zPiv, see the *Minting Change* section for details on fees for zPiv spends with minted change.
 
-### Converting DXR to zDXR (*zDXR Mint*)
-**GUI** - Conversion from DXR to zDXR can be done using the `Privacy Dialog` in the QT wallet. Enter the amount of DXR you would like to convert and click `Mint Zerocoin`.
+### Converting DEXR to zDEXR (*zDEXR Mint*)
+**GUI** - Conversion from DEXR to zDEXR can be done using the `Privacy Dialog` in the QT wallet. Enter the amount of DEXR you would like to convert and click `Mint Zerocoin`.
 
-**RPC** - Conversion from DXR to zDXR can be done using the `mintzerocoin` command.
+**RPC** - Conversion from DEXR to zDEXR can be done using the `mintzerocoin` command.
 
-**Automint** - The DEXERGI wallet is set to convert 10% of the wallets available DXR to zDXR automatically. This can be adjusted in the GUI within the Options dialog, which allows the preferred % to be adjusted as well as the ability to set the preferred zDXR denomination that will be minted. Automint is set to be triggered when additional blocks are added to the block chain and is programmed *not* to convert your coins all at once.
+**Automint** - The DEXERGI wallet is set to convert 10% of the wallets available DEXR to zDEXR automatically. This can be adjusted in the GUI within the Options dialog, which allows the preferred % to be adjusted as well as the ability to set the preferred zDEXR denomination that will be minted. Automint is set to be triggered when additional blocks are added to the block chain and is programmed *not* to convert your coins all at once.
 
 Automint can be disabled by adding `enablezeromint=0` to the wallet configuration file. The preferred mint % and denomination can also be set by the configuration file using `zeromintpercentage=<n>` and `preferredDenom=<n>`.
 
-### Converting zDXR to DXR (*zDXR Spend*)
-Redeeming zDXR is done by converting it back to DXR. With the 3.0.0 software release, users are not able to send zDXR to each other directly in an atomic fashion.
+### Converting zDEXR to DEXR (*zDEXR Spend*)
+Redeeming zDEXR is done by converting it back to DEXR. With the 3.0.0 software release, users are not able to send zDEXR to each other directly in an atomic fashion.
 
-**GUI** - Conversion from zDXR to DXR can be done using the `Privacy Dialog` in the QT wallet. Enter a DEXERGI address that you would like to Pay To, enter the amount of DXR the receiver should be sent, click `Spend Zerocoin`.
+**GUI** - Conversion from zDEXR to DEXR can be done using the `Privacy Dialog` in the QT wallet. Enter a DEXERGI address that you would like to Pay To, enter the amount of DEXR the receiver should be sent, click `Spend Zerocoin`.
 
-**RPC** - Conversion from zDXR to DXR can be done using the `spendzerocoin` command.
+**RPC** - Conversion from zDEXR to DEXR can be done using the `spendzerocoin` command.
 
 ### Advanced Use & Privacy Considerations
-**Security Level** - When spending zDXR, a user is prompted to enter a *Security Level* choosing from 1-100. In an indirect way, the Security Level parameter allows the user to choose how many coins to obfuscate their transaction with.
+**Security Level** - When spending zDEXR, a user is prompted to enter a *Security Level* choosing from 1-100. In an indirect way, the Security Level parameter allows the user to choose how many coins to obfuscate their transaction with.
 
 A Security Level of 1 for example would take all of the minted coins in the blockchain before your mint was added to the blockchain, and would then add any coins that were minted within the next 10 blocks as well. A Security Level of 2 would do the same thing, except add the next 20 blocks worth of mints. A **Security Level of 100 will add the maximum amount of mints** up to the current end of the blockchain.
 
 The higher the Security Level, the more computation and time it will take to spend. Although it takes longer, a level of 100 is recommended for transactions that need maximum anonymity.
 
 
-**Minting Change** - The DEXERGI implementation of the zerocoin protocol also allows the spender to choose how to receive their leftover change from a Spend transaction. For maximum anonymity it is recommended that the spender choose to receive the change in zDXR, which prevents situations where change from a zDXR spend that is redeemed in DXR is accidentally mixed with the rest of the users DXR, thus linking transactions back to a DEXERGI address.
+**Minting Change** - The DEXERGI implementation of the zerocoin protocol also allows the spender to choose how to receive their leftover change from a Spend transaction. For maximum anonymity it is recommended that the spender choose to receive the change in zDEXR, which prevents situations where change from a zDEXR spend that is redeemed in DEXR is accidentally mixed with the rest of the users DEXR, thus linking transactions back to a DEXERGI address.
 
-Since the lowest denomination of zDXR is 1, and a fee is required to mint zDXR, in most situations a high fee will be paid to mint change. The fee is the remainder of the change that cannot be converted back to zDXR. For example this would mean a spending a denomination of 10 that yields change of 6.75 in change, would issue zDXR denominations of 5 and 1 back to the sender with the remaining 0.75 that is unmintable being contributed as a fee.
+Since the lowest denomination of zDEXR is 1, and a fee is required to mint zDEXR, in most situations a high fee will be paid to mint change. The fee is the remainder of the change that cannot be converted back to zDEXR. For example this would mean a spending a denomination of 10 that yields change of 6.75 in change, would issue zDEXR denominations of 5 and 1 back to the sender with the remaining 0.75 that is unmintable being contributed as a fee.
 
-**zDXR Control**
-Similar to the concept of Coin Control in the QT wallet, zDXR Control allows users to select exactly which zDXR mints they would like to spend. This gives a flexibility to choose which denominations can be picked for a spend that wouldn't otherwise be available.
+**zDEXR Control**
+Similar to the concept of Coin Control in the QT wallet, zDEXR Control allows users to select exactly which zDEXR mints they would like to spend. This gives a flexibility to choose which denominations can be picked for a spend that wouldn't otherwise be available.
 
 
 Tor Service Integration Improvements
@@ -110,7 +110,7 @@ the code changes and accompanying discussion, both the pull request and
 git merge commit are mentioned.
 
 ### Broad Features
-- #264 `15e84e5` zDXR is here! (Fuzzbawls Mrs-X Presstab Spock DEXERGI)
+- #264 `15e84e5` zDEXR is here! (Fuzzbawls Mrs-X Presstab Spock DEXERGI)
 
 ### P2P Protocol and Network Code
 - #242 `0ecd77f` [P2P] Improve TOR service connectivity (Fuzzbawls)

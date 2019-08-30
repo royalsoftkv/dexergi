@@ -3,8 +3,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef DEXERGI_ZDXRTRACKER_H
-#define DEXERGI_ZDXRTRACKER_H
+#ifndef DEXERGI_ZDEXRTRACKER_H
+#define DEXERGI_ZDEXRTRACKER_H
 
 #include "zerocoin.h"
 #include "witness.h"
@@ -12,9 +12,9 @@
 #include <list>
 
 class CDeterministicMint;
-class CzDXRWallet;
+class CzDEXRWallet;
 
-class CzDXRTracker
+class CzDEXRTracker
 {
 private:
     bool fInitialized;
@@ -24,9 +24,9 @@ private:
     std::map<uint256, std::unique_ptr<CoinWitnessData> > mapStakeCache; //serialhash, witness value, height
     bool UpdateStatusInternal(const std::set<uint256>& setMempool, CMintMeta& mint);
 public:
-    CzDXRTracker(std::string strWalletFile);
-    ~CzDXRTracker();
-    void Add(const CDeterministicMint& dMint, bool isNew = false, bool isArchived = false, CzDXRWallet* zDXRWallet = NULL);
+    CzDEXRTracker(std::string strWalletFile);
+    ~CzDEXRTracker();
+    void Add(const CDeterministicMint& dMint, bool isNew = false, bool isArchived = false, CzDEXRWallet* zDEXRWallet = NULL);
     void Add(const CZerocoinMint& mint, bool isNew = false, bool isArchived = false);
     bool Archive(CMintMeta& meta);
     bool HasPubcoin(const CBigNum& bnValue) const;
@@ -56,4 +56,4 @@ public:
     void Clear();
 };
 
-#endif //DEXERGI_ZDXRTRACKER_H
+#endif //DEXERGI_ZDEXRTRACKER_H

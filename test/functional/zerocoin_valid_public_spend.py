@@ -15,7 +15,7 @@ from test_framework.util import assert_equal, assert_greater_than
 
 from fake_stake.base_test import DEXERGI_FakeStakeTest
 
-class zDXRValidCoinSpendTest(DEXERGI_FakeStakeTest):
+class zDEXRValidCoinSpendTest(DEXERGI_FakeStakeTest):
 
     def run_test(self):
         self.description = "Covers the 'valid publicCoinSpend spend' scenario."
@@ -31,7 +31,7 @@ class zDXRValidCoinSpendTest(DEXERGI_FakeStakeTest):
         sleep(2)
 
         # 2) Mint zerocoins
-        self.log.info("Minting %d-denom zDXRs..." % DENOM_TO_USE)
+        self.log.info("Minting %d-denom zDEXRs..." % DENOM_TO_USE)
         self.node.mintzerocoin(DENOM_TO_USE)
         self.node.generate(1)
         sleep(2)
@@ -99,4 +99,4 @@ class zDXRValidCoinSpendTest(DEXERGI_FakeStakeTest):
 
 
 if __name__ == '__main__':
-    zDXRValidCoinSpendTest().main()
+    zDEXRValidCoinSpendTest().main()

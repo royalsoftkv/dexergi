@@ -141,20 +141,20 @@
             <item>
              <widget class="QCheckBox" name="checkBoxZeromintEnable">
               <property name="toolTip">
-               <string>Enable automatic minting of DXR units to zDXR</string>
+               <string>Enable automatic minting of DEXR units to zDEXR</string>
               </property>
               <property name="layoutDirection">
                <enum>Qt::LeftToRight</enum>
               </property>
               <property name="text">
-               <string>Enable zDXR Automint</string>
+               <string>Enable zDEXR Automint</string>
               </property>
              </widget>
             </item>
             <item>
              <widget class="QCheckBox" name="checkBoxZeromintAddresses">
               <property name="toolTip">
-               <string>Enable automatic zDXR minting from specific addresses</string>
+               <string>Enable automatic zDEXR minting from specific addresses</string>
               </property>
               <property name="layoutDirection">
                <enum>Qt::LeftToRight</enum>
@@ -171,10 +171,10 @@
             <item>
              <widget class="QLabel" name="percentage_label">
               <property name="toolTip">
-               <string>Percentage of incoming DXR which get automatically converted to zDXR via Zerocoin Protocol (min: 10%)</string>
+               <string>Percentage of incoming DEXR which get automatically converted to zDEXR via Zerocoin Protocol (min: 10%)</string>
               </property>
               <property name="text">
-               <string>Percentage of autominted zDXR</string>
+               <string>Percentage of autominted zDEXR</string>
               </property>
              </widget>
             </item>
@@ -204,10 +204,10 @@
                </size>
               </property>
               <property name="toolTip">
-               <string>Wait with automatic conversion to Zerocoin until enough DXR for this denomination is available</string>
+               <string>Wait with automatic conversion to Zerocoin until enough DEXR for this denomination is available</string>
               </property>
               <property name="text">
-               <string>Preferred Automint zDXR Denomination</string>
+               <string>Preferred Automint zDEXR Denomination</string>
               </property>
              </widget>
             </item>
@@ -220,7 +220,7 @@
                </size>
               </property>
               <property name="toolTip">
-               <string>Wait with automatic conversion to Zerocoin until enough DXR for this denomination is available</string>
+               <string>Wait with automatic conversion to Zerocoin until enough DEXR for this denomination is available</string>
               </property>
               <property name="maxVisibleItems">
                <number>9</number>

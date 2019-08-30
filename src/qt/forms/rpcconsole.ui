@@ -1328,7 +1328,7 @@
        <item row="4" column="0">
         <widget class="QLabel" name="wallet_customzpivbackuppath_label">
          <property name="text">
-          <string>Custom zDXR Backup Path:</string>
+          <string>Custom zDEXR Backup Path:</string>
          </property>
          <property name="visible">
           <bool>false</bool>

@@ -9,7 +9,7 @@
 #include "main.h"
 
 /****** Thread ********/
-void CLightWorker::ThreadLightZDXRSimplified() {
+void CLightWorker::ThreadLightZDEXRSimplified() {
     RenameThread("dexergi-light-thread");
     isWorkerRunning = true;
     while (true) {
@@ -61,7 +61,7 @@ void CLightWorker::ThreadLightZDXRSimplified() {
                         );
 
                     } catch (NotEnoughMintsException e) {
-                        LogPrintStr(std::string("ThreadLightZDXRSimplified: ") + e.message + "\n");
+                        LogPrintStr(std::string("ThreadLightZDEXRSimplified: ") + e.message + "\n");
                         rejectWork(genWit, blockHeight, NOT_ENOUGH_MINTS);
                         continue;
                     }

@@ -298,7 +298,7 @@ bool CalculateAccumulatorCheckpoint(int nHeight, uint256& nCheckpoint, Accumulat
 bool ValidateAccumulatorCheckpoint(const CBlock& block, CBlockIndex* pindex, AccumulatorMap& mapAccumulators)
 {
     //V1 accumulators are completely phased out by the time this code hits the public and begins generating new checkpoints
-    //It is VERY IMPORTANT that when this is being run and height < v2_start, then zDXR need to be disabled at the same time!!
+    //It is VERY IMPORTANT that when this is being run and height < v2_start, then zDEXR need to be disabled at the same time!!
     if (pindex->nHeight < Params().Zerocoin_Block_V2_Start() || fVerifyingBlocks)
         return true;
 
@@ -495,7 +495,7 @@ void AccumulateRange(CoinWitnessData* coinWitness, int nHeightEnd)
         coinWitness->nMintsAdded += AddBlockMintsToAccumulator(coinWitness, pindex, true);
         coinWitness->nHeightAccEnd = pindex->nHeight;
 
-        // 10 blocks were accumulated twice when zDXR v2 was activated
+        // 10 blocks were accumulated twice when zDEXR v2 was activated
         if (pindex->nHeight == Params().Zerocoin_Block_Double_Accumulated() + 10 && !fDoubleCounted) {
             pindex = chainActive[Params().Zerocoin_Block_Double_Accumulated()];
             fDoubleCounted = true;
@@ -612,7 +612,7 @@ bool calculateAccumulatedBlocksFor(
 
         nMintsAdded += AddBlockMintsToAccumulator(den, filter, pindex, &witnessAccumulator, true, ret);
 
-        // 10 blocks were accumulated twice when zDXR v2 was activated
+        // 10 blocks were accumulated twice when zDEXR v2 was activated
         if (pindex->nHeight == 1050010 && !fDoubleCounted) {
             pindex = chainActive[1050000];
             fDoubleCounted = true;
@@ -667,7 +667,7 @@ bool calculateAccumulatedBlocksFor(
         // Add it
         nMintsAdded += AddBlockMintsToAccumulator(coin, nHeightMintAdded, pindex, &witnessAccumulator, true);
 
-        // 10 blocks were accumulated twice when zDXR v2 was activated
+        // 10 blocks were accumulated twice when zDEXR v2 was activated
         if (pindex->nHeight == 1050010 && !fDoubleCounted) {
             pindex = chainActive[1050000];
             fDoubleCounted = true;

@@ -34,21 +34,21 @@ More information at [dexergi.io](http://www.dexergi.io) Visit our ANN thread at 
 <tbody>
 <tr>
 <th scope="row">1-1051200</th>
-<th scope="row">6 DXR</th>
-<td>0.6 DXR (10%)</td>
-<td>5.4 DXR (90%)</td> 
+<th scope="row">6 DEXR</th>
+<td>0.6 DEXR (10%)</td>
+<td>5.4 DEXR (90%)</td> 
 </tr>
 <tr>
 <th scope="row">1051201-2102400</th>
-<th scope="row">4 DXR</th>
-<td>0.8 DXR (20%)</td>
-<td>3.2 DXR (80%)</td>
+<th scope="row">4 DEXR</th>
+<td>0.8 DEXR (20%)</td>
+<td>3.2 DEXR (80%)</td>
 </tr>
 <tr>
 <th scope="row">2102401-2628000</th>
-<th scope="row">2 DXR</th>
-<td>0.3 DXR (15%)</td>
-<td>1.7 DXR (85%)</td>
+<th scope="row">2 DEXR</th>
+<td>0.3 DEXR (15%)</td>
+<td>1.7 DEXR (85%)</td>
 </tr>
 <tr>				
 <th scope="row" colspan=4>After 5 years, each year, the reward will be reduced with 10%</th>
